@@ -1,8 +1,11 @@
-# Data directory (never commit raw or large processed datasets)
+# Data directory (never commit raw images; allow lightweight CSV split manifests)
 data/raw/*
-data/processed/*
 !data/raw/.gitkeep
+data/processed/*
 !data/processed/.gitkeep
+!data/processed/held_out_images.csv
+!data/processed/cnn_splits/
+!data/processed/cnn_splits/*.csv
 
 # Saved model weights
 models/*.pt

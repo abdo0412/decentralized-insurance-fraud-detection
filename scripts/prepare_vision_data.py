@@ -53,7 +53,7 @@ def scan_image_folders(raw_dir: Path) -> List[Tuple[str, str, int]]:
             print(f"[WARN] Skipping corrupted image: {path}")
             continue
 
-        records.append((str(path.resolve()), severity, SEVERITY_TO_INDEX[severity]))
+        records.append((path.as_posix(), severity, SEVERITY_TO_INDEX[severity]))
 
     return records
 
