@@ -4,6 +4,7 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 !data/processed/held_out_images.csv
+!data/processed/vision_predictions.csv
 !data/processed/cnn_splits/
 !data/processed/cnn_splits/*.csv
 
