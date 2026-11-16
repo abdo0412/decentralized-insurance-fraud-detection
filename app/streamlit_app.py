@@ -24,35 +24,36 @@ from orchestrator.coordinator import ClaimCoordinator
 
 
 def make_demo_photo(case_name: str) -> Image.Image:
-    """Create a synthetic demo collision image if no photo is uploaded."""
+    """Load the real held-out collision photo prepared for each demo case."""
+    assets_dir = ROOT_DIR / "app" / "demo_assets"
+    file_map = {
+        "Clearly Honest": assets_dir / "honest_severe.jpg",
+        "Clearly Fraudulent": assets_dir / "fraud_minor_scratch.jpg",
+        "Borderline": assets_dir / "borderline_moderate.jpg",
+    }
+    asset_path = file_map.get(case_name)
+    if asset_path is not None and asset_path.exists():
+        return Image.open(asset_path).convert("RGB")
+
+    # Fallback synthetic image if demo_assets is missing
     img = Image.new("RGB", (320, 224), color=(215, 222, 230))
     draw = ImageDraw.Draw(img)
-    # Car body silhouette
     draw.rectangle([40, 80, 280, 170], fill=(70, 110, 180), outline=(30, 50, 90), width=3)
-    if case_name == "Clearly Fraudulent":
-        # Tiny scratch (minor photo vs severe claim)
-        draw.line([230, 115, 255, 125], fill=(240, 200, 40), width=4)
-    elif case_name == "Borderline":
-        # Moderate dent
-        draw.ellipse([200, 100, 265, 155], fill=(220, 120, 40), outline=(140, 50, 20), width=3)
-    else:
-        # Honest minor scratch
-        draw.line([225, 110, 250, 130], fill=(230, 190, 50), width=4)
     return img
 
 
 PREPARED_CASES: Dict[str, Dict[str, Any]] = {
     "Clearly Honest": {
         "claim_id": "C-0101",
-        "incident_severity": "Minor Damage",
-        "total_claim_amount": 1850,
-        "months_as_customer": 48,
+        "incident_severity": "Total Loss",
+        "total_claim_amount": 22500,
+        "months_as_customer": 64,
         "witnesses": 2,
         "police_report_available": "YES",
         "narrative": (
-            "On Tuesday October 12 at 08:30 AM at the Main St parking lot, another driver "
-            "backed into my rear bumper at low speed. Two witnesses saw the bump and a "
-            "police officer filed a report on site. Only minor paint scratch on the bumper."
+            "On Tuesday October 12 at 08:30 AM at the Route 9 intersection, a delivery "
+            "truck ran a red light and struck the passenger side of my vehicle at high speed. "
+            "Two witnesses gave statements and the police officer filed report #PR-8821 on site."
         ),
     },
     "Clearly Fraudulent": {
@@ -70,14 +71,14 @@ PREPARED_CASES: Dict[str, Dict[str, Any]] = {
     },
     "Borderline": {
         "claim_id": "C-0289",
-        "incident_severity": "Major Damage",
-        "total_claim_amount": 14200,
+        "incident_severity": "Total Loss",
+        "total_claim_amount": 16200,
         "months_as_customer": 14,
         "witnesses": 0,
         "police_report_available": "YES",
         "narrative": (
-            "Side collision at an intersection during rain. Front right fender was dented "
-            "and headlight cracked. No witnesses stopped, police report was filed next day."
+            "Side collision in a parking garage. Rear right passenger door was dented "
+            "and rear tire deflated. No witnesses stopped, police report was filed the next day."
         ),
     },
 }
