@@ -86,12 +86,12 @@ PREPARED_CASES: Dict[str, Dict[str, Any]] = {
 
 @st.cache_resource
 def load_coordinator() -> ClaimCoordinator:
-    weights_path = ROOT_DIR / "models" / "vision_resnet50_v1.pt"
-    from agents.vision_agent import VisionAgent
+    from agents.vision_agent import VisionAgent, resolve_default_weights_path
 
+    weights_path = resolve_default_weights_path(ROOT_DIR / "models")
     vision_agent = VisionAgent(
-        weights_path=weights_path if weights_path.exists() else None,
-        backbone_name="resnet50",
+        weights_path=weights_path,
+        backbone_name="efficientnet_v2_s",
         pretrained_fallback=False,
     )
     return ClaimCoordinator(vision_agent=vision_agent)

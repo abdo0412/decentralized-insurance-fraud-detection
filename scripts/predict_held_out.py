@@ -1,7 +1,7 @@
 """Step 3 (Part A): Batch Inference on Linked Held-Out Photos for Person C.
 
-Runs the trained `VisionAgent` across all claims in `linked_claims.csv`
-(or directly on `held_out_images.csv` if Person C links after scoring)
+Runs the trained `VisionAgent` (4-Fold EfficientNetV2-S Ensemble + Flip TTA)
+across all claims in `linked_claims.csv` (or `held_out_images.csv`)
 and exports probabilities, predicted severity, confidence, and severity mismatch.
 """
 
@@ -32,15 +32,15 @@ def main() -> None:
     )
     parser.add_argument(
         "--weights",
-        type=Path,
-        default=Path("models/vision_resnet50_v1.pt"),
-        help="Path to trained Vision CNN checkpoint.",
+        type=str,
+        default="auto",
+        help="Path to trained Vision CNN checkpoint, or 'auto' to pick strongest checkpoint.",
     )
     parser.add_argument(
         "--backbone",
         type=str,
-        default="resnet50",
-        help="CNN backbone name.",
+        default="efficientnet_v2_s",
+        help="CNN backbone name (overridden by checkpoint metadata when present).",
     )
     parser.add_argument(
         "--output-csv",
@@ -52,6 +52,7 @@ def main() -> None:
 
     df = pd.read_csv(args.claims_csv)
     agent = VisionAgent(weights_path=args.weights, backbone_name=args.backbone)
+    print(f"[INFO] Loaded VisionAgent ({agent.model_version}, {len(agent.models)} fold(s), TTA={agent.use_tta})")
 
     rows: List[Dict] = []
     for idx, row in df.iterrows():

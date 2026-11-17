@@ -1,799 +1,909 @@
 image_id,image_path,severity,label_idx
-IMG-00720,data/raw/vehicle_damage/data3a/training/02-moderate/0269.JPEG,moderate,1
-IMG-01053,data/raw/vehicle_damage/data3a/training/03-severe/0139.JPEG,severe,2
-IMG-00787,data/raw/vehicle_damage/data3a/training/02-moderate/a38b006aacb1497e8df20e103e3028d3_thb.jpg,moderate,1
-IMG-00879,data/raw/vehicle_damage/data3a/training/02-moderate/images (8).jpeg,moderate,1
-IMG-00497,data/raw/vehicle_damage/data3a/training/02-moderate/0046.JPEG,moderate,1
-IMG-01060,data/raw/vehicle_damage/data3a/training/03-severe/0146.JPEG,severe,2
-IMG-00294,data/raw/vehicle_damage/data3a/training/01-minor/b3a8a0c19cfe4546afef689e11de2116_thb.jpg,minor,0
-IMG-00485,data/raw/vehicle_damage/data3a/training/02-moderate/0034.JPEG,moderate,1
-IMG-00952,data/raw/vehicle_damage/data3a/training/03-severe/0038.JPEG,severe,2
-IMG-01623,data/raw/vehicle_damage/data3a/validation/03-severe/download (6).jpeg,severe,2
-IMG-00901,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151411.371.jpeg,moderate,1
-IMG-00321,data/raw/vehicle_damage/data3a/training/01-minor/download (31).jpeg,minor,0
-IMG-01237,data/raw/vehicle_damage/data3a/training/03-severe/0322.JPEG,severe,2
-IMG-01281,data/raw/vehicle_damage/data3a/training/03-severe/0366.JPEG,severe,2
-IMG-00708,data/raw/vehicle_damage/data3a/training/02-moderate/0257.JPEG,moderate,1
-IMG-01010,data/raw/vehicle_damage/data3a/training/03-severe/0096.JPEG,severe,2
-IMG-00018,data/raw/vehicle_damage/data3a/training/01-minor/0019.JPEG,minor,0
-IMG-00089,data/raw/vehicle_damage/data3a/training/01-minor/0090.JPEG,minor,0
-IMG-01231,data/raw/vehicle_damage/data3a/training/03-severe/0316.JPEG,severe,2
-IMG-00770,data/raw/vehicle_damage/data3a/training/02-moderate/1b8f18c3429f44d4a712f655443fc5ec_thb.jpg,moderate,1
-IMG-00651,data/raw/vehicle_damage/data3a/training/02-moderate/0200.JPEG,moderate,1
-IMG-00486,data/raw/vehicle_damage/data3a/training/02-moderate/0035.JPEG,moderate,1
-IMG-00571,data/raw/vehicle_damage/data3a/training/02-moderate/0120.JPEG,moderate,1
-IMG-01597,data/raw/vehicle_damage/data3a/validation/03-severe/0058.JPEG,severe,2
-IMG-00766,data/raw/vehicle_damage/data3a/training/02-moderate/0315.jpeg,moderate,1
-IMG-00010,data/raw/vehicle_damage/data3a/training/01-minor/0011.JPEG,minor,0
-IMG-01177,data/raw/vehicle_damage/data3a/training/03-severe/0262.JPEG,severe,2
-IMG-01111,data/raw/vehicle_damage/data3a/training/03-severe/0197.jpeg,severe,2
-IMG-01245,data/raw/vehicle_damage/data3a/training/03-severe/0330.JPEG,severe,2
-IMG-00063,data/raw/vehicle_damage/data3a/training/01-minor/0064.JPEG,minor,0
-IMG-00272,data/raw/vehicle_damage/data3a/training/01-minor/0273.JPEG,minor,0
-IMG-00880,data/raw/vehicle_damage/data3a/training/02-moderate/images (80).jpeg,moderate,1
-IMG-00006,data/raw/vehicle_damage/data3a/training/01-minor/0007.JPEG,minor,0
-IMG-00990,data/raw/vehicle_damage/data3a/training/03-severe/0076.JPEG,severe,2
-IMG-00898,data/raw/vehicle_damage/data3a/training/02-moderate/images (97).jpeg,moderate,1
-IMG-00157,data/raw/vehicle_damage/data3a/training/01-minor/0158.JPEG,minor,0
-IMG-01587,data/raw/vehicle_damage/data3a/validation/03-severe/0048.jpeg,severe,2
-IMG-00092,data/raw/vehicle_damage/data3a/training/01-minor/0093.JPEG,minor,0
-IMG-00591,data/raw/vehicle_damage/data3a/training/02-moderate/0140.JPEG,moderate,1
-IMG-01272,data/raw/vehicle_damage/data3a/training/03-severe/0357.JPEG,severe,2
-IMG-01622,data/raw/vehicle_damage/data3a/validation/03-severe/download (5).jpeg,severe,2
-IMG-00428,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151411.669.jpeg,minor,0
-IMG-00090,data/raw/vehicle_damage/data3a/training/01-minor/0091.JPEG,minor,0
-IMG-01143,data/raw/vehicle_damage/data3a/training/03-severe/0229.JPEG,severe,2
-IMG-01188,data/raw/vehicle_damage/data3a/training/03-severe/0273.JPEG,severe,2
-IMG-00769,data/raw/vehicle_damage/data3a/training/02-moderate/18d42df6c365413bb3e9d3c7a79fdf61_thb.jpg,moderate,1
-IMG-00204,data/raw/vehicle_damage/data3a/training/01-minor/0205.JPEG,minor,0
-IMG-00463,data/raw/vehicle_damage/data3a/training/02-moderate/0012.JPEG,moderate,1
-IMG-00373,data/raw/vehicle_damage/data3a/training/01-minor/images (4).jpeg,minor,0
-IMG-00293,data/raw/vehicle_damage/data3a/training/01-minor/a888f89ee9f04541a06096e7424f08fb_thb.jpg,minor,0
-IMG-00045,data/raw/vehicle_damage/data3a/training/01-minor/0046.JPEG,minor,0
-IMG-01077,data/raw/vehicle_damage/data3a/training/03-severe/0163.JPEG,severe,2
-IMG-00296,data/raw/vehicle_damage/data3a/training/01-minor/d7b5bbc55c644166809a7230b098c301_thb.jpg,minor,0
-IMG-00455,data/raw/vehicle_damage/data3a/training/02-moderate/0004.JPEG,moderate,1
-IMG-00478,data/raw/vehicle_damage/data3a/training/02-moderate/0027.JPEG,moderate,1
-IMG-01299,data/raw/vehicle_damage/data3a/training/03-severe/0384.JPEG,severe,2
-IMG-00249,data/raw/vehicle_damage/data3a/training/01-minor/0250.JPEG,minor,0
-IMG-00459,data/raw/vehicle_damage/data3a/training/02-moderate/0008.JPEG,moderate,1
-IMG-00410,data/raw/vehicle_damage/data3a/training/01-minor/images (76).jpeg,minor,0
-IMG-00516,data/raw/vehicle_damage/data3a/training/02-moderate/0065.JPEG,moderate,1
-IMG-00126,data/raw/vehicle_damage/data3a/training/01-minor/0127.JPEG,minor,0
-IMG-00981,data/raw/vehicle_damage/data3a/training/03-severe/0067.JPEG,severe,2
-IMG-00980,data/raw/vehicle_damage/data3a/training/03-severe/0066.JPEG,severe,2
-IMG-01552,data/raw/vehicle_damage/data3a/validation/03-severe/0013.JPEG,severe,2
-IMG-00863,data/raw/vehicle_damage/data3a/training/02-moderate/images (65).jpeg,moderate,1
-IMG-00777,data/raw/vehicle_damage/data3a/training/02-moderate/4ac6b3f4fbb0418cb365fecb849b5ddf_thb.jpg,moderate,1
-IMG-01604,data/raw/vehicle_damage/data3a/validation/03-severe/0065.JPEG,severe,2
-IMG-01530,data/raw/vehicle_damage/data3a/validation/02-moderate/download (20).jpeg,moderate,1
-IMG-00109,data/raw/vehicle_damage/data3a/training/01-minor/0110.JPEG,minor,0
-IMG-00789,data/raw/vehicle_damage/data3a/training/02-moderate/aa2538583c724e36b724554e9945e9f7_thb.jpg,moderate,1
-IMG-00031,data/raw/vehicle_damage/data3a/training/01-minor/0032.JPEG,minor,0
-IMG-00262,data/raw/vehicle_damage/data3a/training/01-minor/0263.JPEG,minor,0
-IMG-01156,data/raw/vehicle_damage/data3a/training/03-severe/0242.JPEG,severe,2
-IMG-01166,data/raw/vehicle_damage/data3a/training/03-severe/0251.JPEG,severe,2
-IMG-00589,data/raw/vehicle_damage/data3a/training/02-moderate/0138.JPEG,moderate,1
-IMG-00136,data/raw/vehicle_damage/data3a/training/01-minor/0137.JPEG,minor,0
-IMG-01491,data/raw/vehicle_damage/data3a/validation/02-moderate/0027.JPEG,moderate,1
-IMG-00165,data/raw/vehicle_damage/data3a/training/01-minor/0166.JPEG,minor,0
-IMG-01598,data/raw/vehicle_damage/data3a/validation/03-severe/0059.JPEG,severe,2
-IMG-00575,data/raw/vehicle_damage/data3a/training/02-moderate/0124.JPEG,moderate,1
-IMG-00803,data/raw/vehicle_damage/data3a/training/02-moderate/f600a5058cd94fbf8c5a1b2600199022_thb.jpg,moderate,1
-IMG-01102,data/raw/vehicle_damage/data3a/training/03-severe/0188.JPEG,severe,2
-IMG-00511,data/raw/vehicle_damage/data3a/training/02-moderate/0060.JPEG,moderate,1
-IMG-00376,data/raw/vehicle_damage/data3a/training/01-minor/images (42).jpeg,minor,0
-IMG-00011,data/raw/vehicle_damage/data3a/training/01-minor/0012.JPEG,minor,0
-IMG-00193,data/raw/vehicle_damage/data3a/training/01-minor/0194.JPEG,minor,0
-IMG-01550,data/raw/vehicle_damage/data3a/validation/03-severe/0011.JPEG,severe,2
-IMG-00918,data/raw/vehicle_damage/data3a/training/03-severe/0004.JPEG,severe,2
-IMG-01343,data/raw/vehicle_damage/data3a/training/03-severe/images (39).jpeg,severe,2
-IMG-01440,data/raw/vehicle_damage/data3a/validation/01-minor/images (33).jpeg,minor,0
-IMG-00695,data/raw/vehicle_damage/data3a/training/02-moderate/0244.JPEG,moderate,1
-IMG-01511,data/raw/vehicle_damage/data3a/validation/02-moderate/0047.JPEG,moderate,1
-IMG-01035,data/raw/vehicle_damage/data3a/training/03-severe/0121.JPEG,severe,2
-IMG-01179,data/raw/vehicle_damage/data3a/training/03-severe/0264.jpeg,severe,2
-IMG-01159,data/raw/vehicle_damage/data3a/training/03-severe/0245.JPEG,severe,2
-IMG-01286,data/raw/vehicle_damage/data3a/training/03-severe/0371.JPEG,severe,2
-IMG-01001,data/raw/vehicle_damage/data3a/training/03-severe/0087.JPEG,severe,2
-IMG-00016,data/raw/vehicle_damage/data3a/training/01-minor/0017.JPEG,minor,0
-IMG-01212,data/raw/vehicle_damage/data3a/training/03-severe/0297.JPEG,severe,2
-IMG-00742,data/raw/vehicle_damage/data3a/training/02-moderate/0291.JPEG,moderate,1
-IMG-01079,data/raw/vehicle_damage/data3a/training/03-severe/0165.JPEG,severe,2
-IMG-01480,data/raw/vehicle_damage/data3a/validation/02-moderate/0016.JPEG,moderate,1
-IMG-01351,data/raw/vehicle_damage/data3a/training/03-severe/images (75).jpeg,severe,2
-IMG-00073,data/raw/vehicle_damage/data3a/training/01-minor/0074.JPEG,minor,0
-IMG-00325,data/raw/vehicle_damage/data3a/training/01-minor/download (35).jpeg,minor,0
-IMG-00604,data/raw/vehicle_damage/data3a/training/02-moderate/0153.JPEG,moderate,1
-IMG-00548,data/raw/vehicle_damage/data3a/training/02-moderate/0097.JPEG,moderate,1
-IMG-01460,data/raw/vehicle_damage/data3a/validation/01-minor/images - 2022-12-13T213954.926.jpeg,minor,0
-IMG-00610,data/raw/vehicle_damage/data3a/training/02-moderate/0159.JPEG,moderate,1
-IMG-00688,data/raw/vehicle_damage/data3a/training/02-moderate/0237.JPEG,moderate,1
-IMG-01610,data/raw/vehicle_damage/data3a/validation/03-severe/46ba5d744b2d4ce9ac2192cbc340cf56_thb.jpg,severe,2
-IMG-00112,data/raw/vehicle_damage/data3a/training/01-minor/0113.JPEG,minor,0
-IMG-00125,data/raw/vehicle_damage/data3a/training/01-minor/0126.JPEG,minor,0
-IMG-00514,data/raw/vehicle_damage/data3a/training/02-moderate/0063.JPEG,moderate,1
-IMG-01297,data/raw/vehicle_damage/data3a/training/03-severe/0382.JPEG,severe,2
-IMG-01576,data/raw/vehicle_damage/data3a/validation/03-severe/0037.jpeg,severe,2
-IMG-00030,data/raw/vehicle_damage/data3a/training/01-minor/0031.JPEG,minor,0
-IMG-01554,data/raw/vehicle_damage/data3a/validation/03-severe/0015.JPEG,severe,2
-IMG-00352,data/raw/vehicle_damage/data3a/training/01-minor/images (20).jpeg,minor,0
-IMG-01161,data/raw/vehicle_damage/data3a/training/03-severe/0247.JPEG,severe,2
-IMG-00737,data/raw/vehicle_damage/data3a/training/02-moderate/0286.JPEG,moderate,1
-IMG-00679,data/raw/vehicle_damage/data3a/training/02-moderate/0228.JPEG,moderate,1
-IMG-01192,data/raw/vehicle_damage/data3a/training/03-severe/0277.JPEG,severe,2
-IMG-00626,data/raw/vehicle_damage/data3a/training/02-moderate/0175.JPEG,moderate,1
-IMG-00015,data/raw/vehicle_damage/data3a/training/01-minor/0016.JPEG,minor,0
-IMG-00067,data/raw/vehicle_damage/data3a/training/01-minor/0068.JPEG,minor,0
-IMG-00807,data/raw/vehicle_damage/data3a/training/02-moderate/images (100).jpeg,moderate,1
-IMG-01118,data/raw/vehicle_damage/data3a/training/03-severe/0204.JPEG,severe,2
-IMG-01247,data/raw/vehicle_damage/data3a/training/03-severe/0332.JPEG,severe,2
-IMG-00025,data/raw/vehicle_damage/data3a/training/01-minor/0026.JPEG,minor,0
-IMG-00729,data/raw/vehicle_damage/data3a/training/02-moderate/0278.jpeg,moderate,1
-IMG-00340,data/raw/vehicle_damage/data3a/training/01-minor/images (1).jpeg,minor,0
-IMG-00310,data/raw/vehicle_damage/data3a/training/01-minor/download (21).jpeg,minor,0
-IMG-01115,data/raw/vehicle_damage/data3a/training/03-severe/0201.JPEG,severe,2
-IMG-01090,data/raw/vehicle_damage/data3a/training/03-severe/0176.JPEG,severe,2
-IMG-00537,data/raw/vehicle_damage/data3a/training/02-moderate/0086.JPEG,moderate,1
-IMG-00400,data/raw/vehicle_damage/data3a/training/01-minor/images (64).jpeg,minor,0
-IMG-01557,data/raw/vehicle_damage/data3a/validation/03-severe/0018.JPEG,severe,2
-IMG-01229,data/raw/vehicle_damage/data3a/training/03-severe/0314.JPEG,severe,2
-IMG-01413,data/raw/vehicle_damage/data3a/validation/01-minor/0031.JPEG,minor,0
-IMG-01318,data/raw/vehicle_damage/data3a/training/03-severe/f81d1d37a9e44bc88828f8a6f323b6a8_thb.jpg,severe,2
-IMG-00912,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-13T213955.098.jpeg,moderate,1
-IMG-01353,data/raw/vehicle_damage/data3a/training/03-severe/images (87).jpeg,severe,2
-IMG-00159,data/raw/vehicle_damage/data3a/training/01-minor/0160.JPEG,minor,0
-IMG-01224,data/raw/vehicle_damage/data3a/training/03-severe/0309.JPEG,severe,2
-IMG-00649,data/raw/vehicle_damage/data3a/training/02-moderate/0198.JPEG,moderate,1
-IMG-00920,data/raw/vehicle_damage/data3a/training/03-severe/0006.JPEG,severe,2
+IMG-01044,data/raw/vehicle_damage/data3a/training/03-severe/0138.JPEG,severe,2
+IMG-00572,data/raw/vehicle_damage/data3a/training/02-moderate/0126.JPEG,moderate,1
+IMG-00637,data/raw/vehicle_damage/data3a/training/02-moderate/0191.JPEG,moderate,1
+IMG-00861,data/raw/vehicle_damage/data3a/training/02-moderate/images (70).jpeg,moderate,1
+IMG-00300,data/raw/vehicle_damage/data3a/training/01-minor/download (17).jpeg,minor,0
+IMG-00356,data/raw/vehicle_damage/data3a/training/01-minor/images (29).jpeg,minor,0
+IMG-01254,data/raw/vehicle_damage/data3a/training/03-severe/0348.JPEG,severe,2
+IMG-01161,data/raw/vehicle_damage/data3a/training/03-severe/0254.JPEG,severe,2
+IMG-01014,data/raw/vehicle_damage/data3a/training/03-severe/0108.jpeg,severe,2
+IMG-01617,data/raw/vehicle_damage/data3a/validation/03-severe/images - 2022-12-12T151413.288.jpeg,severe,2
+IMG-00186,data/raw/vehicle_damage/data3a/training/01-minor/0188.JPEG,minor,0
+IMG-01503,data/raw/vehicle_damage/data3a/validation/02-moderate/0050.JPEG,moderate,1
+IMG-01292,data/raw/vehicle_damage/data3a/training/03-severe/0386.JPEG,severe,2
+IMG-00658,data/raw/vehicle_damage/data3a/training/02-moderate/0214.JPEG,moderate,1
+IMG-01204,data/raw/vehicle_damage/data3a/training/03-severe/0297.JPEG,severe,2
+IMG-00127,data/raw/vehicle_damage/data3a/training/01-minor/0129.JPEG,minor,0
+IMG-00672,data/raw/vehicle_damage/data3a/training/02-moderate/0228.JPEG,moderate,1
+IMG-00958,data/raw/vehicle_damage/data3a/training/03-severe/0052.JPEG,severe,2
+IMG-01110,data/raw/vehicle_damage/data3a/training/03-severe/0204.JPEG,severe,2
+IMG-00865,data/raw/vehicle_damage/data3a/training/02-moderate/images (74).jpeg,moderate,1
+IMG-00673,data/raw/vehicle_damage/data3a/training/02-moderate/0229.JPEG,moderate,1
+IMG-00885,data/raw/vehicle_damage/data3a/training/02-moderate/images (92).jpeg,moderate,1
+IMG-00452,data/raw/vehicle_damage/data3a/training/02-moderate/0006.JPEG,moderate,1
+IMG-00755,data/raw/vehicle_damage/data3a/training/02-moderate/0311.jpeg,moderate,1
+IMG-00242,data/raw/vehicle_damage/data3a/training/01-minor/0248.JPEG,minor,0
+IMG-01151,data/raw/vehicle_damage/data3a/training/03-severe/0245.JPEG,severe,2
+IMG-00260,data/raw/vehicle_damage/data3a/training/01-minor/0266.JPEG,minor,0
+IMG-01103,data/raw/vehicle_damage/data3a/training/03-severe/0197.jpeg,severe,2
+IMG-01072,data/raw/vehicle_damage/data3a/training/03-severe/0166.JPEG,severe,2
+IMG-00281,data/raw/vehicle_damage/data3a/training/01-minor/93a450440c804961b2d6960af17bf605_thb.jpg,minor,0
+IMG-00651,data/raw/vehicle_damage/data3a/training/02-moderate/0207.JPEG,moderate,1
+IMG-01238,data/raw/vehicle_damage/data3a/training/03-severe/0331.JPEG,severe,2
+IMG-01155,data/raw/vehicle_damage/data3a/training/03-severe/0249.JPEG,severe,2
+IMG-00605,data/raw/vehicle_damage/data3a/training/02-moderate/0159.JPEG,moderate,1
+IMG-00986,data/raw/vehicle_damage/data3a/training/03-severe/0080.JPEG,severe,2
+IMG-01511,data/raw/vehicle_damage/data3a/validation/02-moderate/4d9f21ac40954a348560ce60af2b69f9_thb.jpg,moderate,1
+IMG-00871,data/raw/vehicle_damage/data3a/training/02-moderate/images (8).jpeg,moderate,1
+IMG-01562,data/raw/vehicle_damage/data3a/validation/03-severe/0034.JPEG,severe,2
+IMG-01419,data/raw/vehicle_damage/data3a/validation/01-minor/0048.JPEG,minor,0
+IMG-01379,data/raw/vehicle_damage/data3a/validation/01-minor/0007.JPEG,minor,0
+IMG-01125,data/raw/vehicle_damage/data3a/training/03-severe/0219.JPEG,severe,2
+IMG-00534,data/raw/vehicle_damage/data3a/training/02-moderate/0088.JPEG,moderate,1
+IMG-00793,data/raw/vehicle_damage/data3a/training/02-moderate/download (9).jpeg,moderate,1
+IMG-00852,data/raw/vehicle_damage/data3a/training/02-moderate/images (62).jpeg,moderate,1
+IMG-00161,data/raw/vehicle_damage/data3a/training/01-minor/0163.JPEG,minor,0
+IMG-01223,data/raw/vehicle_damage/data3a/training/03-severe/0316.JPEG,severe,2
+IMG-00178,data/raw/vehicle_damage/data3a/training/01-minor/0180.JPEG,minor,0
+IMG-01574,data/raw/vehicle_damage/data3a/validation/03-severe/0046.JPEG,severe,2
+IMG-00896,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151412.931.jpeg,moderate,1
+IMG-00634,data/raw/vehicle_damage/data3a/training/02-moderate/0188.JPEG,moderate,1
+IMG-01310,data/raw/vehicle_damage/data3a/training/03-severe/images (11).jpeg,severe,2
+IMG-00350,data/raw/vehicle_damage/data3a/training/01-minor/images (23).jpeg,minor,0
+IMG-00253,data/raw/vehicle_damage/data3a/training/01-minor/0259.JPEG,minor,0
+IMG-00292,data/raw/vehicle_damage/data3a/training/01-minor/download (1).jpeg,minor,0
+IMG-00698,data/raw/vehicle_damage/data3a/training/02-moderate/0254.JPEG,moderate,1
+IMG-00641,data/raw/vehicle_damage/data3a/training/02-moderate/0195.JPEG,moderate,1
+IMG-00619,data/raw/vehicle_damage/data3a/training/02-moderate/0173.JPEG,moderate,1
+IMG-00156,data/raw/vehicle_damage/data3a/training/01-minor/0158.JPEG,minor,0
+IMG-01290,data/raw/vehicle_damage/data3a/training/03-severe/0384.JPEG,severe,2
+IMG-01033,data/raw/vehicle_damage/data3a/training/03-severe/0127.JPEG,severe,2
+IMG-00446,data/raw/vehicle_damage/data3a/training/01-minor/images.jpeg,minor,0
+IMG-01084,data/raw/vehicle_damage/data3a/training/03-severe/0178.JPEG,severe,2
+IMG-00335,data/raw/vehicle_damage/data3a/training/01-minor/images (1).jpeg,minor,0
+IMG-00693,data/raw/vehicle_damage/data3a/training/02-moderate/0249.jpeg,moderate,1
+IMG-00753,data/raw/vehicle_damage/data3a/training/02-moderate/0309.JPEG,moderate,1
+IMG-01291,data/raw/vehicle_damage/data3a/training/03-severe/0385.JPEG,severe,2
+IMG-00607,data/raw/vehicle_damage/data3a/training/02-moderate/0161.JPEG,moderate,1
+IMG-00650,data/raw/vehicle_damage/data3a/training/02-moderate/0206.JPEG,moderate,1
+IMG-00462,data/raw/vehicle_damage/data3a/training/02-moderate/0016.JPEG,moderate,1
+IMG-00310,data/raw/vehicle_damage/data3a/training/01-minor/download (26).jpeg,minor,0
+IMG-01184,data/raw/vehicle_damage/data3a/training/03-severe/0277.JPEG,severe,2
+IMG-01551,data/raw/vehicle_damage/data3a/validation/03-severe/0023.JPEG,severe,2
+IMG-01250,data/raw/vehicle_damage/data3a/training/03-severe/0344.JPEG,severe,2
+IMG-00390,data/raw/vehicle_damage/data3a/training/01-minor/images (6).jpeg,minor,0
+IMG-01119,data/raw/vehicle_damage/data3a/training/03-severe/0213.JPEG,severe,2
 IMG-00103,data/raw/vehicle_damage/data3a/training/01-minor/0104.JPEG,minor,0
-IMG-00083,data/raw/vehicle_damage/data3a/training/01-minor/0084.JPEG,minor,0
-IMG-01366,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.441.jpeg,severe,2
-IMG-00923,data/raw/vehicle_damage/data3a/training/03-severe/0009.JPEG,severe,2
-IMG-01540,data/raw/vehicle_damage/data3a/validation/03-severe/0001.JPEG,severe,2
-IMG-01149,data/raw/vehicle_damage/data3a/training/03-severe/0235.JPEG,severe,2
-IMG-00353,data/raw/vehicle_damage/data3a/training/01-minor/images (21).jpeg,minor,0
-IMG-01106,data/raw/vehicle_damage/data3a/training/03-severe/0192.jpeg,severe,2
-IMG-00170,data/raw/vehicle_damage/data3a/training/01-minor/0171.JPEG,minor,0
-IMG-01419,data/raw/vehicle_damage/data3a/validation/01-minor/0037.JPEG,minor,0
-IMG-00558,data/raw/vehicle_damage/data3a/training/02-moderate/0107.JPEG,moderate,1
-IMG-01119,data/raw/vehicle_damage/data3a/training/03-severe/0205.JPEG,severe,2
-IMG-01570,data/raw/vehicle_damage/data3a/validation/03-severe/0031.JPEG,severe,2
-IMG-01005,data/raw/vehicle_damage/data3a/training/03-severe/0091.JPEG,severe,2
-IMG-00037,data/raw/vehicle_damage/data3a/training/01-minor/0038.JPEG,minor,0
-IMG-00938,data/raw/vehicle_damage/data3a/training/03-severe/0024.JPEG,severe,2
-IMG-00858,data/raw/vehicle_damage/data3a/training/02-moderate/images (60).jpeg,moderate,1
-IMG-00483,data/raw/vehicle_damage/data3a/training/02-moderate/0032.JPEG,moderate,1
-IMG-00894,data/raw/vehicle_damage/data3a/training/02-moderate/images (93).jpeg,moderate,1
-IMG-00404,data/raw/vehicle_damage/data3a/training/01-minor/images (70).jpeg,minor,0
-IMG-01519,data/raw/vehicle_damage/data3a/validation/02-moderate/0055.JPEG,moderate,1
-IMG-00397,data/raw/vehicle_damage/data3a/training/01-minor/images (61).jpeg,minor,0
-IMG-00104,data/raw/vehicle_damage/data3a/training/01-minor/0105.JPEG,minor,0
-IMG-01183,data/raw/vehicle_damage/data3a/training/03-severe/0268.JPEG,severe,2
-IMG-00811,data/raw/vehicle_damage/data3a/training/02-moderate/images (104).jpeg,moderate,1
-IMG-01280,data/raw/vehicle_damage/data3a/training/03-severe/0365.JPEG,severe,2
-IMG-00181,data/raw/vehicle_damage/data3a/training/01-minor/0182.JPEG,minor,0
-IMG-00843,data/raw/vehicle_damage/data3a/training/02-moderate/images (47).jpeg,moderate,1
-IMG-00850,data/raw/vehicle_damage/data3a/training/02-moderate/images (53).jpeg,moderate,1
-IMG-01395,data/raw/vehicle_damage/data3a/validation/01-minor/0013.JPEG,minor,0
-IMG-00172,data/raw/vehicle_damage/data3a/training/01-minor/0173.JPEG,minor,0
-IMG-01561,data/raw/vehicle_damage/data3a/validation/03-severe/0022.JPEG,severe,2
-IMG-01441,data/raw/vehicle_damage/data3a/validation/01-minor/images (42).jpeg,minor,0
-IMG-01559,data/raw/vehicle_damage/data3a/validation/03-severe/0020.JPEG,severe,2
-IMG-00800,data/raw/vehicle_damage/data3a/training/02-moderate/download (9).jpeg,moderate,1
-IMG-01479,data/raw/vehicle_damage/data3a/validation/02-moderate/0015.jpeg,moderate,1
-IMG-01481,data/raw/vehicle_damage/data3a/validation/02-moderate/0017.JPEG,moderate,1
-IMG-00987,data/raw/vehicle_damage/data3a/training/03-severe/0073.JPEG,severe,2
-IMG-00760,data/raw/vehicle_damage/data3a/training/02-moderate/0309.JPEG,moderate,1
-IMG-00555,data/raw/vehicle_damage/data3a/training/02-moderate/0104.JPEG,moderate,1
-IMG-00588,data/raw/vehicle_damage/data3a/training/02-moderate/0137.JPEG,moderate,1
-IMG-00567,data/raw/vehicle_damage/data3a/training/02-moderate/0116.JPEG,moderate,1
-IMG-00936,data/raw/vehicle_damage/data3a/training/03-severe/0022.JPEG,severe,2
-IMG-00917,data/raw/vehicle_damage/data3a/training/03-severe/0003.JPEG,severe,2
-IMG-00692,data/raw/vehicle_damage/data3a/training/02-moderate/0241.jpeg,moderate,1
-IMG-01176,data/raw/vehicle_damage/data3a/training/03-severe/0261.JPEG,severe,2
-IMG-00338,data/raw/vehicle_damage/data3a/training/01-minor/f1db84b589e54f898958c912112934c7_thb.jpg,minor,0
-IMG-00024,data/raw/vehicle_damage/data3a/training/01-minor/0025.JPEG,minor,0
-IMG-00515,data/raw/vehicle_damage/data3a/training/02-moderate/0064.jpeg,moderate,1
-IMG-00622,data/raw/vehicle_damage/data3a/training/02-moderate/0171.JPEG,moderate,1
-IMG-01193,data/raw/vehicle_damage/data3a/training/03-severe/0278.JPEG,severe,2
-IMG-01214,data/raw/vehicle_damage/data3a/training/03-severe/0299.JPEG,severe,2
-IMG-01148,data/raw/vehicle_damage/data3a/training/03-severe/0234.JPEG,severe,2
-IMG-00108,data/raw/vehicle_damage/data3a/training/01-minor/0109.JPEG,minor,0
-IMG-01583,data/raw/vehicle_damage/data3a/validation/03-severe/0044.JPEG,severe,2
-IMG-00394,data/raw/vehicle_damage/data3a/training/01-minor/images (59).jpeg,minor,0
-IMG-00420,data/raw/vehicle_damage/data3a/training/01-minor/images (9).jpeg,minor,0
-IMG-01387,data/raw/vehicle_damage/data3a/validation/01-minor/0005.JPEG,minor,0
-IMG-00557,data/raw/vehicle_damage/data3a/training/02-moderate/0106.JPEG,moderate,1
-IMG-01127,data/raw/vehicle_damage/data3a/training/03-severe/0213.JPEG,severe,2
-IMG-00940,data/raw/vehicle_damage/data3a/training/03-severe/0026.JPEG,severe,2
-IMG-00334,data/raw/vehicle_damage/data3a/training/01-minor/download (9).jpeg,minor,0
-IMG-00709,data/raw/vehicle_damage/data3a/training/02-moderate/0258.JPEG,moderate,1
-IMG-00408,data/raw/vehicle_damage/data3a/training/01-minor/images (74).jpeg,minor,0
-IMG-01466,data/raw/vehicle_damage/data3a/validation/02-moderate/0002.JPEG,moderate,1
-IMG-01595,data/raw/vehicle_damage/data3a/validation/03-severe/0056.JPEG,severe,2
-IMG-00210,data/raw/vehicle_damage/data3a/training/01-minor/0211.jpeg,minor,0
-IMG-01449,data/raw/vehicle_damage/data3a/validation/01-minor/images (69).jpeg,minor,0
-IMG-01412,data/raw/vehicle_damage/data3a/validation/01-minor/0030.JPEG,minor,0
-IMG-01152,data/raw/vehicle_damage/data3a/training/03-severe/0238.JPEG,severe,2
-IMG-01228,data/raw/vehicle_damage/data3a/training/03-severe/0313.jpeg,severe,2
-IMG-01386,data/raw/vehicle_damage/data3a/validation/01-minor/0004.JPEG,minor,0
-IMG-01146,data/raw/vehicle_damage/data3a/training/03-severe/0232.JPEG,severe,2
-IMG-00194,data/raw/vehicle_damage/data3a/training/01-minor/0195.JPEG,minor,0
-IMG-00689,data/raw/vehicle_damage/data3a/training/02-moderate/0238.JPEG,moderate,1
-IMG-01383,data/raw/vehicle_damage/data3a/validation/01-minor/0001.JPEG,minor,0
-IMG-01379,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.493.jpeg,severe,2
-IMG-00733,data/raw/vehicle_damage/data3a/training/02-moderate/0282.JPEG,moderate,1
+IMG-01183,data/raw/vehicle_damage/data3a/training/03-severe/0276.JPEG,severe,2
+IMG-00148,data/raw/vehicle_damage/data3a/training/01-minor/0150.JPEG,minor,0
+IMG-01087,data/raw/vehicle_damage/data3a/training/03-severe/0181.JPEG,severe,2
+IMG-01497,data/raw/vehicle_damage/data3a/validation/02-moderate/0044.JPEG,moderate,1
 IMG-00051,data/raw/vehicle_damage/data3a/training/01-minor/0052.JPEG,minor,0
-IMG-00979,data/raw/vehicle_damage/data3a/training/03-severe/0065.JPEG,severe,2
-IMG-01287,data/raw/vehicle_damage/data3a/training/03-severe/0372.JPEG,severe,2
-IMG-01276,data/raw/vehicle_damage/data3a/training/03-severe/0361.JPEG,severe,2
-IMG-00746,data/raw/vehicle_damage/data3a/training/02-moderate/0295.JPEG,moderate,1
-IMG-00196,data/raw/vehicle_damage/data3a/training/01-minor/0197.JPEG,minor,0
-IMG-00607,data/raw/vehicle_damage/data3a/training/02-moderate/0156.JPEG,moderate,1
-IMG-00714,data/raw/vehicle_damage/data3a/training/02-moderate/0263.JPEG,moderate,1
-IMG-00202,data/raw/vehicle_damage/data3a/training/01-minor/0203.JPEG,minor,0
-IMG-01513,data/raw/vehicle_damage/data3a/validation/02-moderate/0049.JPEG,moderate,1
-IMG-00640,data/raw/vehicle_damage/data3a/training/02-moderate/0189.JPEG,moderate,1
-IMG-00208,data/raw/vehicle_damage/data3a/training/01-minor/0209.JPEG,minor,0
-IMG-00280,data/raw/vehicle_damage/data3a/training/01-minor/24ea719faf0f4117888c83c58fa94762_thb.jpg,minor,0
-IMG-00886,data/raw/vehicle_damage/data3a/training/02-moderate/images (86).jpeg,moderate,1
-IMG-00432,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151413.100.jpeg,minor,0
-IMG-00388,data/raw/vehicle_damage/data3a/training/01-minor/images (53).jpeg,minor,0
-IMG-00659,data/raw/vehicle_damage/data3a/training/02-moderate/0208.JPEG,moderate,1
-IMG-00298,data/raw/vehicle_damage/data3a/training/01-minor/download (10).jpeg,minor,0
-IMG-01360,data/raw/vehicle_damage/data3a/training/03-severe/images (94).jpeg,severe,2
-IMG-01442,data/raw/vehicle_damage/data3a/validation/01-minor/images (43).jpeg,minor,0
-IMG-00582,data/raw/vehicle_damage/data3a/training/02-moderate/0131.JPEG,moderate,1
-IMG-00673,data/raw/vehicle_damage/data3a/training/02-moderate/0222.JPEG,moderate,1
-IMG-01029,data/raw/vehicle_damage/data3a/training/03-severe/0115.JPEG,severe,2
-IMG-01453,data/raw/vehicle_damage/data3a/validation/01-minor/images (81).jpeg,minor,0
-IMG-00765,data/raw/vehicle_damage/data3a/training/02-moderate/0314.JPEG,moderate,1
-IMG-00957,data/raw/vehicle_damage/data3a/training/03-severe/0043.JPEG,severe,2
-IMG-00795,data/raw/vehicle_damage/data3a/training/02-moderate/download (11).jpeg,moderate,1
-IMG-00808,data/raw/vehicle_damage/data3a/training/02-moderate/images (101).jpeg,moderate,1
-IMG-00985,data/raw/vehicle_damage/data3a/training/03-severe/0071.JPEG,severe,2
-IMG-00997,data/raw/vehicle_damage/data3a/training/03-severe/0083.JPEG,severe,2
-IMG-00384,data/raw/vehicle_damage/data3a/training/01-minor/images (5).jpeg,minor,0
-IMG-01296,data/raw/vehicle_damage/data3a/training/03-severe/0381.JPEG,severe,2
-IMG-00411,data/raw/vehicle_damage/data3a/training/01-minor/images (77).jpeg,minor,0
-IMG-01525,data/raw/vehicle_damage/data3a/validation/02-moderate/a34374b52d3f4a7baf7767853de3b285_thb.jpg,moderate,1
-IMG-00970,data/raw/vehicle_damage/data3a/training/03-severe/0056.JPEG,severe,2
-IMG-01361,data/raw/vehicle_damage/data3a/training/03-severe/images (95).jpeg,severe,2
-IMG-01566,data/raw/vehicle_damage/data3a/validation/03-severe/0027.JPEG,severe,2
-IMG-00107,data/raw/vehicle_damage/data3a/training/01-minor/0108.JPEG,minor,0
-IMG-00437,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151414.520.jpeg,minor,0
-IMG-00185,data/raw/vehicle_damage/data3a/training/01-minor/0186.JPEG,minor,0
-IMG-00414,data/raw/vehicle_damage/data3a/training/01-minor/images (8).jpeg,minor,0
-IMG-00429,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151411.728.jpeg,minor,0
-IMG-01545,data/raw/vehicle_damage/data3a/validation/03-severe/0006.JPEG,severe,2
-IMG-00530,data/raw/vehicle_damage/data3a/training/02-moderate/0079.JPEG,moderate,1
-IMG-00522,data/raw/vehicle_damage/data3a/training/02-moderate/0071.JPEG,moderate,1
-IMG-01033,data/raw/vehicle_damage/data3a/training/03-severe/0119.JPEG,severe,2
-IMG-00056,data/raw/vehicle_damage/data3a/training/01-minor/0057.JPEG,minor,0
-IMG-00060,data/raw/vehicle_damage/data3a/training/01-minor/0061.jpeg,minor,0
-IMG-01269,data/raw/vehicle_damage/data3a/training/03-severe/0354.JPEG,severe,2
-IMG-00467,data/raw/vehicle_damage/data3a/training/02-moderate/0016.JPEG,moderate,1
-IMG-01509,data/raw/vehicle_damage/data3a/validation/02-moderate/0045.JPEG,moderate,1
-IMG-01541,data/raw/vehicle_damage/data3a/validation/03-severe/0002.JPEG,severe,2
-IMG-01330,data/raw/vehicle_damage/data3a/training/03-severe/images (24).jpeg,severe,2
-IMG-00370,data/raw/vehicle_damage/data3a/training/01-minor/images (37).jpeg,minor,0
-IMG-00685,data/raw/vehicle_damage/data3a/training/02-moderate/0234.JPEG,moderate,1
-IMG-00715,data/raw/vehicle_damage/data3a/training/02-moderate/0264.JPEG,moderate,1
-IMG-00801,data/raw/vehicle_damage/data3a/training/02-moderate/download.jpeg,moderate,1
-IMG-00033,data/raw/vehicle_damage/data3a/training/01-minor/0034.JPEG,minor,0
-IMG-01444,data/raw/vehicle_damage/data3a/validation/01-minor/images (59).jpeg,minor,0
-IMG-01414,data/raw/vehicle_damage/data3a/validation/01-minor/0032.JPEG,minor,0
-IMG-00433,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151413.251.jpeg,minor,0
-IMG-01021,data/raw/vehicle_damage/data3a/training/03-severe/0107.JPEG,severe,2
-IMG-00759,data/raw/vehicle_damage/data3a/training/02-moderate/0308.JPEG,moderate,1
-IMG-01056,data/raw/vehicle_damage/data3a/training/03-severe/0142.JPEG,severe,2
-IMG-00192,data/raw/vehicle_damage/data3a/training/01-minor/0193.JPEG,minor,0
-IMG-00890,data/raw/vehicle_damage/data3a/training/02-moderate/images (9).jpeg,moderate,1
-IMG-00469,data/raw/vehicle_damage/data3a/training/02-moderate/0018.JPEG,moderate,1
-IMG-00180,data/raw/vehicle_damage/data3a/training/01-minor/0181.JPEG,minor,0
-IMG-00449,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-13T213955.259.jpeg,minor,0
-IMG-01533,data/raw/vehicle_damage/data3a/validation/02-moderate/e060a4b36c4d48caba0b12da354d3585_thb.jpg,moderate,1
-IMG-00543,data/raw/vehicle_damage/data3a/training/02-moderate/0092.JPEG,moderate,1
-IMG-01160,data/raw/vehicle_damage/data3a/training/03-severe/0246.JPEG,severe,2
-IMG-00084,data/raw/vehicle_damage/data3a/training/01-minor/0085.JPEG,minor,0
-IMG-00958,data/raw/vehicle_damage/data3a/training/03-severe/0044.JPEG,severe,2
-IMG-00535,data/raw/vehicle_damage/data3a/training/02-moderate/0084.jpeg,moderate,1
-IMG-00225,data/raw/vehicle_damage/data3a/training/01-minor/0226.JPEG,minor,0
-IMG-01434,data/raw/vehicle_damage/data3a/validation/01-minor/e9e9890e7b514e51a49442c72f463430_thb.jpg,minor,0
-IMG-00941,data/raw/vehicle_damage/data3a/training/03-severe/0027.JPEG,severe,2
-IMG-00881,data/raw/vehicle_damage/data3a/training/02-moderate/images (81).jpeg,moderate,1
-IMG-01592,data/raw/vehicle_damage/data3a/validation/03-severe/0053.JPEG,severe,2
-IMG-00188,data/raw/vehicle_damage/data3a/training/01-minor/0189.JPEG,minor,0
-IMG-00406,data/raw/vehicle_damage/data3a/training/01-minor/images (72).jpeg,minor,0
-IMG-00209,data/raw/vehicle_damage/data3a/training/01-minor/0210.JPEG,minor,0
-IMG-01178,data/raw/vehicle_damage/data3a/training/03-severe/0263.JPEG,severe,2
-IMG-00775,data/raw/vehicle_damage/data3a/training/02-moderate/494249b9484e4704878d24027d565259_thb.jpg,moderate,1
-IMG-00839,data/raw/vehicle_damage/data3a/training/02-moderate/images (41).jpeg,moderate,1
-IMG-00576,data/raw/vehicle_damage/data3a/training/02-moderate/0125.JPEG,moderate,1
-IMG-00446,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151418.705.jpeg,minor,0
-IMG-00442,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151417.660.jpeg,minor,0
-IMG-00145,data/raw/vehicle_damage/data3a/training/01-minor/0146.JPEG,minor,0
-IMG-00563,data/raw/vehicle_damage/data3a/training/02-moderate/0112.JPEG,moderate,1
-IMG-00877,data/raw/vehicle_damage/data3a/training/02-moderate/images (78).jpeg,moderate,1
-IMG-01225,data/raw/vehicle_damage/data3a/training/03-severe/0310.JPEG,severe,2
-IMG-00116,data/raw/vehicle_damage/data3a/training/01-minor/0117.JPEG,minor,0
-IMG-01577,data/raw/vehicle_damage/data3a/validation/03-severe/0038.JPEG,severe,2
-IMG-00784,data/raw/vehicle_damage/data3a/training/02-moderate/8bfbee9445b040468ea596d7ffff7f04_thb.jpg,moderate,1
-IMG-00046,data/raw/vehicle_damage/data3a/training/01-minor/0047.JPEG,minor,0
-IMG-00186,data/raw/vehicle_damage/data3a/training/01-minor/0187.JPEG,minor,0
-IMG-00580,data/raw/vehicle_damage/data3a/training/02-moderate/0129.JPEG,moderate,1
-IMG-01398,data/raw/vehicle_damage/data3a/validation/01-minor/0016.JPEG,minor,0
-IMG-00287,data/raw/vehicle_damage/data3a/training/01-minor/980e7f8c0c61405ca31db96964a1f273_thb.jpg,minor,0
-IMG-00878,data/raw/vehicle_damage/data3a/training/02-moderate/images (79).jpeg,moderate,1
-IMG-00257,data/raw/vehicle_damage/data3a/training/01-minor/0258.JPEG,minor,0
-IMG-00771,data/raw/vehicle_damage/data3a/training/02-moderate/1dbc1bd213e74c8598e6874de9b55c53_thb.jpg,moderate,1
-IMG-00609,data/raw/vehicle_damage/data3a/training/02-moderate/0158.JPEG,moderate,1
-IMG-00523,data/raw/vehicle_damage/data3a/training/02-moderate/0072.jpeg,moderate,1
-IMG-00114,data/raw/vehicle_damage/data3a/training/01-minor/0115.JPEG,minor,0
-IMG-01099,data/raw/vehicle_damage/data3a/training/03-severe/0185.JPEG,severe,2
-IMG-01264,data/raw/vehicle_damage/data3a/training/03-severe/0349.JPEG,severe,2
-IMG-01609,data/raw/vehicle_damage/data3a/validation/03-severe/22902b00ea70402fab96a350f87cf944_thb.jpg,severe,2
-IMG-00694,data/raw/vehicle_damage/data3a/training/02-moderate/0243.JPEG,moderate,1
-IMG-01173,data/raw/vehicle_damage/data3a/training/03-severe/0258.JPEG,severe,2
-IMG-00978,data/raw/vehicle_damage/data3a/training/03-severe/0064.JPEG,severe,2
-IMG-00549,data/raw/vehicle_damage/data3a/training/02-moderate/0098.JPEG,moderate,1
-IMG-00691,data/raw/vehicle_damage/data3a/training/02-moderate/0240.JPEG,moderate,1
-IMG-00281,data/raw/vehicle_damage/data3a/training/01-minor/2fd5a7d45a7d4bce8c15f2f6c89a0494_thb.jpg,minor,0
-IMG-01490,data/raw/vehicle_damage/data3a/validation/02-moderate/0026.JPEG,moderate,1
-IMG-00422,data/raw/vehicle_damage/data3a/training/01-minor/images (92).jpeg,minor,0
-IMG-01167,data/raw/vehicle_damage/data3a/training/03-severe/0252.JPEG,severe,2
-IMG-01308,data/raw/vehicle_damage/data3a/training/03-severe/cb08b40c4556456482bef99093fa7e29_thb.jpg,severe,2
-IMG-00367,data/raw/vehicle_damage/data3a/training/01-minor/images (34).jpeg,minor,0
-IMG-00903,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151412.846.jpeg,moderate,1
-IMG-00773,data/raw/vehicle_damage/data3a/training/02-moderate/34b12abd905f4f8cb6385f45551cb994_thb.jpg,moderate,1
-IMG-01012,data/raw/vehicle_damage/data3a/training/03-severe/0098.JPEG,severe,2
-IMG-01616,data/raw/vehicle_damage/data3a/validation/03-severe/debd51e9643448fcbb0f303c9e0d7063_thb.jpg,severe,2
-IMG-00574,data/raw/vehicle_damage/data3a/training/02-moderate/0123.JPEG,moderate,1
-IMG-01314,data/raw/vehicle_damage/data3a/training/03-severe/download (7).jpeg,severe,2
-IMG-00817,data/raw/vehicle_damage/data3a/training/02-moderate/images (110).jpeg,moderate,1
-IMG-00229,data/raw/vehicle_damage/data3a/training/01-minor/0230.JPEG,minor,0
-IMG-00101,data/raw/vehicle_damage/data3a/training/01-minor/0102.JPEG,minor,0
-IMG-00412,data/raw/vehicle_damage/data3a/training/01-minor/images (78).jpeg,minor,0
-IMG-00627,data/raw/vehicle_damage/data3a/training/02-moderate/0176.JPEG,moderate,1
-IMG-01315,data/raw/vehicle_damage/data3a/training/03-severe/download (8).jpeg,severe,2
-IMG-00380,data/raw/vehicle_damage/data3a/training/01-minor/images (46).jpeg,minor,0
-IMG-00120,data/raw/vehicle_damage/data3a/training/01-minor/0121.JPEG,minor,0
-IMG-00677,data/raw/vehicle_damage/data3a/training/02-moderate/0226.JPEG,moderate,1
-IMG-01209,data/raw/vehicle_damage/data3a/training/03-severe/0294.JPEG,severe,2
-IMG-01104,data/raw/vehicle_damage/data3a/training/03-severe/0190.JPEG,severe,2
-IMG-00147,data/raw/vehicle_damage/data3a/training/01-minor/0148.JPEG,minor,0
-IMG-00942,data/raw/vehicle_damage/data3a/training/03-severe/0028.JPEG,severe,2
-IMG-01135,data/raw/vehicle_damage/data3a/training/03-severe/0221.JPEG,severe,2
-IMG-00669,data/raw/vehicle_damage/data3a/training/02-moderate/0218.JPEG,moderate,1
-IMG-01473,data/raw/vehicle_damage/data3a/validation/02-moderate/0009.JPEG,moderate,1
-IMG-00036,data/raw/vehicle_damage/data3a/training/01-minor/0037.JPEG,minor,0
-IMG-01295,data/raw/vehicle_damage/data3a/training/03-severe/0380.JPEG,severe,2
-IMG-00971,data/raw/vehicle_damage/data3a/training/03-severe/0057.JPEG,severe,2
-IMG-00077,data/raw/vehicle_damage/data3a/training/01-minor/0078.JPEG,minor,0
-IMG-00806,data/raw/vehicle_damage/data3a/training/02-moderate/images (10).jpeg,moderate,1
-IMG-00148,data/raw/vehicle_damage/data3a/training/01-minor/0149.JPEG,minor,0
-IMG-01506,data/raw/vehicle_damage/data3a/validation/02-moderate/0042.JPEG,moderate,1
-IMG-00553,data/raw/vehicle_damage/data3a/training/02-moderate/0102.JPEG,moderate,1
-IMG-00747,data/raw/vehicle_damage/data3a/training/02-moderate/0296.JPEG,moderate,1
-IMG-00153,data/raw/vehicle_damage/data3a/training/01-minor/0154.JPEG,minor,0
-IMG-00740,data/raw/vehicle_damage/data3a/training/02-moderate/0289.JPEG,moderate,1
-IMG-01013,data/raw/vehicle_damage/data3a/training/03-severe/0099.JPEG,severe,2
-IMG-01076,data/raw/vehicle_damage/data3a/training/03-severe/0162.JPEG,severe,2
-IMG-01529,data/raw/vehicle_damage/data3a/validation/02-moderate/download (19).jpeg,moderate,1
-IMG-00748,data/raw/vehicle_damage/data3a/training/02-moderate/0297.JPEG,moderate,1
-IMG-00074,data/raw/vehicle_damage/data3a/training/01-minor/0075.JPEG,minor,0
-IMG-01236,data/raw/vehicle_damage/data3a/training/03-severe/0321.JPEG,severe,2
-IMG-01335,data/raw/vehicle_damage/data3a/training/03-severe/images (3).jpeg,severe,2
-IMG-00076,data/raw/vehicle_damage/data3a/training/01-minor/0077.JPEG,minor,0
-IMG-00809,data/raw/vehicle_damage/data3a/training/02-moderate/images (102).jpeg,moderate,1
-IMG-00722,data/raw/vehicle_damage/data3a/training/02-moderate/0271.JPEG,moderate,1
-IMG-00945,data/raw/vehicle_damage/data3a/training/03-severe/0031.JPEG,severe,2
-IMG-00910,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151420.224.jpeg,moderate,1
-IMG-00670,data/raw/vehicle_damage/data3a/training/02-moderate/0219.JPEG,moderate,1
-IMG-00586,data/raw/vehicle_damage/data3a/training/02-moderate/0135.JPEG,moderate,1
-IMG-01049,data/raw/vehicle_damage/data3a/training/03-severe/0135.JPEG,severe,2
-IMG-00444,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151418.125.jpeg,minor,0
-IMG-00057,data/raw/vehicle_damage/data3a/training/01-minor/0058.JPEG,minor,0
-IMG-01446,data/raw/vehicle_damage/data3a/validation/01-minor/images (60).jpeg,minor,0
-IMG-00859,data/raw/vehicle_damage/data3a/training/02-moderate/images (61).jpeg,moderate,1
-IMG-01235,data/raw/vehicle_damage/data3a/training/03-severe/0320.JPEG,severe,2
-IMG-01259,data/raw/vehicle_damage/data3a/training/03-severe/0344.JPEG,severe,2
-IMG-01600,data/raw/vehicle_damage/data3a/validation/03-severe/0061.JPEG,severe,2
-IMG-01248,data/raw/vehicle_damage/data3a/training/03-severe/0333.JPEG,severe,2
-IMG-00247,data/raw/vehicle_damage/data3a/training/01-minor/0248.JPEG,minor,0
-IMG-00093,data/raw/vehicle_damage/data3a/training/01-minor/0094.JPEG,minor,0
-IMG-00976,data/raw/vehicle_damage/data3a/training/03-severe/0062.JPEG,severe,2
-IMG-00096,data/raw/vehicle_damage/data3a/training/01-minor/0097.JPEG,minor,0
-IMG-00119,data/raw/vehicle_damage/data3a/training/01-minor/0120.JPEG,minor,0
-IMG-00042,data/raw/vehicle_damage/data3a/training/01-minor/0043.JPEG,minor,0
-IMG-00986,data/raw/vehicle_damage/data3a/training/03-severe/0072.JPEG,severe,2
-IMG-01627,data/raw/vehicle_damage/data3a/validation/03-severe/images (53).jpeg,severe,2
-IMG-00431,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151413.058.jpeg,minor,0
-IMG-01612,data/raw/vehicle_damage/data3a/validation/03-severe/6d36ca8f8e5142b999d24142028c8a3a_thb.jpg,severe,2
-IMG-00528,data/raw/vehicle_damage/data3a/training/02-moderate/0077.jpeg,moderate,1
-IMG-01458,data/raw/vehicle_damage/data3a/validation/01-minor/images - 2022-12-12T151412.407.jpeg,minor,0
-IMG-01523,data/raw/vehicle_damage/data3a/validation/02-moderate/8a70da31f2cd423cbc07988b0be52115_thb.jpg,moderate,1
-IMG-01323,data/raw/vehicle_damage/data3a/training/03-severe/images (17).jpeg,severe,2
-IMG-01234,data/raw/vehicle_damage/data3a/training/03-severe/0319.JPEG,severe,2
-IMG-00608,data/raw/vehicle_damage/data3a/training/02-moderate/0157.JPEG,moderate,1
-IMG-01243,data/raw/vehicle_damage/data3a/training/03-severe/0328.JPEG,severe,2
-IMG-01420,data/raw/vehicle_damage/data3a/validation/01-minor/0038.JPEG,minor,0
-IMG-01363,data/raw/vehicle_damage/data3a/training/03-severe/images (97).jpeg,severe,2
-IMG-00332,data/raw/vehicle_damage/data3a/training/01-minor/download (7).jpeg,minor,0
-IMG-00139,data/raw/vehicle_damage/data3a/training/01-minor/0140.JPEG,minor,0
-IMG-00277,data/raw/vehicle_damage/data3a/training/01-minor/0278.jpeg,minor,0
-IMG-01518,data/raw/vehicle_damage/data3a/validation/02-moderate/0054.JPEG,moderate,1
-IMG-01034,data/raw/vehicle_damage/data3a/training/03-severe/0120.JPEG,severe,2
-IMG-00499,data/raw/vehicle_damage/data3a/training/02-moderate/0048.JPEG,moderate,1
-IMG-00168,data/raw/vehicle_damage/data3a/training/01-minor/0169.JPEG,minor,0
-IMG-01239,data/raw/vehicle_damage/data3a/training/03-severe/0324.JPEG,severe,2
-IMG-00840,data/raw/vehicle_damage/data3a/training/02-moderate/images (44).jpeg,moderate,1
-IMG-01215,data/raw/vehicle_damage/data3a/training/03-severe/0300.JPEG,severe,2
-IMG-01496,data/raw/vehicle_damage/data3a/validation/02-moderate/0032.JPEG,moderate,1
-IMG-00512,data/raw/vehicle_damage/data3a/training/02-moderate/0061.jpeg,moderate,1
-IMG-00223,data/raw/vehicle_damage/data3a/training/01-minor/0224.JPEG,minor,0
-IMG-01092,data/raw/vehicle_damage/data3a/training/03-severe/0178.JPEG,severe,2
-IMG-00536,data/raw/vehicle_damage/data3a/training/02-moderate/0085.jpeg,moderate,1
-IMG-01220,data/raw/vehicle_damage/data3a/training/03-severe/0305.JPEG,severe,2
-IMG-01369,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.652.jpeg,severe,2
-IMG-01065,data/raw/vehicle_damage/data3a/training/03-severe/0151.JPEG,severe,2
-IMG-00182,data/raw/vehicle_damage/data3a/training/01-minor/0183.JPEG,minor,0
-IMG-00721,data/raw/vehicle_damage/data3a/training/02-moderate/0270.JPEG,moderate,1
-IMG-01324,data/raw/vehicle_damage/data3a/training/03-severe/images (18).jpeg,severe,2
-IMG-00944,data/raw/vehicle_damage/data3a/training/03-severe/0030.JPEG,severe,2
-IMG-00683,data/raw/vehicle_damage/data3a/training/02-moderate/0232.JPEG,moderate,1
-IMG-00994,data/raw/vehicle_damage/data3a/training/03-severe/0080.JPEG,severe,2
-IMG-00606,data/raw/vehicle_damage/data3a/training/02-moderate/0155.JPEG,moderate,1
-IMG-00425,data/raw/vehicle_damage/data3a/training/01-minor/images (98).jpeg,minor,0
-IMG-00617,data/raw/vehicle_damage/data3a/training/02-moderate/0166.JPEG,moderate,1
-IMG-01120,data/raw/vehicle_damage/data3a/training/03-severe/0206.JPEG,severe,2
-IMG-01474,data/raw/vehicle_damage/data3a/validation/02-moderate/0010.JPEG,moderate,1
-IMG-00966,data/raw/vehicle_damage/data3a/training/03-severe/0052.JPEG,severe,2
-IMG-01082,data/raw/vehicle_damage/data3a/training/03-severe/0168.JPEG,severe,2
-IMG-00750,data/raw/vehicle_damage/data3a/training/02-moderate/0299.JPEG,moderate,1
-IMG-01246,data/raw/vehicle_damage/data3a/training/03-severe/0331.JPEG,severe,2
-IMG-01505,data/raw/vehicle_damage/data3a/validation/02-moderate/0041.JPEG,moderate,1
-IMG-00361,data/raw/vehicle_damage/data3a/training/01-minor/images (29).jpeg,minor,0
-IMG-01367,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.524.jpeg,severe,2
-IMG-00155,data/raw/vehicle_damage/data3a/training/01-minor/0156.JPEG,minor,0
-IMG-00954,data/raw/vehicle_damage/data3a/training/03-severe/0040.JPEG,severe,2
-IMG-00314,data/raw/vehicle_damage/data3a/training/01-minor/download (25).jpeg,minor,0
-IMG-00635,data/raw/vehicle_damage/data3a/training/02-moderate/0184.JPEG,moderate,1
-IMG-00484,data/raw/vehicle_damage/data3a/training/02-moderate/0033.JPEG,moderate,1
-IMG-01184,data/raw/vehicle_damage/data3a/training/03-severe/0269.JPEG,severe,2
-IMG-01499,data/raw/vehicle_damage/data3a/validation/02-moderate/0035.JPEG,moderate,1
-IMG-01581,data/raw/vehicle_damage/data3a/validation/03-severe/0042.JPEG,severe,2
-IMG-00745,data/raw/vehicle_damage/data3a/training/02-moderate/0294.JPEG,moderate,1
-IMG-00487,data/raw/vehicle_damage/data3a/training/02-moderate/0036.JPEG,moderate,1
-IMG-01170,data/raw/vehicle_damage/data3a/training/03-severe/0255.JPEG,severe,2
-IMG-00639,data/raw/vehicle_damage/data3a/training/02-moderate/0188.JPEG,moderate,1
-IMG-01516,data/raw/vehicle_damage/data3a/validation/02-moderate/0052.JPEG,moderate,1
-IMG-00791,data/raw/vehicle_damage/data3a/training/02-moderate/c93652b2ded3483ebc823ffd2b3eb402_thb.jpg,moderate,1
-IMG-01408,data/raw/vehicle_damage/data3a/validation/01-minor/0026.JPEG,minor,0
-IMG-00224,data/raw/vehicle_damage/data3a/training/01-minor/0225.JPEG,minor,0
-IMG-00316,data/raw/vehicle_damage/data3a/training/01-minor/download (27).jpeg,minor,0
-IMG-01134,data/raw/vehicle_damage/data3a/training/03-severe/0220.JPEG,severe,2
-IMG-00494,data/raw/vehicle_damage/data3a/training/02-moderate/0043.JPEG,moderate,1
-IMG-01059,data/raw/vehicle_damage/data3a/training/03-severe/0145.JPEG,severe,2
-IMG-00870,data/raw/vehicle_damage/data3a/training/02-moderate/images (71).jpeg,moderate,1
-IMG-00552,data/raw/vehicle_damage/data3a/training/02-moderate/0101.JPEG,moderate,1
-IMG-01532,data/raw/vehicle_damage/data3a/validation/02-moderate/download (28).jpeg,moderate,1
-IMG-00501,data/raw/vehicle_damage/data3a/training/02-moderate/0050.JPEG,moderate,1
-IMG-00967,data/raw/vehicle_damage/data3a/training/03-severe/0053.JPEG,severe,2
-IMG-00711,data/raw/vehicle_damage/data3a/training/02-moderate/0260.jpeg,moderate,1
-IMG-00805,data/raw/vehicle_damage/data3a/training/02-moderate/images (1).jpeg,moderate,1
-IMG-01019,data/raw/vehicle_damage/data3a/training/03-severe/0105.JPEG,severe,2
-IMG-00725,data/raw/vehicle_damage/data3a/training/02-moderate/0274.JPEG,moderate,1
-IMG-00005,data/raw/vehicle_damage/data3a/training/01-minor/0006.JPEG,minor,0
-IMG-00434,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151413.666.jpeg,minor,0
-IMG-00603,data/raw/vehicle_damage/data3a/training/02-moderate/0152.JPEG,moderate,1
-IMG-01365,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.300.jpeg,severe,2
-IMG-00026,data/raw/vehicle_damage/data3a/training/01-minor/0027.JPEG,minor,0
-IMG-00930,data/raw/vehicle_damage/data3a/training/03-severe/0016.JPEG,severe,2
-IMG-00650,data/raw/vehicle_damage/data3a/training/02-moderate/0199.JPEG,moderate,1
-IMG-01255,data/raw/vehicle_damage/data3a/training/03-severe/0340.JPEG,severe,2
-IMG-00762,data/raw/vehicle_damage/data3a/training/02-moderate/0311.jpeg,moderate,1
-IMG-01337,data/raw/vehicle_damage/data3a/training/03-severe/images (32).jpeg,severe,2
-IMG-00798,data/raw/vehicle_damage/data3a/training/02-moderate/download (25).jpeg,moderate,1
-IMG-00813,data/raw/vehicle_damage/data3a/training/02-moderate/images (106).jpeg,moderate,1
-IMG-01378,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.415.jpeg,severe,2
-IMG-01107,data/raw/vehicle_damage/data3a/training/03-severe/0193.JPEG,severe,2
-IMG-01098,data/raw/vehicle_damage/data3a/training/03-severe/0184.JPEG,severe,2
-IMG-00462,data/raw/vehicle_damage/data3a/training/02-moderate/0011.JPEG,moderate,1
-IMG-00475,data/raw/vehicle_damage/data3a/training/02-moderate/0024.JPEG,moderate,1
-IMG-00831,data/raw/vehicle_damage/data3a/training/02-moderate/images (34).jpeg,moderate,1
-IMG-01356,data/raw/vehicle_damage/data3a/training/03-severe/images (90).jpeg,severe,2
-IMG-00926,data/raw/vehicle_damage/data3a/training/03-severe/0012.JPEG,severe,2
-IMG-00988,data/raw/vehicle_damage/data3a/training/03-severe/0074.JPEG,severe,2
-IMG-00506,data/raw/vehicle_damage/data3a/training/02-moderate/0055.JPEG,moderate,1
-IMG-00266,data/raw/vehicle_damage/data3a/training/01-minor/0267.JPEG,minor,0
-IMG-00968,data/raw/vehicle_damage/data3a/training/03-severe/0054.jpeg,severe,2
-IMG-00959,data/raw/vehicle_damage/data3a/training/03-severe/0045.JPEG,severe,2
-IMG-01081,data/raw/vehicle_damage/data3a/training/03-severe/0167.JPEG,severe,2
-IMG-00176,data/raw/vehicle_damage/data3a/training/01-minor/0177.JPEG,minor,0
-IMG-01416,data/raw/vehicle_damage/data3a/validation/01-minor/0034.JPEG,minor,0
-IMG-01045,data/raw/vehicle_damage/data3a/training/03-severe/0131.JPEG,severe,2
-IMG-00991,data/raw/vehicle_damage/data3a/training/03-severe/0077.JPEG,severe,2
-IMG-01438,data/raw/vehicle_damage/data3a/validation/01-minor/images (20).jpeg,minor,0
-IMG-00245,data/raw/vehicle_damage/data3a/training/01-minor/0246.JPEG,minor,0
-IMG-00233,data/raw/vehicle_damage/data3a/training/01-minor/0234.JPEG,minor,0
-IMG-00665,data/raw/vehicle_damage/data3a/training/02-moderate/0214.JPEG,moderate,1
-IMG-00732,data/raw/vehicle_damage/data3a/training/02-moderate/0281.JPEG,moderate,1
-IMG-01370,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.808.jpeg,severe,2
-IMG-00779,data/raw/vehicle_damage/data3a/training/02-moderate/598d5b29cf964e9b96e6d6af1e2857db_thb.jpg,moderate,1
-IMG-01478,data/raw/vehicle_damage/data3a/validation/02-moderate/0014.JPEG,moderate,1
-IMG-00333,data/raw/vehicle_damage/data3a/training/01-minor/download (8).jpeg,minor,0
-IMG-01562,data/raw/vehicle_damage/data3a/validation/03-severe/0023.JPEG,severe,2
-IMG-00934,data/raw/vehicle_damage/data3a/training/03-severe/0020.JPEG,severe,2
-IMG-01164,data/raw/vehicle_damage/data3a/training/03-severe/024909e6f1af4f00be4ef420354291a3_thb.jpg,severe,2
-IMG-00781,data/raw/vehicle_damage/data3a/training/02-moderate/632bbda7c6314b97a49ba3af3712366f_thb.jpg,moderate,1
-IMG-00699,data/raw/vehicle_damage/data3a/training/02-moderate/0248.JPEG,moderate,1
-IMG-00972,data/raw/vehicle_damage/data3a/training/03-severe/0058.JPEG,severe,2
-IMG-00240,data/raw/vehicle_damage/data3a/training/01-minor/0241.JPEG,minor,0
-IMG-00232,data/raw/vehicle_damage/data3a/training/01-minor/0233.JPEG,minor,0
-IMG-01240,data/raw/vehicle_damage/data3a/training/03-severe/0325.JPEG,severe,2
-IMG-00265,data/raw/vehicle_damage/data3a/training/01-minor/0266.JPEG,minor,0
-IMG-00955,data/raw/vehicle_damage/data3a/training/03-severe/0041.JPEG,severe,2
-IMG-00393,data/raw/vehicle_damage/data3a/training/01-minor/images (58).jpeg,minor,0
-IMG-01141,data/raw/vehicle_damage/data3a/training/03-severe/0227.JPEG,severe,2
-IMG-00783,data/raw/vehicle_damage/data3a/training/02-moderate/7a566f2a54cd4f228ec73698d19b6d42_thb.jpg,moderate,1
-IMG-01373,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.069.jpeg,severe,2
-IMG-00211,data/raw/vehicle_damage/data3a/training/01-minor/0212.JPEG,minor,0
-IMG-00882,data/raw/vehicle_damage/data3a/training/02-moderate/images (82).jpeg,moderate,1
-IMG-01083,data/raw/vehicle_damage/data3a/training/03-severe/0169.JPEG,severe,2
-IMG-00086,data/raw/vehicle_damage/data3a/training/01-minor/0087.JPEG,minor,0
-IMG-00638,data/raw/vehicle_damage/data3a/training/02-moderate/0187.JPEG,moderate,1
-IMG-00510,data/raw/vehicle_damage/data3a/training/02-moderate/0059.JPEG,moderate,1
-IMG-00301,data/raw/vehicle_damage/data3a/training/01-minor/download (13).jpeg,minor,0
-IMG-01495,data/raw/vehicle_damage/data3a/validation/02-moderate/0031.JPEG,moderate,1
-IMG-01411,data/raw/vehicle_damage/data3a/validation/01-minor/0029.JPEG,minor,0
-IMG-01544,data/raw/vehicle_damage/data3a/validation/03-severe/0005.JPEG,severe,2
-IMG-00322,data/raw/vehicle_damage/data3a/training/01-minor/download (32).jpeg,minor,0
-IMG-00502,data/raw/vehicle_damage/data3a/training/02-moderate/0051.JPEG,moderate,1
-IMG-00949,data/raw/vehicle_damage/data3a/training/03-severe/0035.JPEG,severe,2
-IMG-01144,data/raw/vehicle_damage/data3a/training/03-severe/0230.JPEG,severe,2
-IMG-00271,data/raw/vehicle_damage/data3a/training/01-minor/0272.JPEG,minor,0
-IMG-00660,data/raw/vehicle_damage/data3a/training/02-moderate/0209.JPEG,moderate,1
-IMG-01486,data/raw/vehicle_damage/data3a/validation/02-moderate/0022.JPEG,moderate,1
-IMG-00163,data/raw/vehicle_damage/data3a/training/01-minor/0164.JPEG,minor,0
-IMG-01536,data/raw/vehicle_damage/data3a/validation/02-moderate/images (50).jpeg,moderate,1
-IMG-01375,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.222.jpeg,severe,2
-IMG-00250,data/raw/vehicle_damage/data3a/training/01-minor/0251.JPEG,minor,0
-IMG-00407,data/raw/vehicle_damage/data3a/training/01-minor/images (73).jpeg,minor,0
-IMG-01279,data/raw/vehicle_damage/data3a/training/03-severe/0364.JPEG,severe,2
-IMG-00788,data/raw/vehicle_damage/data3a/training/02-moderate/a93df47478d8427ebdae3c34fd99faa2_thb.jpg,moderate,1
-IMG-00424,data/raw/vehicle_damage/data3a/training/01-minor/images (97).jpeg,minor,0
-IMG-00122,data/raw/vehicle_damage/data3a/training/01-minor/0123.JPEG,minor,0
-IMG-00995,data/raw/vehicle_damage/data3a/training/03-severe/0081.JPEG,severe,2
-IMG-01564,data/raw/vehicle_damage/data3a/validation/03-severe/0025.JPEG,severe,2
-IMG-01402,data/raw/vehicle_damage/data3a/validation/01-minor/0020.JPEG,minor,0
-IMG-00132,data/raw/vehicle_damage/data3a/training/01-minor/0133.JPEG,minor,0
-IMG-01016,data/raw/vehicle_damage/data3a/training/03-severe/0102.JPEG,severe,2
-IMG-01309,data/raw/vehicle_damage/data3a/training/03-severe/download (13).jpeg,severe,2
-IMG-00417,data/raw/vehicle_damage/data3a/training/01-minor/images (87).jpeg,minor,0
-IMG-01002,data/raw/vehicle_damage/data3a/training/03-severe/0088.JPEG,severe,2
-IMG-00738,data/raw/vehicle_damage/data3a/training/02-moderate/0287.JPEG,moderate,1
-IMG-00312,data/raw/vehicle_damage/data3a/training/01-minor/download (23).jpeg,minor,0
-IMG-01257,data/raw/vehicle_damage/data3a/training/03-severe/0342.JPEG,severe,2
-IMG-01483,data/raw/vehicle_damage/data3a/validation/02-moderate/0019.JPEG,moderate,1
-IMG-00814,data/raw/vehicle_damage/data3a/training/02-moderate/images (107).jpeg,moderate,1
-IMG-00570,data/raw/vehicle_damage/data3a/training/02-moderate/0119.JPEG,moderate,1
-IMG-01340,data/raw/vehicle_damage/data3a/training/03-severe/images (35).jpeg,severe,2
-IMG-01569,data/raw/vehicle_damage/data3a/validation/03-severe/0030.JPEG,severe,2
-IMG-00572,data/raw/vehicle_damage/data3a/training/02-moderate/0121.JPEG,moderate,1
-IMG-01213,data/raw/vehicle_damage/data3a/training/03-severe/0298.JPEG,severe,2
-IMG-00922,data/raw/vehicle_damage/data3a/training/03-severe/0008.JPEG,severe,2
-IMG-01472,data/raw/vehicle_damage/data3a/validation/02-moderate/0008.JPEG,moderate,1
-IMG-00846,data/raw/vehicle_damage/data3a/training/02-moderate/images (5).jpeg,moderate,1
-IMG-00440,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151416.541.jpeg,minor,0
-IMG-00601,data/raw/vehicle_damage/data3a/training/02-moderate/0150.JPEG,moderate,1
-IMG-01114,data/raw/vehicle_damage/data3a/training/03-severe/0200.jpeg,severe,2
-IMG-00167,data/raw/vehicle_damage/data3a/training/01-minor/0168.JPEG,minor,0
-IMG-00761,data/raw/vehicle_damage/data3a/training/02-moderate/0310.JPEG,moderate,1
-IMG-00248,data/raw/vehicle_damage/data3a/training/01-minor/0249.JPEG,minor,0
-IMG-00318,data/raw/vehicle_damage/data3a/training/01-minor/download (29).jpeg,minor,0
-IMG-01249,data/raw/vehicle_damage/data3a/training/03-severe/0334.JPEG,severe,2
-IMG-00710,data/raw/vehicle_damage/data3a/training/02-moderate/0259.JPEG,moderate,1
-IMG-00275,data/raw/vehicle_damage/data3a/training/01-minor/0276.JPEG,minor,0
-IMG-00780,data/raw/vehicle_damage/data3a/training/02-moderate/5e958bd0-f875-4855-af2c-31c5b0ac2ab5.jpeg,moderate,1
-IMG-00110,data/raw/vehicle_damage/data3a/training/01-minor/0111.JPEG,minor,0
-IMG-01186,data/raw/vehicle_damage/data3a/training/03-severe/0271.JPEG,severe,2
-IMG-01190,data/raw/vehicle_damage/data3a/training/03-severe/0275.JPEG,severe,2
-IMG-00533,data/raw/vehicle_damage/data3a/training/02-moderate/0082.JPEG,moderate,1
-IMG-00826,data/raw/vehicle_damage/data3a/training/02-moderate/images (28).jpeg,moderate,1
-IMG-00173,data/raw/vehicle_damage/data3a/training/01-minor/0174.JPEG,minor,0
-IMG-01364,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-12T151411.618.jpeg,severe,2
-IMG-01226,data/raw/vehicle_damage/data3a/training/03-severe/0311.JPEG,severe,2
-IMG-00947,data/raw/vehicle_damage/data3a/training/03-severe/0033.jpeg,severe,2
-IMG-00554,data/raw/vehicle_damage/data3a/training/02-moderate/0103.JPEG,moderate,1
-IMG-00751,data/raw/vehicle_damage/data3a/training/02-moderate/0300.JPEG,moderate,1
-IMG-00757,data/raw/vehicle_damage/data3a/training/02-moderate/0306.JPEG,moderate,1
-IMG-01582,data/raw/vehicle_damage/data3a/validation/03-severe/0043.JPEG,severe,2
-IMG-00331,data/raw/vehicle_damage/data3a/training/01-minor/download (6).jpeg,minor,0
-IMG-00562,data/raw/vehicle_damage/data3a/training/02-moderate/0111.JPEG,moderate,1
-IMG-01392,data/raw/vehicle_damage/data3a/validation/01-minor/0010.JPEG,minor,0
-IMG-01191,data/raw/vehicle_damage/data3a/training/03-severe/0276.JPEG,severe,2
-IMG-01036,data/raw/vehicle_damage/data3a/training/03-severe/0122.JPEG,severe,2
-IMG-01000,data/raw/vehicle_damage/data3a/training/03-severe/0086.JPEG,severe,2
-IMG-00891,data/raw/vehicle_damage/data3a/training/02-moderate/images (90).jpeg,moderate,1
-IMG-01423,data/raw/vehicle_damage/data3a/validation/01-minor/0041.JPEG,minor,0
-IMG-00009,data/raw/vehicle_damage/data3a/training/01-minor/0010.JPEG,minor,0
-IMG-00146,data/raw/vehicle_damage/data3a/training/01-minor/0147.JPEG,minor,0
-IMG-00222,data/raw/vehicle_damage/data3a/training/01-minor/0223.JPEG,minor,0
-IMG-00454,data/raw/vehicle_damage/data3a/training/02-moderate/0003.JPEG,moderate,1
-IMG-00436,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151413.832.jpeg,minor,0
-IMG-01189,data/raw/vehicle_damage/data3a/training/03-severe/0274.JPEG,severe,2
-IMG-00129,data/raw/vehicle_damage/data3a/training/01-minor/0130.JPEG,minor,0
-IMG-00973,data/raw/vehicle_damage/data3a/training/03-severe/0059.JPEG,severe,2
-IMG-01294,data/raw/vehicle_damage/data3a/training/03-severe/0379.JPEG,severe,2
-IMG-00124,data/raw/vehicle_damage/data3a/training/01-minor/0125.JPEG,minor,0
-IMG-00228,data/raw/vehicle_damage/data3a/training/01-minor/0229.JPEG,minor,0
-IMG-00717,data/raw/vehicle_damage/data3a/training/02-moderate/0266.JPEG,moderate,1
-IMG-00131,data/raw/vehicle_damage/data3a/training/01-minor/0132.JPEG,minor,0
-IMG-00491,data/raw/vehicle_damage/data3a/training/02-moderate/0040.JPEG,moderate,1
-IMG-00123,data/raw/vehicle_damage/data3a/training/01-minor/0124.JPEG,minor,0
-IMG-00804,data/raw/vehicle_damage/data3a/training/02-moderate/f80ae199fffc4d21b8d330152795ec8a_thb.jpg,moderate,1
-IMG-01454,data/raw/vehicle_damage/data3a/validation/01-minor/images (84).jpeg,minor,0
-IMG-01468,data/raw/vehicle_damage/data3a/validation/02-moderate/0004.JPEG,moderate,1
-IMG-00819,data/raw/vehicle_damage/data3a/training/02-moderate/images (112).jpeg,moderate,1
-IMG-00072,data/raw/vehicle_damage/data3a/training/01-minor/0073.JPEG,minor,0
-IMG-01007,data/raw/vehicle_damage/data3a/training/03-severe/0093.JPEG,severe,2
-IMG-00698,data/raw/vehicle_damage/data3a/training/02-moderate/0247.JPEG,moderate,1
-IMG-00951,data/raw/vehicle_damage/data3a/training/03-severe/0037.JPEG,severe,2
-IMG-00244,data/raw/vehicle_damage/data3a/training/01-minor/0245.jpeg,minor,0
-IMG-00219,data/raw/vehicle_damage/data3a/training/01-minor/0220.JPEG,minor,0
-IMG-00127,data/raw/vehicle_damage/data3a/training/01-minor/0128.JPEG,minor,0
-IMG-00113,data/raw/vehicle_damage/data3a/training/01-minor/0114.JPEG,minor,0
-IMG-01162,data/raw/vehicle_damage/data3a/training/03-severe/0248.jpeg,severe,2
-IMG-01464,data/raw/vehicle_damage/data3a/validation/01-minor/images.jpeg,minor,0
-IMG-01218,data/raw/vehicle_damage/data3a/training/03-severe/0303.JPEG,severe,2
-IMG-00613,data/raw/vehicle_damage/data3a/training/02-moderate/0162.JPEG,moderate,1
-IMG-00545,data/raw/vehicle_damage/data3a/training/02-moderate/0094.JPEG,moderate,1
-IMG-00629,data/raw/vehicle_damage/data3a/training/02-moderate/0178.JPEG,moderate,1
-IMG-01607,data/raw/vehicle_damage/data3a/validation/03-severe/0068.JPEG,severe,2
-IMG-00356,data/raw/vehicle_damage/data3a/training/01-minor/images (24).jpeg,minor,0
-IMG-00255,data/raw/vehicle_damage/data3a/training/01-minor/0256.JPEG,minor,0
-IMG-00286,data/raw/vehicle_damage/data3a/training/01-minor/93a450440c804961b2d6960af17bf605_thb.jpg,minor,0
-IMG-00383,data/raw/vehicle_damage/data3a/training/01-minor/images (49).jpeg,minor,0
-IMG-01556,data/raw/vehicle_damage/data3a/validation/03-severe/0017.JPEG,severe,2
-IMG-00569,data/raw/vehicle_damage/data3a/training/02-moderate/0118.JPEG,moderate,1
-IMG-00133,data/raw/vehicle_damage/data3a/training/01-minor/0134.jpeg,minor,0
-IMG-00544,data/raw/vehicle_damage/data3a/training/02-moderate/0093.JPEG,moderate,1
-IMG-01273,data/raw/vehicle_damage/data3a/training/03-severe/0358.JPEG,severe,2
-IMG-00473,data/raw/vehicle_damage/data3a/training/02-moderate/0022.JPEG,moderate,1
-IMG-00605,data/raw/vehicle_damage/data3a/training/02-moderate/0154.JPEG,moderate,1
-IMG-00304,data/raw/vehicle_damage/data3a/training/01-minor/download (16).jpeg,minor,0
-IMG-01594,data/raw/vehicle_damage/data3a/validation/03-severe/0055.JPEG,severe,2
-IMG-01069,data/raw/vehicle_damage/data3a/training/03-severe/0155.JPEG,severe,2
-IMG-00579,data/raw/vehicle_damage/data3a/training/02-moderate/0128.jpeg,moderate,1
-IMG-01185,data/raw/vehicle_damage/data3a/training/03-severe/0270.JPEG,severe,2
-IMG-00137,data/raw/vehicle_damage/data3a/training/01-minor/0138.JPEG,minor,0
-IMG-01443,data/raw/vehicle_damage/data3a/validation/01-minor/images (52).jpeg,minor,0
-IMG-00218,data/raw/vehicle_damage/data3a/training/01-minor/0219.JPEG,minor,0
-IMG-00964,data/raw/vehicle_damage/data3a/training/03-severe/0050.JPEG,severe,2
-IMG-00776,data/raw/vehicle_damage/data3a/training/02-moderate/4a6b5f174a914cd393dbd11f32902c7e_thb.jpg,moderate,1
-IMG-00164,data/raw/vehicle_damage/data3a/training/01-minor/0165.JPEG,minor,0
-IMG-01221,data/raw/vehicle_damage/data3a/training/03-severe/0306.JPEG,severe,2
-IMG-01301,data/raw/vehicle_damage/data3a/training/03-severe/0386.JPEG,severe,2
-IMG-00078,data/raw/vehicle_damage/data3a/training/01-minor/0079.JPEG,minor,0
-IMG-01477,data/raw/vehicle_damage/data3a/validation/02-moderate/0013.JPEG,moderate,1
-IMG-00727,data/raw/vehicle_damage/data3a/training/02-moderate/0276.JPEG,moderate,1
-IMG-00593,data/raw/vehicle_damage/data3a/training/02-moderate/0142.JPEG,moderate,1
-IMG-00140,data/raw/vehicle_damage/data3a/training/01-minor/0141.JPEG,minor,0
-IMG-00578,data/raw/vehicle_damage/data3a/training/02-moderate/0127.JPEG,moderate,1
-IMG-00299,data/raw/vehicle_damage/data3a/training/01-minor/download (11).jpeg,minor,0
-IMG-00183,data/raw/vehicle_damage/data3a/training/01-minor/0184.JPEG,minor,0
-IMG-01461,data/raw/vehicle_damage/data3a/validation/01-minor/images - 2022-12-13T213954.983.jpeg,minor,0
-IMG-01198,data/raw/vehicle_damage/data3a/training/03-severe/0283.JPEG,severe,2
-IMG-00999,data/raw/vehicle_damage/data3a/training/03-severe/0085.JPEG,severe,2
-IMG-01306,data/raw/vehicle_damage/data3a/training/03-severe/7ab26f4613e644e2a19884774ea42ab4_thb.jpg,severe,2
-IMG-01100,data/raw/vehicle_damage/data3a/training/03-severe/0186.jpeg,severe,2
-IMG-00354,data/raw/vehicle_damage/data3a/training/01-minor/images (22).jpeg,minor,0
-IMG-01603,data/raw/vehicle_damage/data3a/validation/03-severe/0064.JPEG,severe,2
-IMG-00258,data/raw/vehicle_damage/data3a/training/01-minor/0259.JPEG,minor,0
-IMG-00311,data/raw/vehicle_damage/data3a/training/01-minor/download (22).jpeg,minor,0
-IMG-00426,data/raw/vehicle_damage/data3a/training/01-minor/images (99).jpeg,minor,0
-IMG-00540,data/raw/vehicle_damage/data3a/training/02-moderate/0089.jpeg,moderate,1
-IMG-01504,data/raw/vehicle_damage/data3a/validation/02-moderate/0040.JPEG,moderate,1
-IMG-01382,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.811.jpeg,severe,2
-IMG-01421,data/raw/vehicle_damage/data3a/validation/01-minor/0039.JPEG,minor,0
-IMG-00899,data/raw/vehicle_damage/data3a/training/02-moderate/images (98).jpeg,moderate,1
-IMG-00856,data/raw/vehicle_damage/data3a/training/02-moderate/images (59).jpeg,moderate,1
-IMG-01409,data/raw/vehicle_damage/data3a/validation/01-minor/0027.jpeg,minor,0
-IMG-01328,data/raw/vehicle_damage/data3a/training/03-severe/images (22).jpeg,severe,2
-IMG-01359,data/raw/vehicle_damage/data3a/training/03-severe/images (93).jpeg,severe,2
-IMG-00268,data/raw/vehicle_damage/data3a/training/01-minor/0269.JPEG,minor,0
-IMG-01514,data/raw/vehicle_damage/data3a/validation/02-moderate/0050.JPEG,moderate,1
-IMG-00398,data/raw/vehicle_damage/data3a/training/01-minor/images (62).jpeg,minor,0
-IMG-01475,data/raw/vehicle_damage/data3a/validation/02-moderate/0011.jpeg,moderate,1
-IMG-01113,data/raw/vehicle_damage/data3a/training/03-severe/0199.JPEG,severe,2
-IMG-00450,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-13T213955.297.jpeg,minor,0
-IMG-00496,data/raw/vehicle_damage/data3a/training/02-moderate/0045.JPEG,moderate,1
-IMG-01084,data/raw/vehicle_damage/data3a/training/03-severe/0170.JPEG,severe,2
-IMG-01202,data/raw/vehicle_damage/data3a/training/03-severe/0287.JPEG,severe,2
-IMG-00377,data/raw/vehicle_damage/data3a/training/01-minor/images (43).jpeg,minor,0
-IMG-00237,data/raw/vehicle_damage/data3a/training/01-minor/0238.JPEG,minor,0
-IMG-00395,data/raw/vehicle_damage/data3a/training/01-minor/images (6).jpeg,minor,0
-IMG-00914,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-13T215956.191.jpeg,moderate,1
-IMG-00284,data/raw/vehicle_damage/data3a/training/01-minor/53d79ee77e3e4a1ba50a0a5bcd06e2ae_thb.jpg,minor,0
-IMG-01447,data/raw/vehicle_damage/data3a/validation/01-minor/images (65).jpeg,minor,0
-IMG-01023,data/raw/vehicle_damage/data3a/training/03-severe/0109.JPEG,severe,2
-IMG-01547,data/raw/vehicle_damage/data3a/validation/03-severe/0008.JPEG,severe,2
-IMG-00405,data/raw/vehicle_damage/data3a/training/01-minor/images (71).jpeg,minor,0
-IMG-00066,data/raw/vehicle_damage/data3a/training/01-minor/0067.JPEG,minor,0
-IMG-00861,data/raw/vehicle_damage/data3a/training/02-moderate/images (63).jpeg,moderate,1
-IMG-00239,data/raw/vehicle_damage/data3a/training/01-minor/0240.JPEG,minor,0
-IMG-01507,data/raw/vehicle_damage/data3a/validation/02-moderate/0043.JPEG,moderate,1
-IMG-00822,data/raw/vehicle_damage/data3a/training/02-moderate/images (2).jpeg,moderate,1
-IMG-00829,data/raw/vehicle_damage/data3a/training/02-moderate/images (30).jpeg,moderate,1
-IMG-00564,data/raw/vehicle_damage/data3a/training/02-moderate/0113.JPEG,moderate,1
-IMG-01605,data/raw/vehicle_damage/data3a/validation/03-severe/0066.JPEG,severe,2
-IMG-01613,data/raw/vehicle_damage/data3a/validation/03-severe/808a08e850f248c6a3ec2aa5f899a5a0_thb.jpg,severe,2
-IMG-00355,data/raw/vehicle_damage/data3a/training/01-minor/images (23).jpeg,minor,0
-IMG-00713,data/raw/vehicle_damage/data3a/training/02-moderate/0262.jpeg,moderate,1
-IMG-01046,data/raw/vehicle_damage/data3a/training/03-severe/0132.JPEG,severe,2
-IMG-00853,data/raw/vehicle_damage/data3a/training/02-moderate/images (56).jpeg,moderate,1
-IMG-00082,data/raw/vehicle_damage/data3a/training/01-minor/0083.JPEG,minor,0
-IMG-00448,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151420.569.jpeg,minor,0
-IMG-01180,data/raw/vehicle_damage/data3a/training/03-severe/0265.JPEG,severe,2
-IMG-01539,data/raw/vehicle_damage/data3a/validation/02-moderate/images (65).jpeg,moderate,1
-IMG-01074,data/raw/vehicle_damage/data3a/training/03-severe/0160.JPEG,severe,2
-IMG-00461,data/raw/vehicle_damage/data3a/training/02-moderate/0010.JPEG,moderate,1
-IMG-01327,data/raw/vehicle_damage/data3a/training/03-severe/images (21).jpeg,severe,2
-IMG-01573,data/raw/vehicle_damage/data3a/validation/03-severe/0034.JPEG,severe,2
-IMG-00468,data/raw/vehicle_damage/data3a/training/02-moderate/0017.JPEG,moderate,1
-IMG-00634,data/raw/vehicle_damage/data3a/training/02-moderate/0183.JPEG,moderate,1
-IMG-01140,data/raw/vehicle_damage/data3a/training/03-severe/0226.JPEG,severe,2
-IMG-00399,data/raw/vehicle_damage/data3a/training/01-minor/images (63).jpeg,minor,0
-IMG-00948,data/raw/vehicle_damage/data3a/training/03-severe/0034.JPEG,severe,2
-IMG-00676,data/raw/vehicle_damage/data3a/training/02-moderate/0225.JPEG,moderate,1
-IMG-00242,data/raw/vehicle_damage/data3a/training/01-minor/0243.JPEG,minor,0
-IMG-00396,data/raw/vehicle_damage/data3a/training/01-minor/images (60).jpeg,minor,0
-IMG-00474,data/raw/vehicle_damage/data3a/training/02-moderate/0023.JPEG,moderate,1
+IMG-01426,data/raw/vehicle_damage/data3a/validation/01-minor/images (2).jpeg,minor,0
+IMG-00847,data/raw/vehicle_damage/data3a/training/02-moderate/images (58).jpeg,moderate,1
+IMG-00059,data/raw/vehicle_damage/data3a/training/01-minor/0060.JPEG,minor,0
+IMG-01495,data/raw/vehicle_damage/data3a/validation/02-moderate/0042.JPEG,moderate,1
+IMG-01585,data/raw/vehicle_damage/data3a/validation/03-severe/0057.JPEG,severe,2
+IMG-01349,data/raw/vehicle_damage/data3a/training/03-severe/images (92).jpeg,severe,2
+IMG-01606,data/raw/vehicle_damage/data3a/validation/03-severe/download (1).jpeg,severe,2
+IMG-00367,data/raw/vehicle_damage/data3a/training/01-minor/images (39).jpeg,minor,0
+IMG-00783,data/raw/vehicle_damage/data3a/training/02-moderate/acbea92ddc494768bd7117cecfe93400_thb.jpg,moderate,1
+IMG-01214,data/raw/vehicle_damage/data3a/training/03-severe/0307.JPEG,severe,2
 IMG-00003,data/raw/vehicle_damage/data3a/training/01-minor/0004.JPEG,minor,0
-IMG-01067,data/raw/vehicle_damage/data3a/training/03-severe/0153.JPEG,severe,2
-IMG-01040,data/raw/vehicle_damage/data3a/training/03-severe/0126.JPEG,severe,2
-IMG-00095,data/raw/vehicle_damage/data3a/training/01-minor/0096.JPEG,minor,0
-IMG-00718,data/raw/vehicle_damage/data3a/training/02-moderate/0267.jpeg,moderate,1
-IMG-00335,data/raw/vehicle_damage/data3a/training/01-minor/download.jpeg,minor,0
-IMG-00283,data/raw/vehicle_damage/data3a/training/01-minor/528a4004455e447c9014fddc82cf6a9c_thb.jpg,minor,0
-IMG-00739,data/raw/vehicle_damage/data3a/training/02-moderate/0288.JPEG,moderate,1
-IMG-01057,data/raw/vehicle_damage/data3a/training/03-severe/0143.JPEG,severe,2
-IMG-00203,data/raw/vehicle_damage/data3a/training/01-minor/0204.JPEG,minor,0
-IMG-00118,data/raw/vehicle_damage/data3a/training/01-minor/0119.JPEG,minor,0
-IMG-01154,data/raw/vehicle_damage/data3a/training/03-severe/0240.JPEG,severe,2
-IMG-01599,data/raw/vehicle_damage/data3a/validation/03-severe/0060.JPEG,severe,2
-IMG-00012,data/raw/vehicle_damage/data3a/training/01-minor/0013.JPEG,minor,0
-IMG-01262,data/raw/vehicle_damage/data3a/training/03-severe/0347.JPEG,severe,2
-IMG-01109,data/raw/vehicle_damage/data3a/training/03-severe/0195.JPEG,severe,2
-IMG-01316,data/raw/vehicle_damage/data3a/training/03-severe/f5cd0b1161fd43a6bef6f80971e6689c_thb.jpg,severe,2
-IMG-00802,data/raw/vehicle_damage/data3a/training/02-moderate/e4ee5ca6a91c45a583aec23c0e7f2b3e_thb.jpg,moderate,1
-IMG-01469,data/raw/vehicle_damage/data3a/validation/02-moderate/0005.JPEG,moderate,1
-IMG-00541,data/raw/vehicle_damage/data3a/training/02-moderate/0090.JPEG,moderate,1
-IMG-00000,data/raw/vehicle_damage/data3a/training/01-minor/0001.JPEG,minor,0
-IMG-00758,data/raw/vehicle_damage/data3a/training/02-moderate/0307.JPEG,moderate,1
-IMG-00085,data/raw/vehicle_damage/data3a/training/01-minor/0086.JPEG,minor,0
-IMG-01018,data/raw/vehicle_damage/data3a/training/03-severe/0104.JPEG,severe,2
-IMG-01254,data/raw/vehicle_damage/data3a/training/03-severe/0339.JPEG,severe,2
-IMG-00097,data/raw/vehicle_damage/data3a/training/01-minor/0098.JPEG,minor,0
-IMG-01589,data/raw/vehicle_damage/data3a/validation/03-severe/0050.JPEG,severe,2
-IMG-01574,data/raw/vehicle_damage/data3a/validation/03-severe/0035.JPEG,severe,2
-IMG-00305,data/raw/vehicle_damage/data3a/training/01-minor/download (17).jpeg,minor,0
-IMG-00707,data/raw/vehicle_damage/data3a/training/02-moderate/0256.JPEG,moderate,1
-IMG-00907,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151414.228.jpeg,moderate,1
-IMG-00253,data/raw/vehicle_damage/data3a/training/01-minor/0254.JPEG,minor,0
-IMG-00154,data/raw/vehicle_damage/data3a/training/01-minor/0155.JPEG,minor,0
-IMG-00883,data/raw/vehicle_damage/data3a/training/02-moderate/images (83).jpeg,moderate,1
-IMG-00546,data/raw/vehicle_damage/data3a/training/02-moderate/0095.jpeg,moderate,1
-IMG-01169,data/raw/vehicle_damage/data3a/training/03-severe/0254.JPEG,severe,2
-IMG-00755,data/raw/vehicle_damage/data3a/training/02-moderate/0304.JPEG,moderate,1
-IMG-01312,data/raw/vehicle_damage/data3a/training/03-severe/download (26).jpeg,severe,2
-IMG-00357,data/raw/vehicle_damage/data3a/training/01-minor/images (25).jpeg,minor,0
-IMG-00364,data/raw/vehicle_damage/data3a/training/01-minor/images (31).jpeg,minor,0
-IMG-00662,data/raw/vehicle_damage/data3a/training/02-moderate/0211.JPEG,moderate,1
-IMG-01311,data/raw/vehicle_damage/data3a/training/03-severe/download (15).jpeg,severe,2
-IMG-00556,data/raw/vehicle_damage/data3a/training/02-moderate/0105.JPEG,moderate,1
-IMG-00687,data/raw/vehicle_damage/data3a/training/02-moderate/0236.JPEG,moderate,1
-IMG-01601,data/raw/vehicle_damage/data3a/validation/03-severe/0062.JPEG,severe,2
-IMG-01380,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.532.jpeg,severe,2
+IMG-00398,data/raw/vehicle_damage/data3a/training/01-minor/images (7).jpeg,minor,0
+IMG-00617,data/raw/vehicle_damage/data3a/training/02-moderate/0171.JPEG,moderate,1
+IMG-01132,data/raw/vehicle_damage/data3a/training/03-severe/0226.JPEG,severe,2
+IMG-00740,data/raw/vehicle_damage/data3a/training/02-moderate/0296.JPEG,moderate,1
+IMG-01555,data/raw/vehicle_damage/data3a/validation/03-severe/0027.JPEG,severe,2
+IMG-00145,data/raw/vehicle_damage/data3a/training/01-minor/0147.JPEG,minor,0
+IMG-01442,data/raw/vehicle_damage/data3a/validation/01-minor/images (81).jpeg,minor,0
+IMG-00872,data/raw/vehicle_damage/data3a/training/02-moderate/images (80).jpeg,moderate,1
+IMG-00946,data/raw/vehicle_damage/data3a/training/03-severe/0040.JPEG,severe,2
+IMG-00989,data/raw/vehicle_damage/data3a/training/03-severe/0083.JPEG,severe,2
+IMG-00850,data/raw/vehicle_damage/data3a/training/02-moderate/images (60).jpeg,moderate,1
+IMG-01408,data/raw/vehicle_damage/data3a/validation/01-minor/0037.JPEG,minor,0
+IMG-00297,data/raw/vehicle_damage/data3a/training/01-minor/download (14).jpeg,minor,0
+IMG-01488,data/raw/vehicle_damage/data3a/validation/02-moderate/0035.JPEG,moderate,1
+IMG-00775,data/raw/vehicle_damage/data3a/training/02-moderate/722fc0bf-7493-4e6e-b101-67a0047b9b26.jpeg,moderate,1
+IMG-00539,data/raw/vehicle_damage/data3a/training/02-moderate/0093.JPEG,moderate,1
+IMG-01536,data/raw/vehicle_damage/data3a/validation/03-severe/0008.JPEG,severe,2
+IMG-01560,data/raw/vehicle_damage/data3a/validation/03-severe/0032.JPEG,severe,2
+IMG-01341,data/raw/vehicle_damage/data3a/training/03-severe/images (58).jpeg,severe,2
+IMG-01493,data/raw/vehicle_damage/data3a/validation/02-moderate/0040.JPEG,moderate,1
+IMG-00664,data/raw/vehicle_damage/data3a/training/02-moderate/0220.JPEG,moderate,1
+IMG-00472,data/raw/vehicle_damage/data3a/training/02-moderate/0026.JPEG,moderate,1
+IMG-00262,data/raw/vehicle_damage/data3a/training/01-minor/0268.JPEG,minor,0
+IMG-00764,data/raw/vehicle_damage/data3a/training/02-moderate/1dbc1bd213e74c8598e6874de9b55c53_thb.jpg,moderate,1
+IMG-00082,data/raw/vehicle_damage/data3a/training/01-minor/0083.JPEG,minor,0
+IMG-00924,data/raw/vehicle_damage/data3a/training/03-severe/0018.JPEG,severe,2
+IMG-00079,data/raw/vehicle_damage/data3a/training/01-minor/0080.JPEG,minor,0
+IMG-01237,data/raw/vehicle_damage/data3a/training/03-severe/0330.JPEG,severe,2
+IMG-01330,data/raw/vehicle_damage/data3a/training/03-severe/images (34).jpeg,severe,2
+IMG-01458,data/raw/vehicle_damage/data3a/validation/02-moderate/0005.JPEG,moderate,1
+IMG-00559,data/raw/vehicle_damage/data3a/training/02-moderate/0113.JPEG,moderate,1
+IMG-01158,data/raw/vehicle_damage/data3a/training/03-severe/0251.JPEG,severe,2
+IMG-00676,data/raw/vehicle_damage/data3a/training/02-moderate/0232.JPEG,moderate,1
+IMG-01016,data/raw/vehicle_damage/data3a/training/03-severe/0110.JPEG,severe,2
+IMG-01272,data/raw/vehicle_damage/data3a/training/03-severe/0366.JPEG,severe,2
+IMG-01009,data/raw/vehicle_damage/data3a/training/03-severe/0103.JPEG,severe,2
+IMG-00355,data/raw/vehicle_damage/data3a/training/01-minor/images (28).jpeg,minor,0
+IMG-01143,data/raw/vehicle_damage/data3a/training/03-severe/0237.JPEG,severe,2
+IMG-00295,data/raw/vehicle_damage/data3a/training/01-minor/download (12).jpeg,minor,0
+IMG-00782,data/raw/vehicle_damage/data3a/training/02-moderate/aa2538583c724e36b724554e9945e9f7_thb.jpg,moderate,1
+IMG-00895,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151412.846.jpeg,moderate,1
+IMG-00237,data/raw/vehicle_damage/data3a/training/01-minor/0243.JPEG,minor,0
+IMG-01314,data/raw/vehicle_damage/data3a/training/03-severe/images (17).jpeg,severe,2
+IMG-00172,data/raw/vehicle_damage/data3a/training/01-minor/0174.JPEG,minor,0
+IMG-01383,data/raw/vehicle_damage/data3a/validation/01-minor/0011.jpeg,minor,0
+IMG-00646,data/raw/vehicle_damage/data3a/training/02-moderate/0201.JPEG,moderate,1
+IMG-01491,data/raw/vehicle_damage/data3a/validation/02-moderate/0038.JPEG,moderate,1
+IMG-01115,data/raw/vehicle_damage/data3a/training/03-severe/0209.JPEG,severe,2
+IMG-01164,data/raw/vehicle_damage/data3a/training/03-severe/0257.JPEG,severe,2
+IMG-00808,data/raw/vehicle_damage/data3a/training/02-moderate/images (108).jpeg,moderate,1
+IMG-01545,data/raw/vehicle_damage/data3a/validation/03-severe/0017.JPEG,severe,2
+IMG-00457,data/raw/vehicle_damage/data3a/training/02-moderate/0011.JPEG,moderate,1
+IMG-00475,data/raw/vehicle_damage/data3a/training/02-moderate/0029.JPEG,moderate,1
+IMG-00065,data/raw/vehicle_damage/data3a/training/01-minor/0066.JPEG,minor,0
+IMG-01057,data/raw/vehicle_damage/data3a/training/03-severe/0151.JPEG,severe,2
+IMG-01152,data/raw/vehicle_damage/data3a/training/03-severe/0246.JPEG,severe,2
+IMG-00876,data/raw/vehicle_damage/data3a/training/02-moderate/images (84).jpeg,moderate,1
+IMG-01276,data/raw/vehicle_damage/data3a/training/03-severe/0370.JPEG,severe,2
+IMG-01170,data/raw/vehicle_damage/data3a/training/03-severe/0263.JPEG,severe,2
+IMG-00817,data/raw/vehicle_damage/data3a/training/02-moderate/images (26).jpeg,moderate,1
+IMG-00209,data/raw/vehicle_damage/data3a/training/01-minor/0213.jpeg,minor,0
+IMG-00117,data/raw/vehicle_damage/data3a/training/01-minor/0119.JPEG,minor,0
+IMG-00256,data/raw/vehicle_damage/data3a/training/01-minor/0262.JPEG,minor,0
+IMG-01000,data/raw/vehicle_damage/data3a/training/03-severe/0094.JPEG,severe,2
+IMG-01370,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.493.jpeg,severe,2
+IMG-00331,data/raw/vehicle_damage/data3a/training/01-minor/e6fc41f1d1c84530b623c6cb180b2afb_thb.jpg,minor,0
+IMG-01150,data/raw/vehicle_damage/data3a/training/03-severe/0244.JPEG,severe,2
+IMG-01531,data/raw/vehicle_damage/data3a/validation/03-severe/0003.JPEG,severe,2
+IMG-01298,data/raw/vehicle_damage/data3a/training/03-severe/b20c00472d7d4254bd9ed326eec94587_thb.jpg,severe,2
+IMG-00114,data/raw/vehicle_damage/data3a/training/01-minor/0116.JPEG,minor,0
+IMG-00614,data/raw/vehicle_damage/data3a/training/02-moderate/0168.JPEG,moderate,1
+IMG-00064,data/raw/vehicle_damage/data3a/training/01-minor/0065.JPEG,minor,0
+IMG-00558,data/raw/vehicle_damage/data3a/training/02-moderate/0112.JPEG,moderate,1
+IMG-00580,data/raw/vehicle_damage/data3a/training/02-moderate/0134.JPEG,moderate,1
+IMG-01050,data/raw/vehicle_damage/data3a/training/03-severe/0144.JPEG,severe,2
+IMG-00223,data/raw/vehicle_damage/data3a/training/01-minor/0228.JPEG,minor,0
+IMG-00232,data/raw/vehicle_damage/data3a/training/01-minor/0238.JPEG,minor,0
+IMG-00177,data/raw/vehicle_damage/data3a/training/01-minor/0179.JPEG,minor,0
+IMG-00578,data/raw/vehicle_damage/data3a/training/02-moderate/0132.JPEG,moderate,1
+IMG-00560,data/raw/vehicle_damage/data3a/training/02-moderate/0114.JPEG,moderate,1
+IMG-00937,data/raw/vehicle_damage/data3a/training/03-severe/0031.JPEG,severe,2
+IMG-01067,data/raw/vehicle_damage/data3a/training/03-severe/0161.JPEG,severe,2
+IMG-01336,data/raw/vehicle_damage/data3a/training/03-severe/images (43).jpeg,severe,2
+IMG-00418,data/raw/vehicle_damage/data3a/training/01-minor/images (93).jpeg,minor,0
+IMG-01338,data/raw/vehicle_damage/data3a/training/03-severe/images (51).jpeg,severe,2
+IMG-01034,data/raw/vehicle_damage/data3a/training/03-severe/0128.JPEG,severe,2
+IMG-00010,data/raw/vehicle_damage/data3a/training/01-minor/0011.JPEG,minor,0
+IMG-00941,data/raw/vehicle_damage/data3a/training/03-severe/0035.JPEG,severe,2
+IMG-01523,data/raw/vehicle_damage/data3a/validation/02-moderate/fd331abd8e3b4b17ab87268a356b1b5e_thb.jpg,moderate,1
+IMG-00918,data/raw/vehicle_damage/data3a/training/03-severe/0012.JPEG,severe,2
+IMG-00942,data/raw/vehicle_damage/data3a/training/03-severe/0036.JPEG,severe,2
+IMG-00823,data/raw/vehicle_damage/data3a/training/02-moderate/images (34).jpeg,moderate,1
+IMG-00466,data/raw/vehicle_damage/data3a/training/02-moderate/0020.JPEG,moderate,1
+IMG-00569,data/raw/vehicle_damage/data3a/training/02-moderate/0123.JPEG,moderate,1
+IMG-00716,data/raw/vehicle_damage/data3a/training/02-moderate/0272.JPEG,moderate,1
+IMG-00657,data/raw/vehicle_damage/data3a/training/02-moderate/0213.JPEG,moderate,1
+IMG-01558,data/raw/vehicle_damage/data3a/validation/03-severe/0030.JPEG,severe,2
+IMG-01364,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.069.jpeg,severe,2
+IMG-01387,data/raw/vehicle_damage/data3a/validation/01-minor/0015.JPEG,minor,0
+IMG-00222,data/raw/vehicle_damage/data3a/training/01-minor/0227.JPEG,minor,0
+IMG-00715,data/raw/vehicle_damage/data3a/training/02-moderate/0271.JPEG,moderate,1
+IMG-00794,data/raw/vehicle_damage/data3a/training/02-moderate/download.jpeg,moderate,1
+IMG-01064,data/raw/vehicle_damage/data3a/training/03-severe/0158.JPEG,severe,2
+IMG-00507,data/raw/vehicle_damage/data3a/training/02-moderate/0061.jpeg,moderate,1
+IMG-01061,data/raw/vehicle_damage/data3a/training/03-severe/0155.JPEG,severe,2
+IMG-01377,data/raw/vehicle_damage/data3a/validation/01-minor/0005.JPEG,minor,0
+IMG-01479,data/raw/vehicle_damage/data3a/validation/02-moderate/0026.JPEG,moderate,1
+IMG-00084,data/raw/vehicle_damage/data3a/training/01-minor/0085.JPEG,minor,0
+IMG-00704,data/raw/vehicle_damage/data3a/training/02-moderate/0260.jpeg,moderate,1
+IMG-00023,data/raw/vehicle_damage/data3a/training/01-minor/0024.JPEG,minor,0
+IMG-00380,data/raw/vehicle_damage/data3a/training/01-minor/images (50).jpeg,minor,0
+IMG-00007,data/raw/vehicle_damage/data3a/training/01-minor/0008.JPEG,minor,0
+IMG-00386,data/raw/vehicle_damage/data3a/training/01-minor/images (56).jpeg,minor,0
+IMG-00881,data/raw/vehicle_damage/data3a/training/02-moderate/images (89).jpeg,moderate,1
+IMG-00540,data/raw/vehicle_damage/data3a/training/02-moderate/0094.JPEG,moderate,1
+IMG-00565,data/raw/vehicle_damage/data3a/training/02-moderate/0119.JPEG,moderate,1
+IMG-01417,data/raw/vehicle_damage/data3a/validation/01-minor/0046.JPEG,minor,0
+IMG-00592,data/raw/vehicle_damage/data3a/training/02-moderate/0146.JPEG,moderate,1
+IMG-00283,data/raw/vehicle_damage/data3a/training/01-minor/9b1b6c577d0947ada4a1b792a583f1aa_thb.jpg,minor,0
+IMG-00400,data/raw/vehicle_damage/data3a/training/01-minor/images (71).jpeg,minor,0
+IMG-00938,data/raw/vehicle_damage/data3a/training/03-severe/0032.jpeg,severe,2
+IMG-00887,data/raw/vehicle_damage/data3a/training/02-moderate/images (94).jpeg,moderate,1
+IMG-01265,data/raw/vehicle_damage/data3a/training/03-severe/0359.JPEG,severe,2
+IMG-01278,data/raw/vehicle_damage/data3a/training/03-severe/0372.JPEG,severe,2
+IMG-00479,data/raw/vehicle_damage/data3a/training/02-moderate/0033.JPEG,moderate,1
+IMG-00957,data/raw/vehicle_damage/data3a/training/03-severe/0051.JPEG,severe,2
+IMG-00096,data/raw/vehicle_damage/data3a/training/01-minor/0097.JPEG,minor,0
+IMG-00024,data/raw/vehicle_damage/data3a/training/01-minor/0025.JPEG,minor,0
+IMG-00112,data/raw/vehicle_damage/data3a/training/01-minor/0114.JPEG,minor,0
+IMG-00455,data/raw/vehicle_damage/data3a/training/02-moderate/0009.JPEG,moderate,1
+IMG-00417,data/raw/vehicle_damage/data3a/training/01-minor/images (92).jpeg,minor,0
+IMG-00573,data/raw/vehicle_damage/data3a/training/02-moderate/0127.JPEG,moderate,1
+IMG-01244,data/raw/vehicle_damage/data3a/training/03-severe/0337.JPEG,severe,2
+IMG-01315,data/raw/vehicle_damage/data3a/training/03-severe/images (18).jpeg,severe,2
+IMG-01421,data/raw/vehicle_damage/data3a/validation/01-minor/download (3).jpeg,minor,0
+IMG-00278,data/raw/vehicle_damage/data3a/training/01-minor/528a4004455e447c9014fddc82cf6a9c_thb.jpg,minor,0
+IMG-00552,data/raw/vehicle_damage/data3a/training/02-moderate/0106.JPEG,moderate,1
+IMG-00908,data/raw/vehicle_damage/data3a/training/03-severe/0002.JPEG,severe,2
+IMG-00591,data/raw/vehicle_damage/data3a/training/02-moderate/0145.JPEG,moderate,1
+IMG-00582,data/raw/vehicle_damage/data3a/training/02-moderate/0136.JPEG,moderate,1
+IMG-00031,data/raw/vehicle_damage/data3a/training/01-minor/0032.JPEG,minor,0
+IMG-00468,data/raw/vehicle_damage/data3a/training/02-moderate/0022.JPEG,moderate,1
+IMG-01258,data/raw/vehicle_damage/data3a/training/03-severe/0352.JPEG,severe,2
+IMG-00548,data/raw/vehicle_damage/data3a/training/02-moderate/0102.JPEG,moderate,1
+IMG-00549,data/raw/vehicle_damage/data3a/training/02-moderate/0103.JPEG,moderate,1
+IMG-00776,data/raw/vehicle_damage/data3a/training/02-moderate/7a566f2a54cd4f228ec73698d19b6d42_thb.jpg,moderate,1
+IMG-00728,data/raw/vehicle_damage/data3a/training/02-moderate/0284.JPEG,moderate,1
+IMG-00906,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-13T215956.191.jpeg,moderate,1
+IMG-00432,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151414.520.jpeg,minor,0
+IMG-00484,data/raw/vehicle_damage/data3a/training/02-moderate/0038.JPEG,moderate,1
+IMG-00626,data/raw/vehicle_damage/data3a/training/02-moderate/0180.JPEG,moderate,1
+IMG-00832,data/raw/vehicle_damage/data3a/training/02-moderate/images (44).jpeg,moderate,1
+IMG-00769,data/raw/vehicle_damage/data3a/training/02-moderate/4a6b5f174a914cd393dbd11f32902c7e_thb.jpg,moderate,1
+IMG-00620,data/raw/vehicle_damage/data3a/training/02-moderate/0174.JPEG,moderate,1
+IMG-00804,data/raw/vehicle_damage/data3a/training/02-moderate/images (104).jpeg,moderate,1
+IMG-01099,data/raw/vehicle_damage/data3a/training/03-severe/0193.JPEG,severe,2
+IMG-00845,data/raw/vehicle_damage/data3a/training/02-moderate/images (56).jpeg,moderate,1
+IMG-00190,data/raw/vehicle_damage/data3a/training/01-minor/0193.JPEG,minor,0
+IMG-01586,data/raw/vehicle_damage/data3a/validation/03-severe/0058.JPEG,severe,2
+IMG-00077,data/raw/vehicle_damage/data3a/training/01-minor/0078.JPEG,minor,0
+IMG-00897,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151413.195.jpeg,moderate,1
+IMG-01510,data/raw/vehicle_damage/data3a/validation/02-moderate/495920c32ade4ac6ae7f9788fd7dfd24_thb.jpg,moderate,1
+IMG-01468,data/raw/vehicle_damage/data3a/validation/02-moderate/0015.jpeg,moderate,1
+IMG-01108,data/raw/vehicle_damage/data3a/training/03-severe/0202.JPEG,severe,2
+IMG-00358,data/raw/vehicle_damage/data3a/training/01-minor/images (30).jpeg,minor,0
+IMG-00758,data/raw/vehicle_damage/data3a/training/02-moderate/0314.JPEG,moderate,1
+IMG-00684,data/raw/vehicle_damage/data3a/training/02-moderate/0240.JPEG,moderate,1
+IMG-00577,data/raw/vehicle_damage/data3a/training/02-moderate/0131.JPEG,moderate,1
+IMG-01568,data/raw/vehicle_damage/data3a/validation/03-severe/0040.JPEG,severe,2
+IMG-01399,data/raw/vehicle_damage/data3a/validation/01-minor/0028.JPEG,minor,0
+IMG-01427,data/raw/vehicle_damage/data3a/validation/01-minor/images (20).jpeg,minor,0
+IMG-01213,data/raw/vehicle_damage/data3a/training/03-severe/0306.JPEG,severe,2
+IMG-00349,data/raw/vehicle_damage/data3a/training/01-minor/images (22).jpeg,minor,0
+IMG-00449,data/raw/vehicle_damage/data3a/training/02-moderate/0003.JPEG,moderate,1
+IMG-01159,data/raw/vehicle_damage/data3a/training/03-severe/0252.JPEG,severe,2
+IMG-01416,data/raw/vehicle_damage/data3a/validation/01-minor/0045.JPEG,minor,0
+IMG-00040,data/raw/vehicle_damage/data3a/training/01-minor/0041.JPEG,minor,0
+IMG-00795,data/raw/vehicle_damage/data3a/training/02-moderate/e4ee5ca6a91c45a583aec23c0e7f2b3e_thb.jpg,moderate,1
+IMG-01256,data/raw/vehicle_damage/data3a/training/03-severe/0350.JPEG,severe,2
+IMG-00654,data/raw/vehicle_damage/data3a/training/02-moderate/0210.JPEG,moderate,1
+IMG-00425,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151411.784.jpeg,minor,0
+IMG-00683,data/raw/vehicle_damage/data3a/training/02-moderate/0239.JPEG,moderate,1
+IMG-00108,data/raw/vehicle_damage/data3a/training/01-minor/0110.JPEG,minor,0
+IMG-00113,data/raw/vehicle_damage/data3a/training/01-minor/0115.JPEG,minor,0
+IMG-01471,data/raw/vehicle_damage/data3a/validation/02-moderate/0018.JPEG,moderate,1
+IMG-01267,data/raw/vehicle_damage/data3a/training/03-severe/0361.JPEG,severe,2
+IMG-01465,data/raw/vehicle_damage/data3a/validation/02-moderate/0012.jpeg,moderate,1
+IMG-00914,data/raw/vehicle_damage/data3a/training/03-severe/0008.JPEG,severe,2
+IMG-00078,data/raw/vehicle_damage/data3a/training/01-minor/0079.JPEG,minor,0
+IMG-01153,data/raw/vehicle_damage/data3a/training/03-severe/0247.JPEG,severe,2
+IMG-00247,data/raw/vehicle_damage/data3a/training/01-minor/0253.jpeg,minor,0
+IMG-00644,data/raw/vehicle_damage/data3a/training/02-moderate/0199.JPEG,moderate,1
+IMG-00381,data/raw/vehicle_damage/data3a/training/01-minor/images (51).jpeg,minor,0
+IMG-01324,data/raw/vehicle_damage/data3a/training/03-severe/images (28).jpeg,severe,2
+IMG-01485,data/raw/vehicle_damage/data3a/validation/02-moderate/0032.JPEG,moderate,1
+IMG-01570,data/raw/vehicle_damage/data3a/validation/03-severe/0042.JPEG,severe,2
+IMG-01268,data/raw/vehicle_damage/data3a/training/03-severe/0362.JPEG,severe,2
+IMG-01526,data/raw/vehicle_damage/data3a/validation/02-moderate/images (60).jpeg,moderate,1
+IMG-01142,data/raw/vehicle_damage/data3a/training/03-severe/0236.jpeg,severe,2
+IMG-00628,data/raw/vehicle_damage/data3a/training/02-moderate/0182.JPEG,moderate,1
+IMG-00336,data/raw/vehicle_damage/data3a/training/01-minor/images (10).jpeg,minor,0
+IMG-00527,data/raw/vehicle_damage/data3a/training/02-moderate/0081.JPEG,moderate,1
+IMG-00342,data/raw/vehicle_damage/data3a/training/01-minor/images (16).jpeg,minor,0
+IMG-00838,data/raw/vehicle_damage/data3a/training/02-moderate/images (5).jpeg,moderate,1
+IMG-00685,data/raw/vehicle_damage/data3a/training/02-moderate/0241.jpeg,moderate,1
+IMG-00520,data/raw/vehicle_damage/data3a/training/02-moderate/0074.JPEG,moderate,1
+IMG-00456,data/raw/vehicle_damage/data3a/training/02-moderate/0010.JPEG,moderate,1
+IMG-00453,data/raw/vehicle_damage/data3a/training/02-moderate/0007.JPEG,moderate,1
+IMG-00567,data/raw/vehicle_damage/data3a/training/02-moderate/0121.JPEG,moderate,1
+IMG-00118,data/raw/vehicle_damage/data3a/training/01-minor/0120.JPEG,minor,0
+IMG-00163,data/raw/vehicle_damage/data3a/training/01-minor/0165.JPEG,minor,0
+IMG-01342,data/raw/vehicle_damage/data3a/training/03-severe/images (75).jpeg,severe,2
+IMG-01476,data/raw/vehicle_damage/data3a/validation/02-moderate/0023.JPEG,moderate,1
+IMG-00690,data/raw/vehicle_damage/data3a/training/02-moderate/0246.JPEG,moderate,1
+IMG-00925,data/raw/vehicle_damage/data3a/training/03-severe/0019.JPEG,severe,2
+IMG-00340,data/raw/vehicle_damage/data3a/training/01-minor/images (14).jpeg,minor,0
+IMG-00216,data/raw/vehicle_damage/data3a/training/01-minor/0220.JPEG,minor,0
+IMG-00677,data/raw/vehicle_damage/data3a/training/02-moderate/0233.JPEG,moderate,1
+IMG-01066,data/raw/vehicle_damage/data3a/training/03-severe/0160.JPEG,severe,2
+IMG-00334,data/raw/vehicle_damage/data3a/training/01-minor/fcce1fb1731b4c2e9db32075d48a4200_thb.jpg,minor,0
+IMG-00762,data/raw/vehicle_damage/data3a/training/02-moderate/18d42df6c365413bb3e9d3c7a79fdf61_thb.jpg,moderate,1
+IMG-00221,data/raw/vehicle_damage/data3a/training/01-minor/0226.JPEG,minor,0
+IMG-00333,data/raw/vehicle_damage/data3a/training/01-minor/f1db84b589e54f898958c912112934c7_thb.jpg,minor,0
+IMG-01380,data/raw/vehicle_damage/data3a/validation/01-minor/0008.jpeg,minor,0
+IMG-00132,data/raw/vehicle_damage/data3a/training/01-minor/0134.jpeg,minor,0
+IMG-00950,data/raw/vehicle_damage/data3a/training/03-severe/0044.JPEG,severe,2
+IMG-01287,data/raw/vehicle_damage/data3a/training/03-severe/0381.JPEG,severe,2
+IMG-00556,data/raw/vehicle_damage/data3a/training/02-moderate/0110.JPEG,moderate,1
+IMG-00806,data/raw/vehicle_damage/data3a/training/02-moderate/images (106).jpeg,moderate,1
+IMG-01248,data/raw/vehicle_damage/data3a/training/03-severe/0342.JPEG,severe,2
+IMG-00230,data/raw/vehicle_damage/data3a/training/01-minor/0235.JPEG,minor,0
+IMG-00061,data/raw/vehicle_damage/data3a/training/01-minor/0062.JPEG,minor,0
+IMG-00547,data/raw/vehicle_damage/data3a/training/02-moderate/0101.JPEG,moderate,1
+IMG-00688,data/raw/vehicle_damage/data3a/training/02-moderate/0244.JPEG,moderate,1
+IMG-01547,data/raw/vehicle_damage/data3a/validation/03-severe/0019.JPEG,severe,2
+IMG-00701,data/raw/vehicle_damage/data3a/training/02-moderate/0257.JPEG,moderate,1
+IMG-00529,data/raw/vehicle_damage/data3a/training/02-moderate/0083.JPEG,moderate,1
+IMG-01483,data/raw/vehicle_damage/data3a/validation/02-moderate/0030.JPEG,moderate,1
+IMG-00963,data/raw/vehicle_damage/data3a/training/03-severe/0057.JPEG,severe,2
+IMG-00877,data/raw/vehicle_damage/data3a/training/02-moderate/images (85).jpeg,moderate,1
+IMG-00294,data/raw/vehicle_damage/data3a/training/01-minor/download (11).jpeg,minor,0
+IMG-00900,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151414.507.jpeg,moderate,1
+IMG-00768,data/raw/vehicle_damage/data3a/training/02-moderate/494249b9484e4704878d24027d565259_thb.jpg,moderate,1
+IMG-01396,data/raw/vehicle_damage/data3a/validation/01-minor/0024.JPEG,minor,0
+IMG-00004,data/raw/vehicle_damage/data3a/training/01-minor/0005.JPEG,minor,0
+IMG-01263,data/raw/vehicle_damage/data3a/training/03-severe/0357.JPEG,severe,2
+IMG-01013,data/raw/vehicle_damage/data3a/training/03-severe/0107.JPEG,severe,2
+IMG-01007,data/raw/vehicle_damage/data3a/training/03-severe/0101.JPEG,severe,2
+IMG-00220,data/raw/vehicle_damage/data3a/training/01-minor/0225.JPEG,minor,0
+IMG-01463,data/raw/vehicle_damage/data3a/validation/02-moderate/0010.JPEG,moderate,1
+IMG-00188,data/raw/vehicle_damage/data3a/training/01-minor/0191.JPEG,minor,0
+IMG-01055,data/raw/vehicle_damage/data3a/training/03-severe/0149.jpeg,severe,2
+IMG-01391,data/raw/vehicle_damage/data3a/validation/01-minor/0019.JPEG,minor,0
+IMG-00978,data/raw/vehicle_damage/data3a/training/03-severe/0072.JPEG,severe,2
+IMG-00720,data/raw/vehicle_damage/data3a/training/02-moderate/0276.JPEG,moderate,1
+IMG-01296,data/raw/vehicle_damage/data3a/training/03-severe/616576435732408489aa3b5c24e17de6_thb.jpg,severe,2
+IMG-00101,data/raw/vehicle_damage/data3a/training/01-minor/0102.JPEG,minor,0
+IMG-00741,data/raw/vehicle_damage/data3a/training/02-moderate/0297.JPEG,moderate,1
+IMG-00702,data/raw/vehicle_damage/data3a/training/02-moderate/0258.JPEG,moderate,1
+IMG-01185,data/raw/vehicle_damage/data3a/training/03-severe/0278.JPEG,severe,2
+IMG-01148,data/raw/vehicle_damage/data3a/training/03-severe/0242.JPEG,severe,2
+IMG-00318,data/raw/vehicle_damage/data3a/training/01-minor/download (33).jpeg,minor,0
+IMG-00511,data/raw/vehicle_damage/data3a/training/02-moderate/0065.JPEG,moderate,1
+IMG-00981,data/raw/vehicle_damage/data3a/training/03-severe/0075.JPEG,severe,2
+IMG-00202,data/raw/vehicle_damage/data3a/training/01-minor/0205.JPEG,minor,0
+IMG-00175,data/raw/vehicle_damage/data3a/training/01-minor/0177.JPEG,minor,0
+IMG-00660,data/raw/vehicle_damage/data3a/training/02-moderate/0216.JPEG,moderate,1
+IMG-01107,data/raw/vehicle_damage/data3a/training/03-severe/0201.JPEG,severe,2
+IMG-00017,data/raw/vehicle_damage/data3a/training/01-minor/0018.JPEG,minor,0
+IMG-00397,data/raw/vehicle_damage/data3a/training/01-minor/images (66).jpeg,minor,0
+IMG-01594,data/raw/vehicle_damage/data3a/validation/03-severe/0066.JPEG,severe,2
+IMG-01083,data/raw/vehicle_damage/data3a/training/03-severe/0177.JPEG,severe,2
+IMG-00538,data/raw/vehicle_damage/data3a/training/02-moderate/0092.JPEG,moderate,1
+IMG-00709,data/raw/vehicle_damage/data3a/training/02-moderate/0265.JPEG,moderate,1
+IMG-01613,data/raw/vehicle_damage/data3a/validation/03-severe/ff6f1e2cd433470f94e54c7aeb7da545_thb.jpg,severe,2
+IMG-00312,data/raw/vehicle_damage/data3a/training/01-minor/download (28).jpeg,minor,0
+IMG-01306,data/raw/vehicle_damage/data3a/training/03-severe/download (8).jpeg,severe,2
+IMG-00760,data/raw/vehicle_damage/data3a/training/02-moderate/038ac5f01d694b8180fc6f0e2cc71976_thb.jpg,moderate,1
+IMG-00680,data/raw/vehicle_damage/data3a/training/02-moderate/0236.JPEG,moderate,1
+IMG-01300,data/raw/vehicle_damage/data3a/training/03-severe/download (13).jpeg,severe,2
+IMG-00036,data/raw/vehicle_damage/data3a/training/01-minor/0037.JPEG,minor,0
+IMG-00579,data/raw/vehicle_damage/data3a/training/02-moderate/0133.JPEG,moderate,1
+IMG-00899,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151414.228.jpeg,moderate,1
+IMG-00365,data/raw/vehicle_damage/data3a/training/01-minor/images (37).jpeg,minor,0
+IMG-01563,data/raw/vehicle_damage/data3a/validation/03-severe/0035.JPEG,severe,2
+IMG-00373,data/raw/vehicle_damage/data3a/training/01-minor/images (44).jpeg,minor,0
+IMG-01422,data/raw/vehicle_damage/data3a/validation/01-minor/download.jpeg,minor,0
+IMG-01589,data/raw/vehicle_damage/data3a/validation/03-severe/0061.JPEG,severe,2
+IMG-01375,data/raw/vehicle_damage/data3a/validation/01-minor/0002.JPEG,minor,0
+IMG-01235,data/raw/vehicle_damage/data3a/training/03-severe/0328.JPEG,severe,2
+IMG-01532,data/raw/vehicle_damage/data3a/validation/03-severe/0004.JPEG,severe,2
+IMG-01227,data/raw/vehicle_damage/data3a/training/03-severe/0320.JPEG,severe,2
+IMG-01505,data/raw/vehicle_damage/data3a/validation/02-moderate/0052.JPEG,moderate,1
+IMG-01369,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.415.jpeg,severe,2
+IMG-00068,data/raw/vehicle_damage/data3a/training/01-minor/0069.JPEG,minor,0
+IMG-00467,data/raw/vehicle_damage/data3a/training/02-moderate/0021.JPEG,moderate,1
+IMG-01025,data/raw/vehicle_damage/data3a/training/03-severe/0119.JPEG,severe,2
+IMG-00022,data/raw/vehicle_damage/data3a/training/01-minor/0023.JPEG,minor,0
+IMG-01092,data/raw/vehicle_damage/data3a/training/03-severe/0186.jpeg,severe,2
+IMG-00724,data/raw/vehicle_damage/data3a/training/02-moderate/0280.JPEG,moderate,1
+IMG-00962,data/raw/vehicle_damage/data3a/training/03-severe/0056.JPEG,severe,2
+IMG-00412,data/raw/vehicle_damage/data3a/training/01-minor/images (87).jpeg,minor,0
+IMG-01172,data/raw/vehicle_damage/data3a/training/03-severe/0265.JPEG,severe,2
+IMG-00271,data/raw/vehicle_damage/data3a/training/01-minor/0277.JPEG,minor,0
+IMG-01538,data/raw/vehicle_damage/data3a/validation/03-severe/0010.jpeg,severe,2
+IMG-00451,data/raw/vehicle_damage/data3a/training/02-moderate/0005.JPEG,moderate,1
+IMG-00675,data/raw/vehicle_damage/data3a/training/02-moderate/0231.JPEG,moderate,1
+IMG-00860,data/raw/vehicle_damage/data3a/training/02-moderate/images (7).jpeg,moderate,1
+IMG-01472,data/raw/vehicle_damage/data3a/validation/02-moderate/0019.JPEG,moderate,1
+IMG-00497,data/raw/vehicle_damage/data3a/training/02-moderate/0051.JPEG,moderate,1
+IMG-01093,data/raw/vehicle_damage/data3a/training/03-severe/0187.JPEG,severe,2
+IMG-00198,data/raw/vehicle_damage/data3a/training/01-minor/0201.JPEG,minor,0
+IMG-01192,data/raw/vehicle_damage/data3a/training/03-severe/0285.JPEG,severe,2
+IMG-00983,data/raw/vehicle_damage/data3a/training/03-severe/0077.JPEG,severe,2
+IMG-00780,data/raw/vehicle_damage/data3a/training/02-moderate/a38b006aacb1497e8df20e103e3028d3_thb.jpg,moderate,1
+IMG-00196,data/raw/vehicle_damage/data3a/training/01-minor/0199.JPEG,minor,0
+IMG-01608,data/raw/vehicle_damage/data3a/validation/03-severe/download (2).jpeg,severe,2
+IMG-00779,data/raw/vehicle_damage/data3a/training/02-moderate/9da25ae9e03d4726aec50985c77a9730_thb.jpg,moderate,1
+IMG-00955,data/raw/vehicle_damage/data3a/training/03-severe/0049.jpeg,severe,2
+IMG-00407,data/raw/vehicle_damage/data3a/training/01-minor/images (78).jpeg,minor,0
+IMG-01060,data/raw/vehicle_damage/data3a/training/03-severe/0154.JPEG,severe,2
+IMG-00016,data/raw/vehicle_damage/data3a/training/01-minor/0017.JPEG,minor,0
+IMG-00713,data/raw/vehicle_damage/data3a/training/02-moderate/0269.JPEG,moderate,1
+IMG-00630,data/raw/vehicle_damage/data3a/training/02-moderate/0184.JPEG,moderate,1
+IMG-00696,data/raw/vehicle_damage/data3a/training/02-moderate/0252.JPEG,moderate,1
+IMG-00476,data/raw/vehicle_damage/data3a/training/02-moderate/0030.JPEG,moderate,1
+IMG-00661,data/raw/vehicle_damage/data3a/training/02-moderate/0217.JPEG,moderate,1
+IMG-00947,data/raw/vehicle_damage/data3a/training/03-severe/0041.JPEG,severe,2
+IMG-00122,data/raw/vehicle_damage/data3a/training/01-minor/0124.JPEG,minor,0
+IMG-01015,data/raw/vehicle_damage/data3a/training/03-severe/0109.JPEG,severe,2
+IMG-00990,data/raw/vehicle_damage/data3a/training/03-severe/0084.JPEG,severe,2
+IMG-01133,data/raw/vehicle_damage/data3a/training/03-severe/0227.JPEG,severe,2
+IMG-01082,data/raw/vehicle_damage/data3a/training/03-severe/0176.JPEG,severe,2
+IMG-00998,data/raw/vehicle_damage/data3a/training/03-severe/0092.JPEG,severe,2
+IMG-00137,data/raw/vehicle_damage/data3a/training/01-minor/0139.JPEG,minor,0
+IMG-01528,data/raw/vehicle_damage/data3a/validation/02-moderate/images (65).jpeg,moderate,1
+IMG-01162,data/raw/vehicle_damage/data3a/training/03-severe/0255.JPEG,severe,2
+IMG-01525,data/raw/vehicle_damage/data3a/validation/02-moderate/images (50).jpeg,moderate,1
+IMG-01281,data/raw/vehicle_damage/data3a/training/03-severe/0375.JPEG,severe,2
+IMG-01540,data/raw/vehicle_damage/data3a/validation/03-severe/0012.JPEG,severe,2
+IMG-01482,data/raw/vehicle_damage/data3a/validation/02-moderate/0029.JPEG,moderate,1
+IMG-00320,data/raw/vehicle_damage/data3a/training/01-minor/download (35).jpeg,minor,0
+IMG-00827,data/raw/vehicle_damage/data3a/training/02-moderate/images (38).jpeg,moderate,1
+IMG-01012,data/raw/vehicle_damage/data3a/training/03-severe/0106.JPEG,severe,2
+IMG-00159,data/raw/vehicle_damage/data3a/training/01-minor/0161.JPEG,minor,0
+IMG-00147,data/raw/vehicle_damage/data3a/training/01-minor/0149.JPEG,minor,0
+IMG-00382,data/raw/vehicle_damage/data3a/training/01-minor/images (52).jpeg,minor,0
+IMG-01351,data/raw/vehicle_damage/data3a/training/03-severe/images (94).jpeg,severe,2
+IMG-01011,data/raw/vehicle_damage/data3a/training/03-severe/0105.JPEG,severe,2
+IMG-00606,data/raw/vehicle_damage/data3a/training/02-moderate/0160.JPEG,moderate,1
+IMG-01388,data/raw/vehicle_damage/data3a/validation/01-minor/0016.JPEG,minor,0
+IMG-00596,data/raw/vehicle_damage/data3a/training/02-moderate/0150.JPEG,moderate,1
+IMG-00910,data/raw/vehicle_damage/data3a/training/03-severe/0004.JPEG,severe,2
+IMG-01614,data/raw/vehicle_damage/data3a/validation/03-severe/images (28).jpeg,severe,2
+IMG-00437,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151417.660.jpeg,minor,0
+IMG-01069,data/raw/vehicle_damage/data3a/training/03-severe/0163.JPEG,severe,2
+IMG-01141,data/raw/vehicle_damage/data3a/training/03-severe/0235.JPEG,severe,2
+IMG-01334,data/raw/vehicle_damage/data3a/training/03-severe/images (39).jpeg,severe,2
+IMG-00341,data/raw/vehicle_damage/data3a/training/01-minor/images (15).jpeg,minor,0
+IMG-00150,data/raw/vehicle_damage/data3a/training/01-minor/0152.JPEG,minor,0
+IMG-01022,data/raw/vehicle_damage/data3a/training/03-severe/0116.JPEG,severe,2
+IMG-00553,data/raw/vehicle_damage/data3a/training/02-moderate/0107.JPEG,moderate,1
+IMG-00833,data/raw/vehicle_damage/data3a/training/02-moderate/images (45).jpeg,moderate,1
+IMG-01400,data/raw/vehicle_damage/data3a/validation/01-minor/0029.JPEG,minor,0
+IMG-00110,data/raw/vehicle_damage/data3a/training/01-minor/0112.JPEG,minor,0
+IMG-00046,data/raw/vehicle_damage/data3a/training/01-minor/0047.JPEG,minor,0
+IMG-01203,data/raw/vehicle_damage/data3a/training/03-severe/0296.JPEG,severe,2
+IMG-01362,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.873.jpeg,severe,2
+IMG-00154,data/raw/vehicle_damage/data3a/training/01-minor/0156.JPEG,minor,0
+IMG-01405,data/raw/vehicle_damage/data3a/validation/01-minor/0034.JPEG,minor,0
+IMG-00228,data/raw/vehicle_damage/data3a/training/01-minor/0233.JPEG,minor,0
+IMG-01452,data/raw/vehicle_damage/data3a/validation/01-minor/images - 2022-12-13T213955.333.jpeg,minor,0
+IMG-01394,data/raw/vehicle_damage/data3a/validation/01-minor/0022.JPEG,minor,0
+IMG-00063,data/raw/vehicle_damage/data3a/training/01-minor/0064.JPEG,minor,0
+IMG-01138,data/raw/vehicle_damage/data3a/training/03-severe/0232.JPEG,severe,2
+IMG-01333,data/raw/vehicle_damage/data3a/training/03-severe/images (38).jpeg,severe,2
+IMG-00329,data/raw/vehicle_damage/data3a/training/01-minor/download (9).jpeg,minor,0
+IMG-01615,data/raw/vehicle_damage/data3a/validation/03-severe/images (44).jpeg,severe,2
+IMG-00194,data/raw/vehicle_damage/data3a/training/01-minor/0197.JPEG,minor,0
+IMG-00234,data/raw/vehicle_damage/data3a/training/01-minor/0240.JPEG,minor,0
+IMG-00469,data/raw/vehicle_damage/data3a/training/02-moderate/0023.JPEG,moderate,1
+IMG-01101,data/raw/vehicle_damage/data3a/training/03-severe/0195.JPEG,severe,2
+IMG-00994,data/raw/vehicle_damage/data3a/training/03-severe/0088.JPEG,severe,2
+IMG-00604,data/raw/vehicle_damage/data3a/training/02-moderate/0158.JPEG,moderate,1
+IMG-00883,data/raw/vehicle_damage/data3a/training/02-moderate/images (90).jpeg,moderate,1
+IMG-00238,data/raw/vehicle_damage/data3a/training/01-minor/0244.JPEG,minor,0
+IMG-00450,data/raw/vehicle_damage/data3a/training/02-moderate/0004.JPEG,moderate,1
+IMG-00008,data/raw/vehicle_damage/data3a/training/01-minor/0009.JPEG,minor,0
+IMG-01407,data/raw/vehicle_damage/data3a/validation/01-minor/0036.JPEG,minor,0
+IMG-00005,data/raw/vehicle_damage/data3a/training/01-minor/0006.JPEG,minor,0
+IMG-00612,data/raw/vehicle_damage/data3a/training/02-moderate/0166.JPEG,moderate,1
+IMG-00791,data/raw/vehicle_damage/data3a/training/02-moderate/download (25).jpeg,moderate,1
+IMG-00489,data/raw/vehicle_damage/data3a/training/02-moderate/0043.JPEG,moderate,1
+IMG-00744,data/raw/vehicle_damage/data3a/training/02-moderate/0300.JPEG,moderate,1
+IMG-00493,data/raw/vehicle_damage/data3a/training/02-moderate/0047.JPEG,moderate,1
+IMG-01095,data/raw/vehicle_damage/data3a/training/03-severe/0189.JPEG,severe,2
+IMG-00255,data/raw/vehicle_damage/data3a/training/01-minor/0261.JPEG,minor,0
+IMG-00272,data/raw/vehicle_damage/data3a/training/01-minor/0278.jpeg,minor,0
+IMG-00496,data/raw/vehicle_damage/data3a/training/02-moderate/0050.JPEG,moderate,1
+IMG-00765,data/raw/vehicle_damage/data3a/training/02-moderate/2497b894c0514209a2310265d5946c9f_thb.jpg,moderate,1
+IMG-01274,data/raw/vehicle_damage/data3a/training/03-severe/0368.jpeg,severe,2
+IMG-00086,data/raw/vehicle_damage/data3a/training/01-minor/0087.JPEG,minor,0
+IMG-00038,data/raw/vehicle_damage/data3a/training/01-minor/0039.JPEG,minor,0
+IMG-00268,data/raw/vehicle_damage/data3a/training/01-minor/0274.JPEG,minor,0
+IMG-00347,data/raw/vehicle_damage/data3a/training/01-minor/images (20).jpeg,minor,0
+IMG-00321,data/raw/vehicle_damage/data3a/training/01-minor/download (36).jpeg,minor,0
+IMG-00599,data/raw/vehicle_damage/data3a/training/02-moderate/0153.JPEG,moderate,1
+IMG-00409,data/raw/vehicle_damage/data3a/training/01-minor/images (8).jpeg,minor,0
+IMG-00371,data/raw/vehicle_damage/data3a/training/01-minor/images (42).jpeg,minor,0
+IMG-01285,data/raw/vehicle_damage/data3a/training/03-severe/0379.JPEG,severe,2
+IMG-01582,data/raw/vehicle_damage/data3a/validation/03-severe/0054.JPEG,severe,2
+IMG-00006,data/raw/vehicle_damage/data3a/training/01-minor/0007.JPEG,minor,0
+IMG-00982,data/raw/vehicle_damage/data3a/training/03-severe/0076.JPEG,severe,2
+IMG-01212,data/raw/vehicle_damage/data3a/training/03-severe/0305.JPEG,severe,2
+IMG-01444,data/raw/vehicle_damage/data3a/validation/01-minor/images (89).jpeg,minor,0
+IMG-01313,data/raw/vehicle_damage/data3a/training/03-severe/images (16).jpeg,severe,2
+IMG-01384,data/raw/vehicle_damage/data3a/validation/01-minor/0012.JPEG,minor,0
+IMG-01316,data/raw/vehicle_damage/data3a/training/03-severe/images (19).jpeg,severe,2
+IMG-00575,data/raw/vehicle_damage/data3a/training/02-moderate/0129.JPEG,moderate,1
+IMG-01567,data/raw/vehicle_damage/data3a/validation/03-severe/0039.JPEG,severe,2
+IMG-01356,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.300.jpeg,severe,2
+IMG-00541,data/raw/vehicle_damage/data3a/training/02-moderate/0095.jpeg,moderate,1
+IMG-00734,data/raw/vehicle_damage/data3a/training/02-moderate/0290.JPEG,moderate,1
+IMG-00377,data/raw/vehicle_damage/data3a/training/01-minor/images (48).jpeg,minor,0
+IMG-00282,data/raw/vehicle_damage/data3a/training/01-minor/980e7f8c0c61405ca31db96964a1f273_thb.jpg,minor,0
+IMG-01319,data/raw/vehicle_damage/data3a/training/03-severe/images (22).jpeg,severe,2
+IMG-01443,data/raw/vehicle_damage/data3a/validation/01-minor/images (84).jpeg,minor,0
+IMG-00403,data/raw/vehicle_damage/data3a/training/01-minor/images (74).jpeg,minor,0
+IMG-00316,data/raw/vehicle_damage/data3a/training/01-minor/download (31).jpeg,minor,0
+IMG-00703,data/raw/vehicle_damage/data3a/training/02-moderate/0259.JPEG,moderate,1
+IMG-00902,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151420.224.jpeg,moderate,1
+IMG-00494,data/raw/vehicle_damage/data3a/training/02-moderate/0048.JPEG,moderate,1
+IMG-00473,data/raw/vehicle_damage/data3a/training/02-moderate/0027.JPEG,moderate,1
+IMG-01293,data/raw/vehicle_damage/data3a/training/03-severe/1383ec11b2a14fae9f3f37e7684b9f65_thb.jpg,severe,2
+IMG-01320,data/raw/vehicle_damage/data3a/training/03-severe/images (23).jpeg,severe,2
+IMG-01147,data/raw/vehicle_damage/data3a/training/03-severe/0241.JPEG,severe,2
+IMG-00144,data/raw/vehicle_damage/data3a/training/01-minor/0146.JPEG,minor,0
+IMG-00015,data/raw/vehicle_damage/data3a/training/01-minor/0016.JPEG,minor,0
+IMG-00053,data/raw/vehicle_damage/data3a/training/01-minor/0054.jpeg,minor,0
+IMG-00656,data/raw/vehicle_damage/data3a/training/02-moderate/0212.JPEG,moderate,1
+IMG-00743,data/raw/vehicle_damage/data3a/training/02-moderate/0299.JPEG,moderate,1
+IMG-00265,data/raw/vehicle_damage/data3a/training/01-minor/0271.JPEG,minor,0
+IMG-00940,data/raw/vehicle_damage/data3a/training/03-severe/0034.JPEG,severe,2
+IMG-01194,data/raw/vehicle_damage/data3a/training/03-severe/0287.JPEG,severe,2
+IMG-01579,data/raw/vehicle_damage/data3a/validation/03-severe/0051.JPEG,severe,2
+IMG-00259,data/raw/vehicle_damage/data3a/training/01-minor/0265.JPEG,minor,0
+IMG-01435,data/raw/vehicle_damage/data3a/validation/01-minor/images (60).jpeg,minor,0
+IMG-01378,data/raw/vehicle_damage/data3a/validation/01-minor/0006.JPEG,minor,0
+IMG-00415,data/raw/vehicle_damage/data3a/training/01-minor/images (9).jpeg,minor,0
+IMG-01355,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-12T151411.618.jpeg,severe,2
+IMG-00708,data/raw/vehicle_damage/data3a/training/02-moderate/0264.JPEG,moderate,1
+IMG-01042,data/raw/vehicle_damage/data3a/training/03-severe/0136.JPEG,severe,2
+IMG-00643,data/raw/vehicle_damage/data3a/training/02-moderate/0197.JPEG,moderate,1
+IMG-00875,data/raw/vehicle_damage/data3a/training/02-moderate/images (83).jpeg,moderate,1
+IMG-01043,data/raw/vehicle_damage/data3a/training/03-severe/0137.JPEG,severe,2
+IMG-01541,data/raw/vehicle_damage/data3a/validation/03-severe/0013.JPEG,severe,2
+IMG-00526,data/raw/vehicle_damage/data3a/training/02-moderate/0080.jpeg,moderate,1
+IMG-01512,data/raw/vehicle_damage/data3a/validation/02-moderate/8a70da31f2cd423cbc07988b0be52115_thb.jpg,moderate,1
+IMG-00890,data/raw/vehicle_damage/data3a/training/02-moderate/images (97).jpeg,moderate,1
+IMG-01166,data/raw/vehicle_damage/data3a/training/03-severe/0259.JPEG,severe,2
+IMG-01242,data/raw/vehicle_damage/data3a/training/03-severe/0335.JPEG,severe,2
+IMG-00199,data/raw/vehicle_damage/data3a/training/01-minor/0202.JPEG,minor,0
+IMG-00854,data/raw/vehicle_damage/data3a/training/02-moderate/images (64).jpeg,moderate,1
+IMG-01271,data/raw/vehicle_damage/data3a/training/03-severe/0365.JPEG,severe,2
+IMG-00922,data/raw/vehicle_damage/data3a/training/03-severe/0016.JPEG,severe,2
+IMG-00826,data/raw/vehicle_damage/data3a/training/02-moderate/images (37).jpeg,moderate,1
+IMG-00971,data/raw/vehicle_damage/data3a/training/03-severe/0065.JPEG,severe,2
+IMG-00414,data/raw/vehicle_damage/data3a/training/01-minor/images (89).jpeg,minor,0
+IMG-00217,data/raw/vehicle_damage/data3a/training/01-minor/0222.JPEG,minor,0
+IMG-00757,data/raw/vehicle_damage/data3a/training/02-moderate/0313.JPEG,moderate,1
+IMG-00357,data/raw/vehicle_damage/data3a/training/01-minor/images (3).jpeg,minor,0
+IMG-01171,data/raw/vehicle_damage/data3a/training/03-severe/0264.jpeg,severe,2
+IMG-00027,data/raw/vehicle_damage/data3a/training/01-minor/0028.JPEG,minor,0
+IMG-00589,data/raw/vehicle_damage/data3a/training/02-moderate/0143.jpeg,moderate,1
+IMG-01299,data/raw/vehicle_damage/data3a/training/03-severe/cb08b40c4556456482bef99093fa7e29_thb.jpg,severe,2
+IMG-00648,data/raw/vehicle_damage/data3a/training/02-moderate/0203.JPEG,moderate,1
+IMG-01450,data/raw/vehicle_damage/data3a/validation/01-minor/images - 2022-12-13T213954.983.jpeg,minor,0
+IMG-00378,data/raw/vehicle_damage/data3a/training/01-minor/images (49).jpeg,minor,0
+IMG-00835,data/raw/vehicle_damage/data3a/training/02-moderate/images (47).jpeg,moderate,1
+IMG-00777,data/raw/vehicle_damage/data3a/training/02-moderate/8bfbee9445b040468ea596d7ffff7f04_thb.jpg,moderate,1
+IMG-00439,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151418.125.jpeg,minor,0
+IMG-00249,data/raw/vehicle_damage/data3a/training/01-minor/0255.JPEG,minor,0
+IMG-00490,data/raw/vehicle_damage/data3a/training/02-moderate/0044.JPEG,moderate,1
+IMG-00976,data/raw/vehicle_damage/data3a/training/03-severe/0070.JPEG,severe,2
+IMG-00802,data/raw/vehicle_damage/data3a/training/02-moderate/images (102).jpeg,moderate,1
+IMG-00689,data/raw/vehicle_damage/data3a/training/02-moderate/0245.JPEG,moderate,1
+IMG-01081,data/raw/vehicle_damage/data3a/training/03-severe/0175.JPEG,severe,2
+IMG-01454,data/raw/vehicle_damage/data3a/validation/02-moderate/0001.JPEG,moderate,1
+IMG-00461,data/raw/vehicle_damage/data3a/training/02-moderate/0015.JPEG,moderate,1
+IMG-00299,data/raw/vehicle_damage/data3a/training/01-minor/download (16).jpeg,minor,0
+IMG-01041,data/raw/vehicle_damage/data3a/training/03-severe/0135.JPEG,severe,2
+IMG-00225,data/raw/vehicle_damage/data3a/training/01-minor/0230.JPEG,minor,0
+IMG-00936,data/raw/vehicle_damage/data3a/training/03-severe/0030.JPEG,severe,2
+IMG-00325,data/raw/vehicle_damage/data3a/training/01-minor/download (5).jpeg,minor,0
+IMG-01373,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.811.jpeg,severe,2
+IMG-00248,data/raw/vehicle_damage/data3a/training/01-minor/0254.JPEG,minor,0
+IMG-01284,data/raw/vehicle_damage/data3a/training/03-severe/0378.JPEG,severe,2
+IMG-00905,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-13T213955.147.jpeg,moderate,1
+IMG-00893,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151411.371.jpeg,moderate,1
+IMG-00018,data/raw/vehicle_damage/data3a/training/01-minor/0019.JPEG,minor,0
+IMG-01126,data/raw/vehicle_damage/data3a/training/03-severe/0220.JPEG,severe,2
+IMG-00879,data/raw/vehicle_damage/data3a/training/02-moderate/images (87).jpeg,moderate,1
+IMG-01273,data/raw/vehicle_damage/data3a/training/03-severe/0367.JPEG,severe,2
+IMG-01363,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.943.jpeg,severe,2
+IMG-01446,data/raw/vehicle_damage/data3a/validation/01-minor/images (95).jpeg,minor,0
+IMG-00622,data/raw/vehicle_damage/data3a/training/02-moderate/0176.JPEG,moderate,1
+IMG-01573,data/raw/vehicle_damage/data3a/validation/03-severe/0045.JPEG,severe,2
+IMG-01609,data/raw/vehicle_damage/data3a/validation/03-severe/download (23).jpeg,severe,2
+IMG-01246,data/raw/vehicle_damage/data3a/training/03-severe/0340.JPEG,severe,2
+IMG-01382,data/raw/vehicle_damage/data3a/validation/01-minor/0010.JPEG,minor,0
+IMG-01070,data/raw/vehicle_damage/data3a/training/03-severe/0164.JPEG,severe,2
+IMG-00041,data/raw/vehicle_damage/data3a/training/01-minor/0042.JPEG,minor,0
+IMG-00930,data/raw/vehicle_damage/data3a/training/03-severe/0024.JPEG,severe,2
+IMG-00571,data/raw/vehicle_damage/data3a/training/02-moderate/0125.JPEG,moderate,1
+IMG-01335,data/raw/vehicle_damage/data3a/training/03-severe/images (42).jpeg,severe,2
+IMG-00171,data/raw/vehicle_damage/data3a/training/01-minor/0173.JPEG,minor,0
+IMG-01556,data/raw/vehicle_damage/data3a/validation/03-severe/0028.JPEG,severe,2
+IMG-00635,data/raw/vehicle_damage/data3a/training/02-moderate/0189.JPEG,moderate,1
+IMG-00211,data/raw/vehicle_damage/data3a/training/01-minor/0215.jpeg,minor,0
+IMG-01376,data/raw/vehicle_damage/data3a/validation/01-minor/0003.JPEG,minor,0
+IMG-00105,data/raw/vehicle_damage/data3a/training/01-minor/0106.JPEG,minor,0
+IMG-01553,data/raw/vehicle_damage/data3a/validation/03-severe/0025.JPEG,severe,2
+IMG-01420,data/raw/vehicle_damage/data3a/validation/01-minor/cf1fd966d69f48b89d424463183e8388_thb.jpg,minor,0
+IMG-01169,data/raw/vehicle_damage/data3a/training/03-severe/0262.JPEG,severe,2
+IMG-01445,data/raw/vehicle_damage/data3a/validation/01-minor/images (90).jpeg,minor,0
+IMG-00856,data/raw/vehicle_damage/data3a/training/02-moderate/images (66).jpeg,moderate,1
+IMG-00796,data/raw/vehicle_damage/data3a/training/02-moderate/f600a5058cd94fbf8c5a1b2600199022_thb.jpg,moderate,1
+IMG-00296,data/raw/vehicle_damage/data3a/training/01-minor/download (13).jpeg,minor,0
+IMG-00332,data/raw/vehicle_damage/data3a/training/01-minor/ef2b325bcc164d6a8e834a57448b9343_thb.jpg,minor,0
+IMG-00968,data/raw/vehicle_damage/data3a/training/03-severe/0062.JPEG,severe,2
+IMG-00460,data/raw/vehicle_damage/data3a/training/02-moderate/0014.JPEG,moderate,1
+IMG-01243,data/raw/vehicle_damage/data3a/training/03-severe/0336.JPEG,severe,2
+IMG-00436,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151416.652.jpeg,minor,0
+IMG-00092,data/raw/vehicle_damage/data3a/training/01-minor/0093.JPEG,minor,0
+IMG-00754,data/raw/vehicle_damage/data3a/training/02-moderate/0310.JPEG,moderate,1
+IMG-00828,data/raw/vehicle_damage/data3a/training/02-moderate/images (39).jpeg,moderate,1
+IMG-01283,data/raw/vehicle_damage/data3a/training/03-severe/0377.JPEG,severe,2
+IMG-01343,data/raw/vehicle_damage/data3a/training/03-severe/images (86).jpeg,severe,2
+IMG-00585,data/raw/vehicle_damage/data3a/training/02-moderate/0139.JPEG,moderate,1
+IMG-00898,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151413.301.jpeg,moderate,1
+IMG-00208,data/raw/vehicle_damage/data3a/training/01-minor/0212.JPEG,minor,0
+IMG-00837,data/raw/vehicle_damage/data3a/training/02-moderate/images (49).jpeg,moderate,1
+IMG-00083,data/raw/vehicle_damage/data3a/training/01-minor/0084.JPEG,minor,0
+IMG-01027,data/raw/vehicle_damage/data3a/training/03-severe/0121.JPEG,severe,2
+IMG-01481,data/raw/vehicle_damage/data3a/validation/02-moderate/0028.JPEG,moderate,1
+IMG-00197,data/raw/vehicle_damage/data3a/training/01-minor/0200.JPEG,minor,0
+IMG-01165,data/raw/vehicle_damage/data3a/training/03-severe/0258.JPEG,severe,2
+IMG-00184,data/raw/vehicle_damage/data3a/training/01-minor/0186.JPEG,minor,0
+IMG-00531,data/raw/vehicle_damage/data3a/training/02-moderate/0085.jpeg,moderate,1
+IMG-00379,data/raw/vehicle_damage/data3a/training/01-minor/images (5).jpeg,minor,0
+IMG-00322,data/raw/vehicle_damage/data3a/training/01-minor/download (37).jpeg,minor,0
+IMG-00001,data/raw/vehicle_damage/data3a/training/01-minor/0002.JPEG,minor,0
+IMG-01527,data/raw/vehicle_damage/data3a/validation/02-moderate/images (63).jpeg,moderate,1
+IMG-01395,data/raw/vehicle_damage/data3a/validation/01-minor/0023.JPEG,minor,0
+IMG-00839,data/raw/vehicle_damage/data3a/training/02-moderate/images (50).jpeg,moderate,1
+IMG-00722,data/raw/vehicle_damage/data3a/training/02-moderate/0278.jpeg,moderate,1
+IMG-00399,data/raw/vehicle_damage/data3a/training/01-minor/images (70).jpeg,minor,0
+IMG-01372,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215957.643.jpeg,severe,2
+IMG-00250,data/raw/vehicle_damage/data3a/training/01-minor/0256.JPEG,minor,0
+IMG-00072,data/raw/vehicle_damage/data3a/training/01-minor/0073.JPEG,minor,0
+IMG-00816,data/raw/vehicle_damage/data3a/training/02-moderate/images (25).jpeg,moderate,1
+IMG-01128,data/raw/vehicle_damage/data3a/training/03-severe/0222.JPEG,severe,2
+IMG-01145,data/raw/vehicle_damage/data3a/training/03-severe/0239.JPEG,severe,2
+IMG-00742,data/raw/vehicle_damage/data3a/training/02-moderate/0298.JPEG,moderate,1
+IMG-01353,data/raw/vehicle_damage/data3a/training/03-severe/images (96).jpeg,severe,2
+IMG-00215,data/raw/vehicle_damage/data3a/training/01-minor/0219.JPEG,minor,0
+IMG-00805,data/raw/vehicle_damage/data3a/training/02-moderate/images (105).jpeg,moderate,1
+IMG-00894,data/raw/vehicle_damage/data3a/training/02-moderate/images - 2022-12-12T151411.576.jpeg,moderate,1
+IMG-00311,data/raw/vehicle_damage/data3a/training/01-minor/download (27).jpeg,minor,0
+IMG-01548,data/raw/vehicle_damage/data3a/validation/03-severe/0020.JPEG,severe,2
+IMG-00884,data/raw/vehicle_damage/data3a/training/02-moderate/images (91).jpeg,moderate,1
+IMG-00700,data/raw/vehicle_damage/data3a/training/02-moderate/0256.JPEG,moderate,1
+IMG-01186,data/raw/vehicle_damage/data3a/training/03-severe/0279.JPEG,severe,2
+IMG-01251,data/raw/vehicle_damage/data3a/training/03-severe/0345.JPEG,severe,2
+IMG-01437,data/raw/vehicle_damage/data3a/validation/01-minor/images (68).jpeg,minor,0
+IMG-00667,data/raw/vehicle_damage/data3a/training/02-moderate/0223.JPEG,moderate,1
+IMG-00610,data/raw/vehicle_damage/data3a/training/02-moderate/0164.JPEG,moderate,1
+IMG-01433,data/raw/vehicle_damage/data3a/validation/01-minor/images (59).jpeg,minor,0
+IMG-00812,data/raw/vehicle_damage/data3a/training/02-moderate/images (113).jpeg,moderate,1
+IMG-00563,data/raw/vehicle_damage/data3a/training/02-moderate/0117.JPEG,moderate,1
+IMG-01327,data/raw/vehicle_damage/data3a/training/03-severe/images (31).jpeg,severe,2
+IMG-01430,data/raw/vehicle_damage/data3a/validation/01-minor/images (42).jpeg,minor,0
+IMG-00985,data/raw/vehicle_damage/data3a/training/03-severe/0079.JPEG,severe,2
+IMG-01440,data/raw/vehicle_damage/data3a/validation/01-minor/images (75).jpeg,minor,0
+IMG-00576,data/raw/vehicle_damage/data3a/training/02-moderate/0130.JPEG,moderate,1
+IMG-01611,data/raw/vehicle_damage/data3a/validation/03-severe/download (5).jpeg,severe,2
+IMG-01499,data/raw/vehicle_damage/data3a/validation/02-moderate/0046.JPEG,moderate,1
+IMG-01199,data/raw/vehicle_damage/data3a/training/03-severe/0292.JPEG,severe,2
+IMG-01478,data/raw/vehicle_damage/data3a/validation/02-moderate/0025.JPEG,moderate,1
+IMG-00717,data/raw/vehicle_damage/data3a/training/02-moderate/0273.JPEG,moderate,1
+IMG-00180,data/raw/vehicle_damage/data3a/training/01-minor/0182.JPEG,minor,0
+IMG-00195,data/raw/vehicle_damage/data3a/training/01-minor/0198.JPEG,minor,0
+IMG-00687,data/raw/vehicle_damage/data3a/training/02-moderate/0243.JPEG,moderate,1
+IMG-00923,data/raw/vehicle_damage/data3a/training/03-severe/0017.JPEG,severe,2
+IMG-01261,data/raw/vehicle_damage/data3a/training/03-severe/0355.JPEG,severe,2
+IMG-00073,data/raw/vehicle_damage/data3a/training/01-minor/0074.JPEG,minor,0
+IMG-00618,data/raw/vehicle_damage/data3a/training/02-moderate/0172.JPEG,moderate,1
+IMG-01397,data/raw/vehicle_damage/data3a/validation/01-minor/0025.JPEG,minor,0
+IMG-00554,data/raw/vehicle_damage/data3a/training/02-moderate/0108.JPEG,moderate,1
+IMG-00502,data/raw/vehicle_damage/data3a/training/02-moderate/0056.JPEG,moderate,1
+IMG-00811,data/raw/vehicle_damage/data3a/training/02-moderate/images (111).jpeg,moderate,1
+IMG-00911,data/raw/vehicle_damage/data3a/training/03-severe/0005.JPEG,severe,2
+IMG-00935,data/raw/vehicle_damage/data3a/training/03-severe/0029.JPEG,severe,2
+IMG-00258,data/raw/vehicle_damage/data3a/training/01-minor/0264.JPEG,minor,0
+IMG-00726,data/raw/vehicle_damage/data3a/training/02-moderate/0282.JPEG,moderate,1
+IMG-00991,data/raw/vehicle_damage/data3a/training/03-severe/0085.JPEG,severe,2
+IMG-00307,data/raw/vehicle_damage/data3a/training/01-minor/download (23).jpeg,minor,0
+IMG-01521,data/raw/vehicle_damage/data3a/validation/02-moderate/download (28).jpeg,moderate,1
+IMG-00993,data/raw/vehicle_damage/data3a/training/03-severe/0087.JPEG,severe,2
+IMG-00002,data/raw/vehicle_damage/data3a/training/01-minor/0003.JPEG,minor,0
+IMG-00973,data/raw/vehicle_damage/data3a/training/03-severe/0067.JPEG,severe,2
+IMG-00956,data/raw/vehicle_damage/data3a/training/03-severe/0050.JPEG,severe,2
+IMG-00210,data/raw/vehicle_damage/data3a/training/01-minor/0214.JPEG,minor,0
+IMG-01046,data/raw/vehicle_damage/data3a/training/03-severe/0140.JPEG,severe,2
+IMG-01323,data/raw/vehicle_damage/data3a/training/03-severe/images (27).jpeg,severe,2
+IMG-00749,data/raw/vehicle_damage/data3a/training/02-moderate/0305.JPEG,moderate,1
+IMG-00075,data/raw/vehicle_damage/data3a/training/01-minor/0076.JPEG,minor,0
+IMG-01136,data/raw/vehicle_damage/data3a/training/03-severe/0230.JPEG,severe,2
+IMG-00624,data/raw/vehicle_damage/data3a/training/02-moderate/0178.JPEG,moderate,1
+IMG-00772,data/raw/vehicle_damage/data3a/training/02-moderate/598d5b29cf964e9b96e6d6af1e2857db_thb.jpg,moderate,1
+IMG-00653,data/raw/vehicle_damage/data3a/training/02-moderate/0209.JPEG,moderate,1
+IMG-01035,data/raw/vehicle_damage/data3a/training/03-severe/0129.JPEG,severe,2
+IMG-00756,data/raw/vehicle_damage/data3a/training/02-moderate/0312.JPEG,moderate,1
+IMG-00067,data/raw/vehicle_damage/data3a/training/01-minor/0068.JPEG,minor,0
+IMG-01130,data/raw/vehicle_damage/data3a/training/03-severe/0224.JPEG,severe,2
+IMG-00980,data/raw/vehicle_damage/data3a/training/03-severe/0074.JPEG,severe,2
+IMG-00670,data/raw/vehicle_damage/data3a/training/02-moderate/0226.JPEG,moderate,1
+IMG-00404,data/raw/vehicle_damage/data3a/training/01-minor/images (75).jpeg,minor,0
+IMG-00302,data/raw/vehicle_damage/data3a/training/01-minor/download (19).jpeg,minor,0
+IMG-01490,data/raw/vehicle_damage/data3a/validation/02-moderate/0037.JPEG,moderate,1
+IMG-00600,data/raw/vehicle_damage/data3a/training/02-moderate/0154.JPEG,moderate,1
+IMG-00236,data/raw/vehicle_damage/data3a/training/01-minor/0242.JPEG,minor,0
+IMG-00752,data/raw/vehicle_damage/data3a/training/02-moderate/0308.JPEG,moderate,1
+IMG-00792,data/raw/vehicle_damage/data3a/training/02-moderate/download (3).jpeg,moderate,1
+IMG-00421,data/raw/vehicle_damage/data3a/training/01-minor/images (99).jpeg,minor,0
+IMG-01428,data/raw/vehicle_damage/data3a/validation/01-minor/images (3).jpeg,minor,0
+IMG-00035,data/raw/vehicle_damage/data3a/training/01-minor/0036.JPEG,minor,0
+IMG-00115,data/raw/vehicle_damage/data3a/training/01-minor/0117.JPEG,minor,0
+IMG-00142,data/raw/vehicle_damage/data3a/training/01-minor/0144.JPEG,minor,0
+IMG-00961,data/raw/vehicle_damage/data3a/training/03-severe/0055.JPEG,severe,2
+IMG-01020,data/raw/vehicle_damage/data3a/training/03-severe/0114.JPEG,severe,2
+IMG-01249,data/raw/vehicle_damage/data3a/training/03-severe/0343.JPEG,severe,2
+IMG-01339,data/raw/vehicle_damage/data3a/training/03-severe/images (52).jpeg,severe,2
+IMG-01078,data/raw/vehicle_damage/data3a/training/03-severe/0172.JPEG,severe,2
+IMG-01100,data/raw/vehicle_damage/data3a/training/03-severe/0194.jpeg,severe,2
+IMG-01006,data/raw/vehicle_damage/data3a/training/03-severe/0100.JPEG,severe,2
+IMG-00422,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151411.008.jpeg,minor,0
+IMG-00574,data/raw/vehicle_damage/data3a/training/02-moderate/0128.jpeg,moderate,1
+IMG-00203,data/raw/vehicle_damage/data3a/training/01-minor/0206.JPEG,minor,0
+IMG-00603,data/raw/vehicle_damage/data3a/training/02-moderate/0157.JPEG,moderate,1
+IMG-01062,data/raw/vehicle_damage/data3a/training/03-severe/0156.JPEG,severe,2
+IMG-00069,data/raw/vehicle_damage/data3a/training/01-minor/0070.JPEG,minor,0
+IMG-00135,data/raw/vehicle_damage/data3a/training/01-minor/0137.JPEG,minor,0
+IMG-01593,data/raw/vehicle_damage/data3a/validation/03-severe/0065.JPEG,severe,2
+IMG-01544,data/raw/vehicle_damage/data3a/validation/03-severe/0016.JPEG,severe,2
+IMG-00037,data/raw/vehicle_damage/data3a/training/01-minor/0038.JPEG,minor,0
+IMG-01288,data/raw/vehicle_damage/data3a/training/03-severe/0382.JPEG,severe,2
+IMG-00510,data/raw/vehicle_damage/data3a/training/02-moderate/0064.jpeg,moderate,1
+IMG-00706,data/raw/vehicle_damage/data3a/training/02-moderate/0262.jpeg,moderate,1
+IMG-01127,data/raw/vehicle_damage/data3a/training/03-severe/0221.JPEG,severe,2
+IMG-01023,data/raw/vehicle_damage/data3a/training/03-severe/0117.JPEG,severe,2
+IMG-01068,data/raw/vehicle_damage/data3a/training/03-severe/0162.JPEG,severe,2
+IMG-01139,data/raw/vehicle_damage/data3a/training/03-severe/0233.JPEG,severe,2
+IMG-01524,data/raw/vehicle_damage/data3a/validation/02-moderate/images (4).jpeg,moderate,1
+IMG-00500,data/raw/vehicle_damage/data3a/training/02-moderate/0054.JPEG,moderate,1
+IMG-01231,data/raw/vehicle_damage/data3a/training/03-severe/0324.JPEG,severe,2
+IMG-01449,data/raw/vehicle_damage/data3a/validation/01-minor/images - 2022-12-13T213954.926.jpeg,minor,0
+IMG-00009,data/raw/vehicle_damage/data3a/training/01-minor/0010.JPEG,minor,0
+IMG-01533,data/raw/vehicle_damage/data3a/validation/03-severe/0005.JPEG,severe,2
+IMG-01522,data/raw/vehicle_damage/data3a/validation/02-moderate/e060a4b36c4d48caba0b12da354d3585_thb.jpg,moderate,1
+IMG-01345,data/raw/vehicle_damage/data3a/training/03-severe/images (88).jpeg,severe,2
+IMG-00440,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151418.172.jpeg,minor,0
+IMG-00424,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151411.728.jpeg,minor,0
+IMG-00337,data/raw/vehicle_damage/data3a/training/01-minor/images (11).jpeg,minor,0
+IMG-00301,data/raw/vehicle_damage/data3a/training/01-minor/download (18).jpeg,minor,0
+IMG-01508,data/raw/vehicle_damage/data3a/validation/02-moderate/0055.JPEG,moderate,1
+IMG-01406,data/raw/vehicle_damage/data3a/validation/01-minor/0035.JPEG,minor,0
+IMG-00836,data/raw/vehicle_damage/data3a/training/02-moderate/images (48).jpeg,moderate,1
+IMG-01537,data/raw/vehicle_damage/data3a/validation/03-severe/0009.JPEG,severe,2
+IMG-00206,data/raw/vehicle_damage/data3a/training/01-minor/0209.JPEG,minor,0
+IMG-01294,data/raw/vehicle_damage/data3a/training/03-severe/26618925bc5941c2bfd60423d024777a_thb.jpg,severe,2
+IMG-01552,data/raw/vehicle_damage/data3a/validation/03-severe/0024.JPEG,severe,2
+IMG-00873,data/raw/vehicle_damage/data3a/training/02-moderate/images (81).jpeg,moderate,1
+IMG-00959,data/raw/vehicle_damage/data3a/training/03-severe/0053.JPEG,severe,2
+IMG-00517,data/raw/vehicle_damage/data3a/training/02-moderate/0071.JPEG,moderate,1
+IMG-00621,data/raw/vehicle_damage/data3a/training/02-moderate/0175.JPEG,moderate,1
+IMG-01332,data/raw/vehicle_damage/data3a/training/03-severe/images (36).jpeg,severe,2
+IMG-01506,data/raw/vehicle_damage/data3a/validation/02-moderate/0053.JPEG,moderate,1
+IMG-00818,data/raw/vehicle_damage/data3a/training/02-moderate/images (28).jpeg,moderate,1
+IMG-00393,data/raw/vehicle_damage/data3a/training/01-minor/images (62).jpeg,minor,0
+IMG-00848,data/raw/vehicle_damage/data3a/training/02-moderate/images (59).jpeg,moderate,1
+IMG-01121,data/raw/vehicle_damage/data3a/training/03-severe/0215.JPEG,severe,2
+IMG-01576,data/raw/vehicle_damage/data3a/validation/03-severe/0048.jpeg,severe,2
+IMG-00880,data/raw/vehicle_damage/data3a/training/02-moderate/images (88).jpeg,moderate,1
+IMG-00338,data/raw/vehicle_damage/data3a/training/01-minor/images (12).jpeg,minor,0
+IMG-00374,data/raw/vehicle_damage/data3a/training/01-minor/images (45).jpeg,minor,0
+IMG-01321,data/raw/vehicle_damage/data3a/training/03-severe/images (24).jpeg,severe,2
+IMG-00447,data/raw/vehicle_damage/data3a/training/02-moderate/0001.JPEG,moderate,1
+IMG-00406,data/raw/vehicle_damage/data3a/training/01-minor/images (77).jpeg,minor,0
+IMG-01071,data/raw/vehicle_damage/data3a/training/03-severe/0165.JPEG,severe,2
+IMG-00089,data/raw/vehicle_damage/data3a/training/01-minor/0090.JPEG,minor,0
+IMG-00544,data/raw/vehicle_damage/data3a/training/02-moderate/0098.JPEG,moderate,1
+IMG-01322,data/raw/vehicle_damage/data3a/training/03-severe/images (25).jpeg,severe,2
+IMG-01264,data/raw/vehicle_damage/data3a/training/03-severe/0358.JPEG,severe,2
+IMG-01301,data/raw/vehicle_damage/data3a/training/03-severe/download (14).jpeg,severe,2
+IMG-00464,data/raw/vehicle_damage/data3a/training/02-moderate/0018.JPEG,moderate,1
+IMG-01605,data/raw/vehicle_damage/data3a/validation/03-severe/debd51e9643448fcbb0f303c9e0d7063_thb.jpg,severe,2
+IMG-00133,data/raw/vehicle_damage/data3a/training/01-minor/0135.JPEG,minor,0
+IMG-01175,data/raw/vehicle_damage/data3a/training/03-severe/0268.JPEG,severe,2
+IMG-01191,data/raw/vehicle_damage/data3a/training/03-severe/0284.JPEG,severe,2
+IMG-00044,data/raw/vehicle_damage/data3a/training/01-minor/0045.JPEG,minor,0
+IMG-00601,data/raw/vehicle_damage/data3a/training/02-moderate/0155.JPEG,moderate,1
+IMG-01410,data/raw/vehicle_damage/data3a/validation/01-minor/0039.JPEG,minor,0
+IMG-00598,data/raw/vehicle_damage/data3a/training/02-moderate/0152.JPEG,moderate,1
+IMG-01277,data/raw/vehicle_damage/data3a/training/03-severe/0371.JPEG,severe,2
+IMG-01361,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.808.jpeg,severe,2
+IMG-01502,data/raw/vehicle_damage/data3a/validation/02-moderate/0049.JPEG,moderate,1
+IMG-00155,data/raw/vehicle_damage/data3a/training/01-minor/0157.JPEG,minor,0
+IMG-01529,data/raw/vehicle_damage/data3a/validation/03-severe/0001.JPEG,severe,2
+IMG-00550,data/raw/vehicle_damage/data3a/training/02-moderate/0104.JPEG,moderate,1
+IMG-00364,data/raw/vehicle_damage/data3a/training/01-minor/images (36).jpeg,minor,0
+IMG-01358,data/raw/vehicle_damage/data3a/training/03-severe/images - 2022-12-13T215956.524.jpeg,severe,2
+IMG-00402,data/raw/vehicle_damage/data3a/training/01-minor/images (73).jpeg,minor,0
+IMG-01176,data/raw/vehicle_damage/data3a/training/03-severe/0269.JPEG,severe,2
+IMG-01455,data/raw/vehicle_damage/data3a/validation/02-moderate/0002.JPEG,moderate,1
+IMG-01178,data/raw/vehicle_damage/data3a/training/03-severe/0271.JPEG,severe,2
+IMG-01457,data/raw/vehicle_damage/data3a/validation/02-moderate/0004.JPEG,moderate,1
+IMG-01005,data/raw/vehicle_damage/data3a/training/03-severe/0099.JPEG,severe,2
+IMG-00405,data/raw/vehicle_damage/data3a/training/01-minor/images (76).jpeg,minor,0
+IMG-00029,data/raw/vehicle_damage/data3a/training/01-minor/0030.JPEG,minor,0
+IMG-00486,data/raw/vehicle_damage/data3a/training/02-moderate/0040.JPEG,moderate,1
+IMG-00351,data/raw/vehicle_damage/data3a/training/01-minor/images (24).jpeg,minor,0
+IMG-01032,data/raw/vehicle_damage/data3a/training/03-severe/0126.JPEG,severe,2
+IMG-01304,data/raw/vehicle_damage/data3a/training/03-severe/download (4).jpeg,severe,2
+IMG-00841,data/raw/vehicle_damage/data3a/training/02-moderate/images (52).jpeg,moderate,1
+IMG-01489,data/raw/vehicle_damage/data3a/validation/02-moderate/0036.JPEG,moderate,1
+IMG-00433,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151415.502.jpeg,minor,0
+IMG-00977,data/raw/vehicle_damage/data3a/training/03-severe/0071.JPEG,severe,2
+IMG-00972,data/raw/vehicle_damage/data3a/training/03-severe/0066.JPEG,severe,2
+IMG-01289,data/raw/vehicle_damage/data3a/training/03-severe/0383.JPEG,severe,2
+IMG-00434,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151416.035.jpeg,minor,0
+IMG-00954,data/raw/vehicle_damage/data3a/training/03-severe/0048.JPEG,severe,2
+IMG-01305,data/raw/vehicle_damage/data3a/training/03-severe/download (7).jpeg,severe,2
+IMG-00886,data/raw/vehicle_damage/data3a/training/02-moderate/images (93).jpeg,moderate,1
+IMG-01029,data/raw/vehicle_damage/data3a/training/03-severe/0123.JPEG,severe,2
+IMG-00889,data/raw/vehicle_damage/data3a/training/02-moderate/images (96).jpeg,moderate,1
+IMG-01459,data/raw/vehicle_damage/data3a/validation/02-moderate/0006.JPEG,moderate,1
+IMG-01398,data/raw/vehicle_damage/data3a/validation/01-minor/0026.JPEG,minor,0
+IMG-00153,data/raw/vehicle_damage/data3a/training/01-minor/0155.JPEG,minor,0
+IMG-00057,data/raw/vehicle_damage/data3a/training/01-minor/0058.JPEG,minor,0
+IMG-00076,data/raw/vehicle_damage/data3a/training/01-minor/0077.JPEG,minor,0
+IMG-00416,data/raw/vehicle_damage/data3a/training/01-minor/images (91).jpeg,minor,0
+IMG-01207,data/raw/vehicle_damage/data3a/training/03-severe/0300.JPEG,severe,2
+IMG-01086,data/raw/vehicle_damage/data3a/training/03-severe/0180.JPEG,severe,2
+IMG-00362,data/raw/vehicle_damage/data3a/training/01-minor/images (34).jpeg,minor,0
+IMG-00267,data/raw/vehicle_damage/data3a/training/01-minor/0273.JPEG,minor,0
+IMG-00504,data/raw/vehicle_damage/data3a/training/02-moderate/0058.JPEG,moderate,1
+IMG-00868,data/raw/vehicle_damage/data3a/training/02-moderate/images (77).jpeg,moderate,1
+IMG-00394,data/raw/vehicle_damage/data3a/training/01-minor/images (63).jpeg,minor,0
+IMG-00026,data/raw/vehicle_damage/data3a/training/01-minor/0027.JPEG,minor,0
+IMG-01210,data/raw/vehicle_damage/data3a/training/03-severe/0303.JPEG,severe,2
+IMG-00128,data/raw/vehicle_damage/data3a/training/01-minor/0130.JPEG,minor,0
+IMG-01253,data/raw/vehicle_damage/data3a/training/03-severe/0347.JPEG,severe,2
+IMG-01597,data/raw/vehicle_damage/data3a/validation/03-severe/18bb5127b4054506bf0b9779b2b1899f_thb.jpg,severe,2
+IMG-00631,data/raw/vehicle_damage/data3a/training/02-moderate/0185.jpeg,moderate,1
+IMG-00266,data/raw/vehicle_damage/data3a/training/01-minor/0272.JPEG,minor,0
+IMG-01496,data/raw/vehicle_damage/data3a/validation/02-moderate/0043.JPEG,moderate,1
+IMG-00093,data/raw/vehicle_damage/data3a/training/01-minor/0094.JPEG,minor,0
+IMG-00245,data/raw/vehicle_damage/data3a/training/01-minor/0251.JPEG,minor,0
+IMG-00639,data/raw/vehicle_damage/data3a/training/02-moderate/0193.JPEG,moderate,1
+IMG-00996,data/raw/vehicle_damage/data3a/training/03-severe/0090.JPEG,severe,2
+IMG-01052,data/raw/vehicle_damage/data3a/training/03-severe/0146.JPEG,severe,2
+IMG-00286,data/raw/vehicle_damage/data3a/training/01-minor/a5dbc724-654f-4886-a744-2dd91f81b697.jpeg,minor,0
+IMG-00028,data/raw/vehicle_damage/data3a/training/01-minor/0029.JPEG,minor,0
+IMG-01174,data/raw/vehicle_damage/data3a/training/03-severe/0267.JPEG,severe,2
+IMG-00193,data/raw/vehicle_damage/data3a/training/01-minor/0196.JPEG,minor,0
+IMG-01530,data/raw/vehicle_damage/data3a/validation/03-severe/0002.JPEG,severe,2
+IMG-01255,data/raw/vehicle_damage/data3a/training/03-severe/0349.JPEG,severe,2
+IMG-01234,data/raw/vehicle_damage/data3a/training/03-severe/0327.JPEG,severe,2
+IMG-00931,data/raw/vehicle_damage/data3a/training/03-severe/0025.JPEG,severe,2
+IMG-01233,data/raw/vehicle_damage/data3a/training/03-severe/0326.JPEG,severe,2
+IMG-01404,data/raw/vehicle_damage/data3a/validation/01-minor/0033.JPEG,minor,0
+IMG-00537,data/raw/vehicle_damage/data3a/training/02-moderate/0091.JPEG,moderate,1
+IMG-01117,data/raw/vehicle_damage/data3a/training/03-severe/0211.JPEG,severe,2
+IMG-00454,data/raw/vehicle_damage/data3a/training/02-moderate/0008.JPEG,moderate,1
+IMG-01229,data/raw/vehicle_damage/data3a/training/03-severe/0322.JPEG,severe,2
+IMG-01076,data/raw/vehicle_damage/data3a/training/03-severe/0170.JPEG,severe,2
+IMG-00375,data/raw/vehicle_damage/data3a/training/01-minor/images (46).jpeg,minor,0
+IMG-00965,data/raw/vehicle_damage/data3a/training/03-severe/0059.JPEG,severe,2
+IMG-00501,data/raw/vehicle_damage/data3a/training/02-moderate/0055.JPEG,moderate,1
+IMG-01220,data/raw/vehicle_damage/data3a/training/03-severe/0313.jpeg,severe,2
+IMG-00798,data/raw/vehicle_damage/data3a/training/02-moderate/images (1).jpeg,moderate,1
+IMG-01004,data/raw/vehicle_damage/data3a/training/03-severe/0098.JPEG,severe,2
+IMG-01436,data/raw/vehicle_damage/data3a/validation/01-minor/images (65).jpeg,minor,0
+IMG-00533,data/raw/vehicle_damage/data3a/training/02-moderate/0087.jpeg,moderate,1
+IMG-00391,data/raw/vehicle_damage/data3a/training/01-minor/images (60).jpeg,minor,0
+IMG-00438,data/raw/vehicle_damage/data3a/training/01-minor/images - 2022-12-12T151418.111.jpeg,minor,0
+IMG-01584,data/raw/vehicle_damage/data3a/validation/03-severe/0056.JPEG,severe,2
+IMG-01048,data/raw/vehicle_damage/data3a/training/03-severe/0142.JPEG,severe,2
+IMG-01498,data/raw/vehicle_damage/data3a/validation/02-moderate/0045.JPEG,moderate,1
+IMG-00136,data/raw/vehicle_damage/data3a/training/01-minor/0138.JPEG,minor,0
+IMG-00974,data/raw/vehicle_damage/data3a/training/03-severe/0068.JPEG,severe,2
+IMG-01456,data/raw/vehicle_damage/data3a/validation/02-moderate/0003.JPEG,moderate,1
+IMG-01569,data/raw/vehicle_damage/data3a/validation/03-severe/0041.JPEG,severe,2
+IMG-00240,data/raw/vehicle_damage/data3a/training/01-minor/0246.JPEG,minor,0
+IMG-01228,data/raw/vehicle_damage/data3a/training/03-severe/0321.JPEG,severe,2
+IMG-01487,data/raw/vehicle_damage/data3a/validation/02-moderate/0034.JPEG,moderate,1
+IMG-01412,data/raw/vehicle_damage/data3a/validation/01-minor/0041.JPEG,minor,0
+IMG-01423,data/raw/vehicle_damage/data3a/validation/01-minor/e9e9890e7b514e51a49442c72f463430_thb.jpg,minor,0
+IMG-01434,data/raw/vehicle_damage/data3a/validation/01-minor/images (6).jpeg,minor,0
+IMG-01286,data/raw/vehicle_damage/data3a/training/03-severe/0380.JPEG,severe,2
+IMG-00182,data/raw/vehicle_damage/data3a/training/01-minor/0184.JPEG,minor,0
+IMG-01392,data/raw/vehicle_damage/data3a/validation/01-minor/0020.JPEG,minor,0
+IMG-00277,data/raw/vehicle_damage/data3a/training/01-minor/4875af79812244aca89fcef6e9d0dd9e_thb.jpg,minor,0
+IMG-00353,data/raw/vehicle_damage/data3a/training/01-minor/images (26).jpeg,minor,0
+IMG-01177,data/raw/vehicle_damage/data3a/training/03-severe/0270.JPEG,severe,2
