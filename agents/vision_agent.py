@@ -31,11 +31,11 @@ IMAGENET_STD = [0.229, 0.224, 0.225]
 
 
 def resolve_default_weights_path(models_dir: str | Path = "models") -> Path | None:
-    """Locate the strongest available trained Vision checkpoint."""
+    """Locate the strongest available trained Vision checkpoint (Champion: ResNet50 v1)."""
     base = Path(models_dir)
     candidates = [
-        base / "vision_efficientnet_v2_s.pt",
         base / "vision_resnet50_v1.pt",
+        base / "vision_efficientnet_v2_s.pt",
         base / "vision_mobilenet_v3_large_v1.pt",
     ]
     for p in candidates:
