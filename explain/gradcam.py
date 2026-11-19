@@ -44,12 +44,13 @@ class GradCAM:
         module: nn.Module,
         inputs: Tuple[torch.Tensor, ...],
         output: torch.Tensor,
-    ) -> None:
-        # Clone output if needed to prevent inplace activation modifications downstream
+    ) -> torch.Tensor:
+        # Clone and return output so backward pass flows through `act` without inplace view conflicts
         act = output.clone()
         self.activations = act
         if act.requires_grad:
             act.register_hook(self._save_gradient)
+        return act
 
     def _save_gradient(self, grad: torch.Tensor) -> None:
         self.gradients = grad.detach()

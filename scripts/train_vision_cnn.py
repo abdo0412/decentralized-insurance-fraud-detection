@@ -377,57 +377,65 @@ def main() -> None:
     parser.add_argument("--label-smoothing", type=float, default=0.08)
     parser.add_argument("--mixup-alpha", type=float, default=0.2)
     parser.add_argument("--no-pretrained", action="store_true")
+    parser.add_argument("--eval-only", action="store_true", help="Skip training if output weights already exist.")
     parser.add_argument("--output-weights", type=Path, default=None)
     args = parser.parse_args()
 
     torch.manual_seed(42)
     np.random.seed(42)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"[INFO] Training Vision Ensemble ({args.backbone}, {args.image_size}px, folds={args.num_folds}) on {device}")
-
-    cv_csv = args.splits_dir / "cv_folds.csv"
+    weights_path = args.output_weights or Path(f"models/vision_{args.backbone}.pt")
+    weights_path.parent.mkdir(parents=True, exist_ok=True)
     test_df = pd.read_csv(args.splits_dir / "test.csv")
 
-    fold_states: List[Dict[str, torch.Tensor]] = []
-    fold_val_f1s: List[float] = []
-    fold_val_accs: List[float] = []
+    if args.eval_only and weights_path.exists():
+        print(f"[INFO] --eval-only: Loading existing checkpoint {weights_path}")
+        ckpt = torch.load(weights_path, map_location="cpu", weights_only=False)
+        fold_states = ckpt.get("fold_state_dicts", [ckpt.get("model_state_dict")])
+        fold_val_f1s = ckpt.get("fold_val_macro_f1s", [0.0])
+        fold_val_accs = ckpt.get("fold_val_accs", fold_val_f1s)
+        model_version = ckpt.get("model_version", f"{args.backbone}-{len(fold_states)}fold-tta-v2")
+    else:
+        print(f"[INFO] Training Vision Ensemble ({args.backbone}, {args.image_size}px, folds={args.num_folds}) on {device}")
+        cv_csv = args.splits_dir / "cv_folds.csv"
+        fold_states = []
+        fold_val_f1s = []
+        fold_val_accs = []
 
-    if cv_csv.exists() and args.num_folds > 1:
-        cv_df = pd.read_csv(cv_csv)
-        available_folds = sorted(cv_df["fold"].unique().tolist())[: args.num_folds]
-        for f_idx in available_folds:
-            tr_df = cv_df[cv_df["fold"] != f_idx].reset_index(drop=True)
-            va_df = cv_df[cv_df["fold"] == f_idx].reset_index(drop=True)
-            sd_fp16, v_acc, v_f1 = train_single_fold(f_idx, len(available_folds), tr_df, va_df, args, device)
+        if cv_csv.exists() and args.num_folds > 1:
+            cv_df = pd.read_csv(cv_csv)
+            available_folds = sorted(cv_df["fold"].unique().tolist())[: args.num_folds]
+            for f_idx in available_folds:
+                tr_df = cv_df[cv_df["fold"] != f_idx].reset_index(drop=True)
+                va_df = cv_df[cv_df["fold"] == f_idx].reset_index(drop=True)
+                sd_fp16, v_acc, v_f1 = train_single_fold(f_idx, len(available_folds), tr_df, va_df, args, device)
+                fold_states.append(sd_fp16)
+                fold_val_accs.append(v_acc)
+                fold_val_f1s.append(v_f1)
+        else:
+            tr_df = pd.read_csv(args.splits_dir / "train.csv")
+            va_df = pd.read_csv(args.splits_dir / "val.csv")
+            sd_fp16, v_acc, v_f1 = train_single_fold(0, 1, tr_df, va_df, args, device)
             fold_states.append(sd_fp16)
             fold_val_accs.append(v_acc)
             fold_val_f1s.append(v_f1)
-    else:
-        tr_df = pd.read_csv(args.splits_dir / "train.csv")
-        va_df = pd.read_csv(args.splits_dir / "val.csv")
-        sd_fp16, v_acc, v_f1 = train_single_fold(0, 1, tr_df, va_df, args, device)
-        fold_states.append(sd_fp16)
-        fold_val_accs.append(v_acc)
-        fold_val_f1s.append(v_f1)
 
-    best_fold_idx = int(np.argmax(fold_val_f1s))
-    weights_path = args.output_weights or Path(f"models/vision_{args.backbone}.pt")
-    weights_path.parent.mkdir(parents=True, exist_ok=True)
-
-    model_version = f"{args.backbone}-{len(fold_states)}fold-tta-v2"
-    torch.save(
-        {
-            "backbone_name": args.backbone,
-            "image_size": args.image_size,
-            "use_tta": True,
-            "model_version": model_version,
-            "fold_state_dicts": fold_states,
-            "model_state_dict": fold_states[best_fold_idx],
-            "fold_val_macro_f1s": [round(x, 4) for x in fold_val_f1s],
-            "cv_val_macro_f1_mean": round(float(np.mean(fold_val_f1s)), 4),
-        },
-        weights_path,
-    )
+        best_fold_idx = int(np.argmax(fold_val_f1s))
+        model_version = f"{args.backbone}-{len(fold_states)}fold-tta-v2"
+        torch.save(
+            {
+                "backbone_name": args.backbone,
+                "image_size": args.image_size,
+                "use_tta": True,
+                "model_version": model_version,
+                "fold_state_dicts": fold_states,
+                "model_state_dict": fold_states[best_fold_idx],
+                "fold_val_accs": [round(x, 4) for x in fold_val_accs],
+                "fold_val_macro_f1s": [round(x, 4) for x in fold_val_f1s],
+                "cv_val_macro_f1_mean": round(float(np.mean(fold_val_f1s)), 4),
+            },
+            weights_path,
+        )
 
     # Evaluate on the untouched CNN Test Split using VisionAgent (Ensemble + Flip TTA)
     agent = VisionAgent(weights_path=weights_path, device=str(device), use_tta=True)
@@ -461,9 +469,6 @@ def main() -> None:
     gradcam_path = figures_dir / "vision_gradcam_examples.png"
     metrics_path = figures_dir / "vision_metrics.json"
 
-    save_confusion_matrix(y_true, y_pred, cm_path, title_suffix=f" ({model_version})")
-    save_gradcam_grid(agent, test_df, gradcam_path)
-
     metrics_payload = {
         "backbone": args.backbone,
         "model_version": model_version,
@@ -478,6 +483,9 @@ def main() -> None:
         "classification_report": report_dict,
     }
     metrics_path.write_text(json.dumps(metrics_payload, indent=2), encoding="utf-8")
+
+    save_confusion_matrix(y_true, y_pred, cm_path, title_suffix=f" ({model_version})")
+    save_gradcam_grid(agent, test_df, gradcam_path)
 
     print("\n================ FINAL UNTOUCHED TEST SET EVALUATION ================")
     print(f"Model Version          : {model_version}")
