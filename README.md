@@ -76,3 +76,97 @@ python scripts/predict_held_out.py \
 ```bash
 streamlit run app/streamlit_app.py
 ```
+
+
+## Quickstart — Part B (Text Agent)
+
+The Text Agent analyzes written insurance claim narratives to estimate the probability of fraud using two approaches: TF-IDF with Multinomial Naive Bayes and a fine-tuned DistilBERT Transformer.
+
+### 1. Download the Text Dataset
+
+The text dataset and its train, validation, and test splits are hosted on Google Drive because of their large size.
+
+**Google Drive Link:** [https://drive.google.com/drive/folders/12yP49pvaW9I_D9vG9uIxPXzFjN0LHgy_?usp=sharing]
+
+Download the files and place them in:
+
+```text
+data/
+└── processed/
+    └── text/
+        ├── insurance_fraud_text.csv
+        ├── train.csv
+        ├── validation.csv
+        └── test.csv
+```
+
+The dataset contains insurance claim narratives and binary fraud labels:
+- `0`: Non-fraud
+- `1`: Fraud
+
+### 2. Download the Fine-Tuned DistilBERT Model
+
+The fine-tuned DistilBERT model is hosted externally on Google Drive because of its large size (approximately 268 MB).
+
+**Google Drive Link:** [https://drive.google.com/drive/folders/12yP49pvaW9I_D9vG9uIxPXzFjN0LHgy_?usp=sharing]
+
+Download the complete `distilbert_insurance_fraud` folder and place it inside the project's `models/` directory.
+
+Expected structure:
+
+```text
+models/
+└── distilbert_insurance_fraud/
+    ├── config.json
+    ├── model.safetensors
+    ├── tokenizer.json
+    ├── tokenizer_config.json
+    └── ...
+```
+
+**Important:** Keep the folder name exactly as `distilbert_insurance_fraud`.
+
+### 3. Install Dependencies
+
+Install the project dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+The Text Agent uses:
+- **Scikit-learn:** TF-IDF vectorization and Multinomial Naive Bayes.
+- **PyTorch:** Deep learning inference.
+- **Transformers:** Loading and running the fine-tuned DistilBERT model.
+- **Pandas / NumPy:** Dataset processing.
+
+### 4. Run the Text Agent
+
+The Text Agent implementation is available in:
+
+```text
+agents/text_agent.py
+```
+
+It analyzes an insurance claim narrative and generates:
+- A fraud suspicion score between 0 and 1.
+- A predicted fraud / non-fraud label.
+- A confidence score.
+- Explanatory information.
+
+### 5. Text Predictions for the Decision Agent
+
+The DistilBERT predictions are provided to Person C (Tabular / Decision Agent) through:
+
+```text
+data/processed/text/resultats_distilbert_pour_rf.csv
+```
+
+This file contains the predictions and scores required for the integration of the Text Agent into the multi-agent fraud detection system.
+
+### 6. Model and Dataset Storage
+
+Large datasets and model checkpoints are hosted externally on Google Drive to avoid exceeding GitHub file-size limits.
+
+The README provides the download links and installation instructions. Source code, notebooks, evaluation results, and project documentation remain in the GitHub repository.
+
