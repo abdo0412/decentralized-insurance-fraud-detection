@@ -13,6 +13,7 @@ import sys
 from typing import Any, Dict
 
 import numpy as np
+import pandas as pd
 from PIL import Image, ImageDraw
 import streamlit as st
 
@@ -21,6 +22,8 @@ if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
 from orchestrator.coordinator import ClaimCoordinator
+from agents.decision_agent import DecisionAgent
+from agents.tabular_agent import TabularAgent
 
 
 def make_demo_photo(case_name: str) -> Image.Image:
@@ -94,7 +97,15 @@ def load_coordinator() -> ClaimCoordinator:
         backbone_name="efficientnet_v2_s",
         pretrained_fallback=False,
     )
-    return ClaimCoordinator(vision_agent=vision_agent)
+    tabular_path = ROOT_DIR / "models" / "tabular_agent.joblib"
+    decision_path = ROOT_DIR / "models" / "decision_agent.joblib"
+    tabular_agent = TabularAgent.load(tabular_path) if tabular_path.exists() else TabularAgent()
+    decision_agent = DecisionAgent.load(decision_path) if decision_path.exists() else DecisionAgent()
+    return ClaimCoordinator(
+        vision_agent=vision_agent,
+        tabular_agent=tabular_agent,
+        decision_agent=decision_agent,
+    )
 
 
 def main() -> None:
@@ -160,6 +171,20 @@ def main() -> None:
         claim_fields=claim_fields,
     )
     gradcam_overlay, _, _ = coordinator.vision_agent.explain(input_image)
+    fallback_agents = [
+        name
+        for name, message in results.items()
+        if any(
+            marker in str(message.get("model_version", "")).lower()
+            for marker in ("fallback", "placeholder", "untrained")
+        )
+    ]
+    if fallback_agents:
+        st.warning(
+            "Fallback or untrained model active for: "
+            + ", ".join(fallback_agents)
+            + ". Treat this demo output as illustrative, not a trained-system result."
+        )
 
     st.divider()
     st.subheader("Specialist Agent Messages (Decentralized JSON Envelopes)")
@@ -189,6 +214,21 @@ def main() -> None:
         st.success(f"**FINAL DECISION: VALIDATE CLAIM** — {dec_out['reason']}")
 
     st.json(results["decision"])
+    factors = dec_out.get("top_factors", {})
+    if factors:
+        explanation_method = dec_out.get("explanation_method", "unspecified")
+        st.subheader("Decision factors")
+        st.caption(f"Explanation method: {explanation_method}")
+        st.dataframe(
+            pd.DataFrame(
+                [
+                    {"factor": name, "contribution": value}
+                    for name, value in factors.items()
+                ]
+            ),
+            use_container_width=True,
+            hide_index=True,
+        )
 
 
 if __name__ == "__main__":
