@@ -159,7 +159,7 @@ It analyzes an insurance claim narrative and generates:
 The DistilBERT predictions are provided to Person C (Tabular / Decision Agent) through:
 
 ```text
-data/processed/text/resultats_distilbert_pour_rf.csv
+data/processed/text/resultats_distilbert_pour_decision_agent.csv
 ```
 
 This file contains the predictions and scores required for the integration of the Text Agent into the multi-agent fraud detection system.
