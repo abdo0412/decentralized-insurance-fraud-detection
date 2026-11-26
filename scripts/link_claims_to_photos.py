@@ -58,15 +58,12 @@ def _partition_photos(
 
 def _desired_photo_class(
     declared: str,
-    fraud_label: int,
     rng: np.random.Generator,
-    fraudulent_lower_probability: float,
-    honest_noise_probability: float,
+    severity_noise_probability: float,
 ) -> str:
+    """Choose a photo severity without access to the claim's fraud label."""
     rank = SEVERITY_TO_INDEX[declared]
-    if fraud_label == 1 and rank > 0 and rng.random() < fraudulent_lower_probability:
-        return SEVERITY_CLASSES[int(rng.integers(0, rank))]
-    if fraud_label == 0 and rng.random() < honest_noise_probability:
+    if rng.random() < severity_noise_probability:
         neighbors = [index for index in (rank - 1, rank + 1) if 0 <= index < len(SEVERITY_CLASSES)]
         return SEVERITY_CLASSES[int(rng.choice(neighbors))]
     return declared
@@ -77,18 +74,14 @@ def link_claims_to_photos(
     held_out_csv: Path,
     output_csv: Path,
     declared_severity_column: str = "incident_severity",
-    fraud_column: str = "fraud_reported",
     validation_fraction: float = 0.15,
     test_fraction: float = 0.15,
-    fraudulent_lower_probability: float = 0.70,
-    honest_noise_probability: float = 0.05,
+    severity_noise_probability: float = 0.05,
     seed: int = 42,
 ) -> pd.DataFrame:
-    """Link the C claim splits to A's held-out images and write one handoff CSV."""
-    if not 0.0 <= fraudulent_lower_probability <= 1.0:
-        raise ValueError("fraudulent_lower_probability must be between 0 and 1.")
-    if not 0.0 <= honest_noise_probability <= 1.0:
-        raise ValueError("honest_noise_probability must be between 0 and 1.")
+    """Link C claims to A's held-out images with label-independent severity sampling."""
+    if not 0.0 <= severity_noise_probability <= 1.0:
+        raise ValueError("severity_noise_probability must be between 0 and 1.")
     if not held_out_csv.exists():
         raise FileNotFoundError(f"Held-out image manifest not found: {held_out_csv}")
 
@@ -114,7 +107,7 @@ def link_claims_to_photos(
     linked_splits = []
     for split_name, claims_path in split_files.items():
         claims = pd.read_csv(claims_path)
-        required = {"claim_id", declared_severity_column, fraud_column}
+        required = {"claim_id", declared_severity_column}
         if not required.issubset(claims.columns):
             raise ValueError(
                 f"{claims_path} needs columns {sorted(required)}; found {list(claims.columns)}."
@@ -134,15 +127,10 @@ def link_claims_to_photos(
         for row in claims.to_dict(orient="records"):
             raw_declared = row[declared_severity_column]
             declared = normalize_severity_label(str(raw_declared))
-            fraud_label = int(row[fraud_column])
-            if fraud_label not in (0, 1):
-                raise ValueError(f"Unexpected fraud label for claim {row['claim_id']}: {fraud_label!r}")
             desired = _desired_photo_class(
                 declared=declared,
-                fraud_label=fraud_label,
                 rng=rng,
-                fraudulent_lower_probability=fraudulent_lower_probability,
-                honest_noise_probability=honest_noise_probability,
+                severity_noise_probability=severity_noise_probability,
             )
             candidates = by_severity[desired]
             photo_index = int(rng.integers(0, len(candidates)))
@@ -181,6 +169,10 @@ def link_claims_to_photos(
     linked.to_csv(output_csv, index=False)
     print(f"Linked {len(linked)} claims to held-out photos -> {output_csv.resolve()}")
     print("Photo paths are partitioned across train, validation, and test claim splits.")
+    print(
+        "Photo severity uses declared claim severity plus a uniform, label-independent "
+        f"neighbor-noise probability of {severity_noise_probability:.3f}."
+    )
     print("The severity-based claim/photo relationship is synthetic and must be disclosed in the report.")
     return linked
 
@@ -200,11 +192,14 @@ def main() -> None:
     )
     parser.add_argument("--output-csv", type=Path, default=Path("data/processed/linked_claims.csv"))
     parser.add_argument("--declared-severity-column", default="incident_severity")
-    parser.add_argument("--fraud-column", default="fraud_reported")
     parser.add_argument("--validation-fraction", type=float, default=0.15)
     parser.add_argument("--test-fraction", type=float, default=0.15)
-    parser.add_argument("--fraudulent-lower-probability", type=float, default=0.70)
-    parser.add_argument("--honest-noise-probability", type=float, default=0.05)
+    parser.add_argument(
+        "--severity-noise-probability",
+        type=float,
+        default=0.05,
+        help="Probability of selecting an adjacent photo severity, independent of fraud labels.",
+    )
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
     link_claims_to_photos(
@@ -212,11 +207,9 @@ def main() -> None:
         held_out_csv=args.held_out_csv,
         output_csv=args.output_csv,
         declared_severity_column=args.declared_severity_column,
-        fraud_column=args.fraud_column,
         validation_fraction=args.validation_fraction,
         test_fraction=args.test_fraction,
-        fraudulent_lower_probability=args.fraudulent_lower_probability,
-        honest_noise_probability=args.honest_noise_probability,
+        severity_noise_probability=args.severity_noise_probability,
         seed=args.seed,
     )
 
