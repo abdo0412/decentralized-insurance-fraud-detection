@@ -7,6 +7,7 @@ Decision Agent.
 
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor
 from typing import Any, Dict
 
 from PIL import Image
@@ -26,11 +27,13 @@ class ClaimCoordinator:
         text_agent: TextAgent | None = None,
         tabular_agent: TabularAgent | None = None,
         decision_agent: DecisionAgent | None = None,
+        parallel_agents: bool = True,
     ) -> None:
         self.vision_agent = vision_agent or VisionAgent()
         self.text_agent = text_agent or TextAgent()
         self.tabular_agent = tabular_agent or TabularAgent()
         self.decision_agent = decision_agent or DecisionAgent()
+        self.parallel_agents = parallel_agents
 
     def audit_claim(
         self,
@@ -40,9 +43,24 @@ class ClaimCoordinator:
         claim_fields: Dict[str, Any],
     ) -> Dict[str, Dict[str, Any]]:
         """Run all specialist agents and return their JSON messages + final decision."""
-        vision_msg = self.vision_agent.predict(claim_id=claim_id, image_input=image_input)
-        text_msg = self.text_agent.predict(claim_id=claim_id, narrative=narrative)
-        tabular_msg = self.tabular_agent.predict(claim_id=claim_id, claim_fields=claim_fields)
+        if self.parallel_agents:
+            with ThreadPoolExecutor(max_workers=3, thread_name_prefix="claim-agent") as pool:
+                vision_future = pool.submit(
+                    self.vision_agent.predict, claim_id=claim_id, image_input=image_input
+                )
+                text_future = pool.submit(
+                    self.text_agent.predict, claim_id=claim_id, narrative=narrative
+                )
+                tabular_future = pool.submit(
+                    self.tabular_agent.predict, claim_id=claim_id, claim_fields=claim_fields
+                )
+                vision_msg = vision_future.result()
+                text_msg = text_future.result()
+                tabular_msg = tabular_future.result()
+        else:
+            vision_msg = self.vision_agent.predict(claim_id=claim_id, image_input=image_input)
+            text_msg = self.text_agent.predict(claim_id=claim_id, narrative=narrative)
+            tabular_msg = self.tabular_agent.predict(claim_id=claim_id, claim_fields=claim_fields)
 
         decision_msg = self.decision_agent.predict(
             claim_id=claim_id,
